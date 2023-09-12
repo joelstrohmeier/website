@@ -9,23 +9,15 @@
   <title>{{ title }}</title> <!-- Grab title from the page data and dump it here -->
 </head>
 <body>
-<header class="wrapper">
-      <nav>
-        <ul>
-            <li><a href="/">Home</a></li>
-        </ul>
-        </nav>
-</header>
+
+  {% include 'header.njk' %}
   
   <main class="wrapper">
   
   {{ content | safe }}
 
   </main>
-  <footer>
-  <div class="wrapper">
-  <p>Made with ❤ <span class="visually-hidden">Love</span> in Bristol, UK.</p>
-  </div>
-  </footer>
+
+  {% include 'footer.njk' %}
 </body>
 </html>

@@ -3,7 +3,7 @@ title: Joel Strohmeier - personal website and blog
 layout: "base.njk"
 ---
 
-# Hi, i&rsquo;m Joel Strohmeier. <br> Welcome to my personal site.
+# Hi, i&rsquo;m Joel Strohmeier. <br> Welcome to my site.
 
 <!-- <img src="/images/picture-of-me.jpeg" alt="Headshot: i'm wearing a blue turtleneck and have a little stubble growing. In the background there is the suggestion of a cafe or bar setting."> -->
 
@@ -19,7 +19,7 @@ I've led work with NHS Test and Trace, Department for Work and Pensions, Zurich,
 
 ## Speaking about accessibility
 
-<ul>
+<ul class="list--spaced">
 
 <li>
 <a href="https://www.adaptworldwide.com/insights/2022/withindigital-episode-13-website-accessibility-101">Within Digital Podcast - Accessibility 101</a>
@@ -42,4 +42,13 @@ I've led work with NHS Test and Trace, Department for Work and Pensions, Zurich,
 
 ## Contact me
 
-<p>I'd love to hear from you. You can contact me at: <span class="email">joelstrohmeier@gmail.com</span> </p>
+<p>I'd love to hear from you. You can contact me at: <span class="email">joelstrohmeier@gmail.com</span> .</p>
+
+<p>You can also find me on:</p>   
+<ul class="list--spaced">
+    <li>
+       <a href="https://www.linkedin.com/in/joel-strohmeier/"> LinkedIn</a>
+    </li>   
+    <li><a href="https://twitter.com/JoelStrohmeier">Twitter / X (for now)</a></li>
+
+</ul>
