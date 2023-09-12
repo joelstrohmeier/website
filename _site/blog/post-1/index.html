@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/style.css">
   
-  <title>Blog post 1</title> <!-- Grab title from the page data and dump it here -->
+  <title>Testing keyboard accessibility</title> <!-- Grab title from the page data and dump it here -->
 </head>
 <body>
 
@@ -21,15 +21,30 @@
   
   <main class="wrapper">
   
-  <h1>Test blog post 1</h1>
-<p>Here's some content...</p>
+  <h1>How to test for keyboard accessibility</h1>
+<p>In this blog we'll look at some of the ways you can check keyboard accessibility for your website content.</p>
+<h2>Why keyboard accessibility is important</h2>
+<p>People may interact with your website using only a keyboard for many reasons. For example, someone may choose or need to interact with a keyboard because they cannot complete fine motor movements meaning they can't use a mouse or trackpad. Those people with repetitive strain injury (RSI) or who have Parkinson's are just two examples of groups who benefit from a keyboard accessible experience. But, parents who need to hold a baby in one arm are another group who also benefit.</p>
+<p>The tests below will also help to find issues for people who interact using keyboard-like inputs, too. For example people using switch devices -- including head wands or eye tracking software. The checks will also help you find issues for people using voice recognition software.</p>
+<h2>How to do a quick test</h2>
+<p>A simple but effective test of the accessibility of an interface is to check that any tasks you can complete with a mouse are also available using a keyboard. Test the following, specifically:</p>
+<ul>
+<li><kbd>Tab</kbd> to move through the interactive elements of the page</li>
+<li><kbd> Shift</kbd> + <kbd>Tab</kbd> to reverse back up to the page through the interactive elements</li>
+<li><kbd>Enter</kbd> OR <kbd>Space bar</kbd> to select button controls</li>
+<li><kbd>Left</kbd> / <kbd>Right</kbd> / <kbd>Up</kbd> /<kbd>Down</kbd> buttons for radio buttons.</li>
+</ul>
+<p>Once you start the previous key press tests, it's also important that you can easily see where you are on the page. Being able to see where you are on a page as a keyboard only user is known as seeing the 'keyboard focus'. This is identified by a 'keyboard focus style' or 'keyboard focus indicator'.</p>
+<h2>Keyboard focus styles</h2>
+<p>An accessible interface design includes strong easily discernable focus styles. Essentially, this is about checking whether a broad group of people be able to easily identify visually which element on a web page currently has focus. One simply way to achieve this is to provide a highly contrasting thick border around each interactive elemment -- such as a button, link or form input.</p>
+<p>The Web Content Accessibility Guidelines (WCAG) requires the design to use colour which have at least a 3:1 contrast against their adjacent colour.</p>
 
 
   </main>
 
   <footer>
   <div class="wrapper">
-  <p>Made with <span focusable="false">❤</span> <span class="visually-hidden">Love</span> in Bristol, UK.</p>
+  <p>Made with <span focusable="false" aria-hidden="true">❤</span> <span class="visually-hidden">Love</span> in Bristol, UK.</p>
   </div>
 </footer>
 </body>

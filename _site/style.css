@@ -73,6 +73,12 @@ footer > * {
     text-underline-offset: .1578em
 }
 
+kbd {
+    background: #eee;
+    padding: .2em;
+    border-radius: 10%;
+}
+
 a:hover {
     text-decoration-thickness: max(3px, .1875rem, .12em);
     -webkit-text-decoration-skip-ink: none;
