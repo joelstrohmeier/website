@@ -128,9 +128,6 @@ nav > ul
         font-weight: bold;
     }
 
-    .blogs-list > li:first-of-type {
-       display: none;
-    }
 
 @media screen and (min-width:60em) {
 
