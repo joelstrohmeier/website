@@ -11,4 +11,6 @@ description: Here's my test description for blog post 1...
 
 Here's some content...
 
-<img src="/path-to-image" alt>
+<img src="/path-to-image">
+
+<input type="text">
