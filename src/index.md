@@ -49,6 +49,6 @@ I've led work with NHS Test and Trace, Department for Work and Pensions, Zurich,
     <li>
        <a href="https://www.linkedin.com/in/joel-strohmeier/"> LinkedIn</a>
     </li>   
-    <li><a href="https://twitter.com/JoelStrohmeier">Twitter / X (for now)</a></li>
+    <li><a href="https://twitter.com/JoelStrohmeier">Twitter / X</a></li>
 
 </ul>
