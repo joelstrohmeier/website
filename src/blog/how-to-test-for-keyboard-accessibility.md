@@ -34,7 +34,10 @@ Once you start the previous key press tests, it's also important that you can ea
 
 An accessible interface design includes strong, easily discernible focus styles. Essentially, this is about checking whether a broad group of people can easily see which element on a web page currently has focus. For example you could achieve this by adding a highly contrasting thick border around each interactive element in focus. Such elements include buttons, links or form inputs. 
 
-The Web Content Accessibility Guidelines (WCAG) requires the design to use colours which have at least a 3:1 contrast against their adjacent colour. So, any colours used to indicate the keyboard focus must have at least this level of contrast. You can check which colour combinations meet this contrast ratio using a helper tool. The <a href="https://www.tpgi.com/color-contrast-checker/">Colour Contrast Analyser</a> allows you to select the foreground and background colours in a page using an eye dropper tool which produces a numerical ratio. If it's below 3:1 then the focus style fails accessibility (in the eyes of WCAG rules).   
+The Web Content Accessibility Guidelines (WCAG) requires the design to use colours which have at least a 3:1 contrast against their adjacent colour. So, any colours used to indicate the keyboard focus must have at least this level of contrast. You can check which colour combinations meet this contrast ratio using a helper tool. The <a href="https://www.tpgi.com/color-contrast-checker/">Colour Contrast Analyser</a> allows you to select the foreground and background colours in a page using an eye dropper tool which produces a numerical ratio. If it's below 3:1 then the focus style fails accessibility (in the eyes of WCAG rules). 
+
+There are more details to consider around colour contrast and designing effectve focus styles which I don't aim to cover in this post (for the sake of brevity). If you'd like to know more, I recommend this comprehensive <a href="https://www.sarasoueidan.com/blog/focus-indicators/">guide to focus indicators by Sara Soueidan</a>. 
+
 
 ## Knowing what has 'focus'
 
