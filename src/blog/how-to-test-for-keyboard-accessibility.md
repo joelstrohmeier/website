@@ -15,7 +15,7 @@ In this blog we'll look at some of the ways you can check keyboard accessibility
 
 People may interact with your website using only a keyboard for many reasons. For example, someone may choose or need to interact with a keyboard because they cannot complete precise movements with their hands meaning they're not using a mouse or trackpad. People with repetitive strain injury (RSI) or who have Parkinson's are just two examples of groups who benefit from an accessible keyboard experience. But, parents who need to hold a baby in one arm but complete an online form are another group who also benefit. 
 
-The information below will also help to find issues for people who interact using keyboard-like inputs. For example people using assistive technology -- including head wands and other switch devices or eye tracking software. The checks will also help you find issues for people using voice recognition software. 
+The information below will also help to find issues for people who interact using keyboard-like inputs. For example people using assistive technology -- including head wannds, switch devices or eye tracking software. The checks will also help you find issues for people using voice recognition software. 
 
 ## How to do a quick test
 
