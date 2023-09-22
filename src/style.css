@@ -115,6 +115,14 @@ button:focus {
       
 }
 
+dl dt {
+    font-weight: bold;
+}
+
+dl dd {
+    margin-bottom: 0.3em;
+}
+
 nav > ul	
     {	display: -webkit-box;	
         display: -ms-flexbox;	

@@ -13,9 +13,9 @@ In this blog we'll look at some of the ways you can check keyboard accessibility
 
 ## Why keyboard accessibility is important
 
-People may interact with your website using only a keyboard for many reasons. For example, someone may choose or need to interact with a keyboard because they cannot complete precise movements with their hands meaning they're not using a mouse or trackpad. People with repetitive strain injury (RSI) or who have Parkinson's are just two examples of groups who benefit from an accessible keyboard experience. But, parents who need to hold a baby in one arm but complete an online form are another group who also benefit. 
+People may interact with your website using a keyboard alone for many reasons. For example, someone may choose or need to interact with a keyboard because they cannot complete precise movements with their hands and, as a result, do not use a mouse or trackpad. This might include people with repetitive strain injury (RSI) or with Parkinson's disease, as two examples. There are also various situational reasons why someone might benefit from a keyboard accessible experience. For example, parents who need to continue holding a baby in one arm and complete a task with the other.  
 
-The information below will also help to find issues for people who interact using keyboard-like inputs. For example people using assistive technology -- including head wannds, switch devices or eye tracking software. The checks will also help you find issues for people using voice recognition software. 
+The information below will also help to find issues for people who interact using keyboard-like inputs. For example, people using assistive technology -- including switch devices and head wands. The checks will also help find issues for people using voice recognition software. 
 
 ## How to do a quick test
 
@@ -30,13 +30,35 @@ Are all interactive elements reachable by keyboard? Can you navigate and complet
 
 Once you start the previous key press tests, it's also important that you can easily see where you are on the page. Being able to see where you are on a page as a keyboard only user is known as seeing the 'keyboard focus'. The keyboard focus is a bit like how you can track the mouse cursor around the page (arrow, hand and other icons). For keyboard users this position on the page is identified through the visual design by a 'keyboard focus style' or 'keyboard focus indicator'. 
 
+
 ## Keyboard focus styles
 
-An accessible interface design includes strong, easily discernible focus styles. Essentially, this is about checking whether a broad group of people can easily see which element on a web page currently has focus. For example you could achieve this by adding a highly contrasting thick border around each interactive element in focus. Such elements include buttons, links or form inputs. 
+An accessible interface design includes strong, easily discernible focus styles. Essentially, this is about checking whether a broad group of people can easily see which element on a web page currently has focus. 
 
-The Web Content Accessibility Guidelines (WCAG) requires the focus style to use colours which have at least a 3:1 contrast against their adjacent colour. You can check which colour combinations meet this contrast ratio using a helper tool. The <a href="https://www.tpgi.com/color-contrast-checker/">Colour Contrast Analyser</a> allows you to select the foreground and background colours using an eye dropper tool. If it's below 3:1 then the focus style fails accessibility (in the eyes of WCAG rules). 
+One way to ensure you have an accessible focus style would be to use a 2 pixel (px) thickness or above solid border around the element and make sure the colour has at least a 3:1 contrast ratio. To check the contrast ratios in your design, you can use the <a href="https://www.tpgi.com/color-contrast-checker/">Colour Contrast Analyser</a>. This allows you to select the foreground and background colours using an eye dropper tool and see whether the result meets minimum ratios. 
 
-There are more details to consider around colour contrast and designing effective focus styles which I don't aim to cover in this post (for the sake of brevity). If you'd like to know more, I recommend this comprehensive <a href="https://www.sarasoueidan.com/blog/focus-indicators/">guide to focus indicators by Sara Soueidan</a>. 
+There are more details to consider around colour contrast and designing effective focus styles but I don't aim to cover them in this post (for the sake of brevity). If you'd like to know more, I recommend this comprehensive <a href="https://www.sarasoueidan.com/blog/focus-indicators/">guide to focus indicators by Sara Soueidan</a>. 
+
+## Expected behaviour for interactive elements using a keyboard
+
+One of the questions I get asked when running training, is what to expect when interacting with certain elements on a page using a keyboard. For example, 'I pressed <kbd>Space bar</kbd> to activate this link but nothing happened?!'
+
+So, here's a list of common interactive elements and their expected keyboard behaviour. 
+
+<dl>
+    <dt>Link</dt>
+    <dd>Enter to activate /follow</dd>
+    <dt>Button</dt>
+    <dd>Enter or Space bar to activate/follow</dd>
+    <dt>Checkbox</dt>
+    <dd>Tab to reach each input. Note: left, right, up, and down key presses not supported by default</dd>
+    <dd>Space bar to check and uncheck</dd>  
+    <dt>Radio button</dt>
+    <dd>Tab to reach first input in a group</dd>
+    <dd>Left, right, up, and down key presses are supported and allow you to move through each item in a group</dd>
+    <dd>Space bar to select a radio</dd>
+
+</dl>
 
 
 ## Knowing what has 'focus'
@@ -55,11 +77,16 @@ In some cases, things which mouse or trackpad users would not be expected to int
 
 While completing the other checks, you should also check whether the order that you move through the page using a keyboard is logical. For example, does the keyboard order make it hard to understand the information -- does it affect the understanding of the key information / is it illogical? 
 
+
+## Voice recognition
+
+When we test for keyboard accessibility we often end up finding improvements for a wider variety of input approaches -- including voice input. For example, if a carousel component does not have 'Previous' and 'Next' button controls included, this most likely presents a barrier for people who cannot complete swiping gestures to show new content. But, it also makes it harder for people using voice recognition software. Without a control on screen whose name I can see, or at least guess, it is tricky for someone using voice recognition to know what verbal command to use. However, if there's a control with button-like sttyling which contains the word 'Previous' I can speak "Click previous" (or similar) with more certainty.  
+
 For more information on keyboard accessibility see:
 
 - <a href="https://webaim.org/techniques/keyboard/">WebAIM Keyboard accessibility</a>
 
-- <a href="https://davatron5000.github.io/a11y-nutrition-cards/">Accessible components accessibility nutrition cards</a>
+- <a href="https://davatron5000.github.io/a11y-nutrition-cards/">Accessible components - a11y nutrition cards</a>
 
 
 
