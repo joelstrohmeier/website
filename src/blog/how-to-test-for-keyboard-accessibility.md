@@ -15,7 +15,7 @@ In this blog we'll look at some of the ways you can check keyboard accessibility
 
 People may interact with your website using a keyboard alone for many reasons. For example, someone may choose or need to interact with a keyboard because they cannot complete precise movements with their hands and, as a result, do not use a mouse or trackpad. This might include people with repetitive strain injury (RSI) or with Parkinson's disease, as two examples. There are also various situational reasons why someone might benefit from a keyboard accessible experience. For example, parents who need to continue holding a baby in one arm and complete a task with the other.  
 
-The information below will also help to find issues for people who interact using keyboard-like inputs. For example, people using assistive technology &mdash; including switch devices and head wands and some voice recognition software considerations, too. 
+The information below will also help to find issues for people who interact using keyboard-like inputs. For example, people using assistive technology &mdash; including switch devices and voice recognition software. 
 
 ## How to do a quick test
 
@@ -80,7 +80,7 @@ While completing the other checks, you should also check whether the order that 
 
 ## Voice recognition
 
-When we test for keyboard accessibility we often end up finding improvements for a wider variety of input approaches -- including voice input. For example, if a carousel component does not have 'Previous' and 'Next' button controls included, this most likely presents a barrier for people who cannot complete swiping gestures to show new content. But, it also makes it harder for people using voice recognition software. Without a control on screen whose name I can see, or at least guess, it is tricky for someone using voice recognition to know what verbal command to use. However, if there's a control with button-like sttyling which contains the word 'Previous' I can speak "Click previous" (or similar) with more certainty.  
+When we test for keyboard accessibility we often end up finding improvements for a wider variety of input approaches -- including voice input. For example, if a carousel component does not have 'Previous' and 'Next' button controls included, this most likely presents a barrier for people who cannot complete swiping gestures to show new content. But, it also makes it harder for people using voice recognition software. Without a control on screen whose name is visible, or at least can be guessed, it is tricky for someone using voice recognition to know what verbal command to use. However, if there's a control with button-like sttyling which contains the word 'Previous' I can speak "Click previous" (or similar) with more certainty.  
 
 For more information on keyboard accessibility see:
 
