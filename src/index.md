@@ -5,7 +5,7 @@ layout: "base.njk"
 
 # Hi, i&rsquo;m Joel Strohmeier. <br> Welcome to my site.
 
-<!-- <img src="/images/picture-of-me.jpeg" alt="Headshot: i'm wearing a blue turtleneck and have a little stubble growing. In the background there is the suggestion of a cafe or bar setting."> -->
+<img class="headshot" src="/images/picture-of-me.jpeg" alt="Headshot: i'm wearing a blue turtleneck and have a little stubble growing. In the background there is the suggestion of a cafe or bar setting.">
 
 ## About me
 
