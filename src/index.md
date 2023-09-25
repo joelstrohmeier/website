@@ -1,5 +1,6 @@
 ---
-title: Joel Strohmeier - personal website and blog
+title: Joel Strohmeier - website and blog
+description: My thoughts on accessibility, inclusion and experience design. Plus, a short personal profile. 
 layout: "base.njk"
 ---
 
