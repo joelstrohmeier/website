@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon.png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  
+  <title>Linked images - Joel Strohmeier </title> <!-- Grab title from the page data and dump it here -->
+  <meta name="description" content="How to write alt text for linked images "/>
+</head>
+<body>
+
+<a href="#main" class="skip-link">Skip to content</a>
+
+  <header class="wrapper">
+      <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/blog">Blog</a></li>
+        </ul>
+        </nav>
+</header>
+  
+  <main class="wrapper" id="main">
+  
+  <h1>How to write <abbr title="alternative">alt</abbr> text for linked images</h1>
+<p>When starting out in learning about accessibility, one of the first things you're often told is:</p>
+<p>&quot;You must provide a description for all images&quot;.</p>
+<p>This description is known as alternative text but is generally shortened to <strong>alt text</strong>.</p>
+<p>The advice that follows is usually something along the lines of:</p>
+<p>&quot;Provide a succinct but clear description of any image on the page so that someone who cannot see the page can still enjoy and understand the content …&quot;</p>
+<p>The teacher may even go on to provide a further hint such as:</p>
+<p>&quot;Imagine you were describing the page content to someone over the phone. How would you describe the image in context?&quot;</p>
+<p>When the image communicates information that is helpful or relevant for the website visitor, this is good advice and should certainly be followed.</p>
+<p>But, what if the image is wrapped in a link element?</p>
+<h2>Linked or 'functional' images</h2>
+<p>It is common in websites these days to wrap images in links in order to provide a visually engaging, large click or tap target area in interfaces. For example, linked images are use liberally across the web as part of <a href="https://www.nomensa.com/blog/how-build-accessible-cards-block-links/">'card' components</a>.</p>
+<p>The key thing to be aware of is once we've wrapped an image in a link it now performs an action if we were to interact with it. Or, the image is now 'functional'. <strong>Now, as opposed to describing the content and emotion of the image in the alt text, we should describe the link purpose or destination</strong>. Because the alt text is now acting as the description of the link not the image.</p>
+<p>Here is is how the HTML would change between a standard image description and a functional image description.</p>
+<p><code>
+&lt;img src=&quot;/path&quot; alt=&quot;Scientist inspecting a petri dish in a lab setting&quot;&gt;
+</code></p>
+<p><code>
+&lt;a href=&quot;/path-to-scientific-article&quot;&gt; &lt;img src=&quot;/path&quot; alt=&quot;Head to our blog for the June laboratory update &quot;&gt; &lt;/a&gt;
+</code></p>
+<p>That's it. That's all for this post!</p>
+
+
+  </main>
+
+  <footer>
+  <div class="wrapper">
+  <p>Made with <span focusable="false" aria-hidden="true">❤</span> <span class="visually-hidden">Love</span> in Bristol, UK.</p>
+  </div>
+</footer>
+</body>
+</html>

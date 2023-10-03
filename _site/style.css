@@ -77,7 +77,7 @@ footer > * {
  }
 
  a {
-  
+
     text-decoration: underline;
     text-decoration-thickness: max(1px, .0625rem);
     text-underline-offset: .1578em
@@ -95,8 +95,8 @@ a:hover {
     text-decoration-skip-ink: none;
     -webkit-text-decoration-skip: none;
     text-decoration-skip: none;
-    -webkit-box-shadow: 0 0 0 6px #00FFD5;
-            box-shadow: 0 0 0 6px #00FFD5;
+    -webkit-box-shadow: 0 0.3em #00FFD5;
+            box-shadow: 0 0.3em #00FFD5;
 }
 
 /* Credit to Erik Kroes for the Oreo cookie focus style approach */
@@ -132,9 +132,11 @@ nav > ul
         flex-direction: row;
         padding-left: 0;
         flex-wrap: wrap;
+        margin: 0.2em;
+        border-bottom: 0.3em solid #EEF;
     }
 
-    nav > ul > li	{	
+    nav > ul > li {	
         display: -webkit-box;	
         display: -ms-flexbox;	
         display: flex;
@@ -143,7 +145,6 @@ nav > ul
                 align-items: center;
         -ms-flex-line-pack: justify;
         align-content: space-between;
-        margin-bottom: 1.2em;
         margin-right: 2em;
        
     }
@@ -151,16 +152,13 @@ nav > ul
     nav > ul > li > a {
       
         padding: .5em 2em;
-        -webkit-box-shadow: 0 1px black;
-                box-shadow: 0 1px black;
-        text-decoration: none;
-        text-align: center;
+        text-align: left;
         min-width: 5em;
+        text-decoration: none;
     }
-    
+
     nav > ul > li > a:hover {
-        -webkit-box-shadow: 0 4px black;
-                box-shadow: 0 4px black;
+        text-decoration: underline;
     }
 
     .email {
@@ -179,6 +177,14 @@ nav > ul
 .headshot {
     max-width: 22%;
     border-radius: 50%;
+}
+
+.skip-link {
+    display: block;
+    text-align: center;
+    margin: 12px 0 0 0;
+    font-size: 0.85em;
+    padding: 0.2em;
 }
 
 @media screen and (min-width:60em) {
@@ -216,13 +222,12 @@ nav > ul
                 align-items: center;
         -ms-flex-line-pack: start;
             align-content: flex-start;
+        
     }
 
-    nav > ul > li > a {	
-      
-        margin: 0.5em 1em 0 0;
+    nav > ul > li > a {
+        text-align: center;
     }
-
 }
 
 
