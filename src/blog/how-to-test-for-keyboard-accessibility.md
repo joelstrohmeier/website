@@ -82,6 +82,21 @@ While completing the previously outlined checks, you should also check whether t
 
 When we test for keyboard accessibility we often end up finding improvements for a wider variety of input approaches &mdash; including voice input. For example, if a carousel component does not have 'Previous' and 'Next' button controls included, this most likely presents a barrier for people who cannot complete swiping gestures to show new content. But, it also makes it harder for people using voice recognition software. Without a control on screen whose name is visible, or at least can be guessed, it is tricky for someone using voice recognition to know what verbal command to use. However, if there's a control with button-like sttyling which contains the word 'Previous' I can speak "Click previous" (or similar) with more certainty.  
 
+## Developer tools - active expression 
+
+If you are familiar with developer tools, you can use the following technique to reliably track your focus, if the previous steps haven't worked.
+
+- Open Developer Tools
+- Open the Console
+- Move to the 'Active Expression' input (it may be named differently dependent on your browser)
+- Type in document.ActiveElement
+- Press Enter
+- Continue tabbing 
+- Make a note of the elements shown in the Console
+
+You should find the element in focus is printed in real time in the Console output.
+
+
 For more information on keyboard accessibility see:
 
 - <a href="https://webaim.org/techniques/keyboard/">WebAIM Keyboard accessibility</a>

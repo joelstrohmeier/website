@@ -70,6 +70,18 @@
 <p>While completing the previously outlined checks, you should also check whether the order that you move through the page using a keyboard is logical. For example, does the keyboard order make it hard to understand the information — does it affect the understanding of the key information / is it illogical? For example, if you move to a 'Submit' button and then backwards to the start of a list of form inputs, this would not be a logical order.</p>
 <h2>Voice recognition</h2>
 <p>When we test for keyboard accessibility we often end up finding improvements for a wider variety of input approaches — including voice input. For example, if a carousel component does not have 'Previous' and 'Next' button controls included, this most likely presents a barrier for people who cannot complete swiping gestures to show new content. But, it also makes it harder for people using voice recognition software. Without a control on screen whose name is visible, or at least can be guessed, it is tricky for someone using voice recognition to know what verbal command to use. However, if there's a control with button-like sttyling which contains the word 'Previous' I can speak &quot;Click previous&quot; (or similar) with more certainty.</p>
+<h2>Developer tools - active expression</h2>
+<p>If you are familiar with developer tools, you can use the following technique to reliably track your focus, if the previous steps haven't worked.</p>
+<ul>
+<li>Open Developer Tools</li>
+<li>Open the Console</li>
+<li>Move to the 'Active Expression' input (it may be named differently dependent on your browser)</li>
+<li>Type in document.ActiveElement</li>
+<li>Press Enter</li>
+<li>Continue tabbing</li>
+<li>Make a note of the elements shown in the Console</li>
+</ul>
+<p>You should find the element in focus is printed in real time in the Console output.</p>
 <p>For more information on keyboard accessibility see:</p>
 <ul>
 <li>

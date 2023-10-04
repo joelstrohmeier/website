@@ -9,15 +9,15 @@ description: How to write alt text for linked images
 
 # How to write <abbr title="alternative">alt</abbr> text for linked images
 
-When starting out in learning about accessibility, one of the first things you're often told is: 
+When you start learning about accessibility, you're often told: 
 
 "You must provide a description for all images". 
 
-This description is known as alternative text but is generally shortened to <strong>alt text</strong>. 
+This image description is known as alternative text but is generally shortened to <strong>alt text</strong>. 
 
 The advice that follows is usually something along the lines of:
 
-"Provide a succinct but clear description of any image on the page so that someone who cannot see the page can still enjoy and understand the content &hellip;"
+"Provide a succinct but clear description of any image on the page so that someone who cannot see images can still enjoy and understand the content &hellip;"
 
 The teacher may even go on to provide a further hint such as:
 
@@ -25,13 +25,13 @@ The teacher may even go on to provide a further hint such as:
 
 When the image communicates information that is helpful or relevant for the website visitor, this is good advice and should certainly be followed. 
 
-But, what if the image is wrapped in a link element? 
+But, what if the image is wrapped in a link? 
 
 ## Linked or 'functional' images
 
-It is common in websites these days to wrap images in links in order to provide a visually engaging, large click or tap target area in interfaces. For example, linked images are use liberally across the web as part of <a href="https://www.nomensa.com/blog/how-build-accessible-cards-block-links/">'card' components</a>. 
+It is common in websites to wrap images in links in order to provide a visually engaging route to more content with a large click or tap target area. For example, linked images are used liberally across the web as part of <a href="https://www.nomensa.com/blog/how-build-accessible-cards-block-links/">'card' components</a>. 
 
-The key thing to be aware of is once we've wrapped an image in a link it now performs an action if we were to interact with it. Or, the image is now 'functional'. <strong>Now, as opposed to describing the content and emotion of the image in the alt text, we should describe the link purpose or destination</strong>. Because the alt text is now acting as the description of the link not the image. 
+The key thing to be aware of is, once we've wrapped an image in a link it now performs an action. Sometimes we refer to the image as being 'functional'. <strong>Before we wrapped an image in a link, our aim was to describe the content and emotion of the image, now, because the image is performing a new role, we must describe the link purpose or destination.</strong>. The alt text is now acting as the description of the link not the image. 
 
 Here is is how the HTML would change between a standard image description and a functional image description. 
 
@@ -44,4 +44,4 @@ Here is is how the HTML would change between a standard image description and a 
        &lt;a href="/path-to-scientific-article"&gt; &lt;img src="/path" alt="Head to our blog for the June laboratory update "&gt; &lt;/a&gt;
     </code>
 
-That's it. That's all for this post! 
+That's it. That's all for this post. 
