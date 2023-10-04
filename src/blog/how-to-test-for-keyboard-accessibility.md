@@ -84,12 +84,12 @@ When we test for keyboard accessibility we often end up finding improvements for
 
 ## Developer tools - active expression 
 
-If you are familiar with developer tools, you can use the following technique to reliably track your focus, if the previous steps haven't worked.
+If you are familiar with developer tools, you can use the following technique to reliably track your focus, if the 'force focus bookmarklet' hasn't worked.
 
 - Open Developer Tools
 - Open the Console
-- Move to the 'Active Expression' input (it may be named differently dependent on your browser)
-- Type in document.ActiveElement
+- Move to the 'Live Expression' input (it may be named differently dependent on your browser)
+- Type in document.activeElement
 - Press Enter
 - Continue tabbing 
 - Make a note of the elements shown in the Console
