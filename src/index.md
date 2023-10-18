@@ -43,7 +43,7 @@ I've led work with NHS Test and Trace, Department for Work and Pensions, Zurich,
 
 ## Contact me
 
-<p>I'd love to hear from you. Find me at: </p>
+<p>I'd love to hear from you. You can find me at: </p>
 <ul class="list--spaced">
     <li>joelstrohmeier@gmail.com</li>
     <li>

@@ -9,39 +9,45 @@ description: How to write alt text for linked images
 
 # How to write <abbr title="alternative">alt</abbr> text for linked images
 
-When you start learning about accessibility, you're often told: 
+When starting to learn accessibility, we're often told: provide alternative text description for all images. 
 
-"You must provide a description for all images". 
+At some point, we might gather a bit more detail on writing these descriptions. Something like: 
 
-This image description is known as alternative text but is generally shortened to <strong>alt text</strong>. 
+"Imagine you were describing the page content to someone over the phone. How would you describe the image in context. What is the content and what is the emotion?"
 
-The advice that follows is usually something along the lines of:
+When the image communicates information that is helpful or relevant for the website visitor, we should follow the preceding advice. 
 
-"Provide a succinct but clear description of any image on the page so that someone who cannot see images can still enjoy and understand the content &hellip;"
-
-The teacher may even go on to provide a further hint such as:
-
-"Imagine you were describing the page content to someone over the phone. How would you describe the image in context?"
-
-When the image communicates information that is helpful or relevant for the website visitor, this is good advice and should certainly be followed. 
-
-But, what if the image is wrapped in a link? 
+But, when an image is wrapped in a link, we must take a different appproach. We'll look at that now. 
 
 ## Linked or 'functional' images
 
-It is common in websites to wrap images in links in order to provide a visually engaging route to more content with a large click or tap target area. For example, linked images are used liberally across the web as part of <a href="https://www.nomensa.com/blog/how-build-accessible-cards-block-links/">'card' components</a>. 
+Images are regularly wrapped with links. For example, this approach is commonly found across the web in the build of <a href="https://www.nomensa.com/blog/how-build-accessible-cards-block-links/">'card' components</a>. 
 
-The key thing to be aware of is, once we've wrapped an image in a link it now performs an action. Sometimes we refer to the image as being 'functional'. <strong>Before we wrapped an image in a link, our aim was to describe the content and emotion of the image, now, because the image is performing a new role, we must describe the link purpose or destination.</strong>. The alt text is now acting as the description of the link not the image. 
+What's important to note is, once the image sits inside a link element it's what's known as a 'functional' image &ndash; it can now be interacted with and its primary role has changed from communicating information to transporting people to a new destination. 
 
-Here is is how the HTML would change between a standard image description and a functional image description. 
+<strong>So, while the aim for static images is to convey the content and emotion within, for functional images we should use the alternative text to describe the link purpose or destination.</strong>
+
+Let's imagine we have 2 versions of a card component. In the first, the image is not linked. In the second, it is linked and navigates people to a blog article: 
 
     <code>
-        &lt;img src="/path" alt="Scientist inspecting a petri dish in a lab setting"&gt;
+        &lt;img src="/lab-photo.jpg" alt="Scientist inspecting a petri dish in a lab setting"&gt;
     </code>
 
 
      <code>
-       &lt;a href="/path-to-scientific-article"&gt; &lt;img src="/path" alt="Head to our blog for the June laboratory update "&gt; &lt;/a&gt;
+       &lt;a href="/path-to-scientific-article"&gt; &lt;img src="/lab-photo.jpg" alt="Head to our blog for the June laboratory update"&gt; &lt;/a&gt;
     </code>
 
-That's it. That's all for this post. 
+  To provide a final example. Say we have a linked icon of a phone which is takes people to a 'contact us' page. Here is the incorrect and then correct approach to alt text:
+
+     <code>
+       &lt;a href="/contact-us"&gt; &lt;img src="/telephone-icon" alt="Phone icon"&gt; &lt;/a&gt;
+    </code>
+
+     <code>
+       &lt;a href="/contact-us"&gt; &lt;img src="/telephone-icon" alt="Visit contact us form"&gt; &lt;/a&gt;
+    </code>
+
+## Further reading
+
+<p><a href="https://www.w3.org/WAI/tutorials/images/functional/">W3C functional images</a></p>

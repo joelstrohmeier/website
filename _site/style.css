@@ -56,19 +56,19 @@ ul.list--spaced li {
   }
 
 footer {
-    background: #3D3D3D;
+    background:#E5E5FF;
     padding: 3em 0;
     margin-top: 3rem;
-}
-
-footer > * {
-    color: white;
 }
 
 .wrapper {
     max-width: 70ch;
     margin: 0 auto;
     padding: 0.5em;
+}
+
+header.wrapper {
+    padding: 0;
 }
 
  img {
@@ -83,7 +83,7 @@ footer > * {
     text-underline-offset: .1578em
 }
 
-kbd {
+kbd, code {
     background: #eee;
     padding: .2em;
     border-radius: 10%;
@@ -166,6 +166,10 @@ nav > ul
         font-weight: bold;
     }
 
+    ul.blogs-list {
+        padding-left: 1em;
+    }
+
     ul.blogs-list > li h2 {
         margin-bottom: 0.1em;
     }
@@ -175,14 +179,13 @@ nav > ul
     }
 
 .headshot {
-    max-width: 22%;
+    max-width: 17%;
     border-radius: 50%;
 }
 
 .skip-link {
     display: block;
-    text-align: center;
-    margin: 12px 0 0 0;
+    margin: 0.7em;
     font-size: 0.85em;
     padding: 0.2em;
 }
