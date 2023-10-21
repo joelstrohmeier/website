@@ -34,19 +34,29 @@ Let's imagine we have 2 versions of a card component. In the first, the image is
     </code>
 
 
+Now the image is linked, the alt text describes the link destination:
+
+
      <code>
        &lt;a href="/path-to-scientific-article"&gt; &lt;img src="/lab-photo.jpg" alt="Head to our blog for the June laboratory update"&gt; &lt;/a&gt;
     </code>
 
-  To provide a final example. Say we have a linked icon of a phone which is takes people to a 'contact us' page. Here is the incorrect and then correct approach to alt text:
+
+  To provide a final example. Say we have a linked icon of a phone which takes people to a 'contact us' page. Here is the incorrect and then correct approach to alt text:
+
 
      <code>
        &lt;a href="/contact-us"&gt; &lt;img src="/telephone-icon" alt="Phone icon"&gt; &lt;/a&gt;
     </code>
+  
+
+Rather than describing the appearance of the icon, we instead provide a description of the link destination:
+
 
      <code>
        &lt;a href="/contact-us"&gt; &lt;img src="/telephone-icon" alt="Visit contact us form"&gt; &lt;/a&gt;
     </code>
+
 
 ## Further reading
 

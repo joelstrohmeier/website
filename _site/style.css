@@ -35,6 +35,10 @@ margin-bottom: 1rem;
 
 }
 
+pre {
+    white-space: pre-wrap;
+}
+
 ul li {
     line-height: 2;
 }
