@@ -35,8 +35,8 @@ margin-bottom: 1rem;
 
 }
 
-pre {
-    white-space: pre-wrap;
+ul {
+    padding-left: 1.4em;
 }
 
 ul li {
@@ -86,10 +86,22 @@ header.wrapper {
     text-underline-offset: .1578em
 }
 
-kbd, code {
+kbd {
     background: #eee;
     padding: .2em;
     border-radius: 10%;
+}
+
+pre {
+    
+    font-size: 90%;
+	background-color: #eee;
+	box-sizing: border-box;
+	padding: .5em 1em;
+	overflow: auto;
+	white-space: pre-wrap;
+	position: relative;
+	overflow-y: hidden;
 }
 
 a:hover {
@@ -167,10 +179,6 @@ nav > ul
     .email {
         font-family: 'menlo', monospace; 
         font-weight: bold;
-    }
-
-    ul.blogs-list {
-        padding-left: 1em;
     }
 
     ul.blogs-list > li h2 {

@@ -1,7 +1,6 @@
 ---
-title: Personal profile and blog
-description: My thoughts on accessibility, inclusion and experience design. Plus, a short personal profile. 
-layout: "base.njk"
+description: Thoughts on accessibility, inclusion and experience design. And a short personal profile. 
+layout: "home.njk"
 ---
 
 # Hi, i&rsquo;m Joel Strohmeier. <br> Welcome to my site.

@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon.png">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌖</text></svg>">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/style.css">
   
-  <title>Linked images - Joel Strohmeier </title> <!-- Grab title from the page data and dump it here -->
+  <title>Linked images — Joel Strohmeier </title> <!-- Grab title from the page data and dump it here -->
   <meta name="description" content="How to write alt text for linked images "/>
 </head>
 <body>
@@ -36,21 +36,29 @@
 <p>What's important to note is, once the image sits inside a link element it's what's known as a 'functional' image – it can now be interacted with and its primary role has changed from communicating information to transporting people to a new destination.</p>
 <p><strong>So, while the aim for static images is to convey the content and emotion within, for functional images we should use the alternative text to describe the link purpose or destination.</strong></p>
 <p>Let's imagine we have 2 versions of a card component. In the first, the image is not linked. In the second, it is linked and navigates people to a blog article:</p>
-<p><code>
-&lt;img src=&quot;/lab-photo.jpg&quot; alt=&quot;Scientist inspecting a petri dish in a lab setting&quot;&gt;
-</code></p>
+<pre>
+<code>
+&lt;img src="/lab-photo.jpg" alt="Scientist inspecting a petri dish in a lab setting"&gt;
+</code>
+</pre>
 <p>Now the image is linked, the alt text describes the link destination:</p>
-<p><code>
-&lt;a href=&quot;/path-to-scientific-article&quot;&gt; &lt;img src=&quot;/lab-photo.jpg&quot; alt=&quot;Head to our blog for the June laboratory update&quot;&gt; &lt;/a&gt;
-</code></p>
+<pre> 
+<code>
+&lt;a href="/path-to-scientific-article"&gt; &lt;img src="/lab-photo.jpg" alt="Head to our blog for the June laboratory update"&gt; &lt;/a&gt;
+</code>
+</pre>
 <p>To provide a final example. Say we have a linked icon of a phone which takes people to a 'contact us' page. Here is the incorrect and then correct approach to alt text:</p>
-<p><code>
-&lt;a href=&quot;/contact-us&quot;&gt; &lt;img src=&quot;/telephone-icon&quot; alt=&quot;Phone icon&quot;&gt; &lt;/a&gt;
-</code></p>
+<pre>
+<code>
+&lt;a href="/contact-us"&gt; &lt;img src="/telephone-icon" alt="Phone icon"&gt; &lt;/a&gt;
+</code>
+</pre>
 <p>Rather than describing the appearance of the icon, we instead provide a description of the link destination:</p>
-<p><code>
-&lt;a href=&quot;/contact-us&quot;&gt; &lt;img src=&quot;/telephone-icon&quot; alt=&quot;Visit contact us form&quot;&gt; &lt;/a&gt;
-</code></p>
+<pre>
+<code>
+&lt;a href="/contact-us"&gt; &lt;img src="/telephone-icon" alt="Visit contact us form"&gt; &lt;/a&gt;
+</code>
+</pre>
 <h2>Further reading</h2>
 <p><a href="https://www.w3.org/WAI/tutorials/images/functional/">W3C functional images</a></p>
 
