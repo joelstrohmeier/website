@@ -1,6 +1,6 @@
 ---
 
-layout: base.njk
+layout: blog_detail.njk
 title: Linked images
 date: 2023-10-03
 description: How to write alt text for linked images

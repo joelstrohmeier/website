@@ -18,14 +18,14 @@
       <nav>
         <ul>
             <li><a href="/">Home</a></li>
-            <li><a href="/blog">Blog</a></li>
+            <li><a href="/blog" aria-current="page">Blog</a></li>
         </ul>
         </nav>
 </header>
   
   <main class="wrapper" id="main">
-  
-  <h1>How to test for keyboard accessibility</h1>
+    
+    <h1>How to test for keyboard accessibility</h1>
 <p>In this blog we'll look at some of the ways you can check the keyboard accessibility of website content.</p>
 <h2>Why keyboard accessibility is important</h2>
 <p>People may interact with your website using a keyboard alone for many reasons. Some people can't make precise movements with their hands and so will use a keyboard instead. For example, people with repetitive strain injury (RSI) or with Parkinson's disease. There are various situational reasons why someone may benefit from good keyboard accessibility, too. For example, parents might be holding a baby in one arm and so complete a task using their keyboard using one hand.</p>
@@ -42,7 +42,7 @@
 <p>Both for testing purposes and for end users, it's critical to be able to clearly see where you are on the page when navigating via keyboard. This is known as being able to see 'keyboard focus' or the 'keyboard focus indicator' and is similar to how you can track the mouse cursor around a page.</p>
 <h2>Keyboard focus styles</h2>
 <p>Good designs include clear focus styles. We need to make sure a broad group of people can see which element on a web page can be interacted with (has focus).</p>
-<p>A shortcut to an accessible focus style is to use a 2 pixel (px) thickness or above solid border around an element and make sure the border has at least a 3:1 contrast ratio against its adjacent colour. Use the <a href="https://www.tpgi.com/color-contrast-checker/">Colour Contrast Analyser</a> to test designs. This Contrast Analyser tool includes an eye dropper which allows you to select the foreground and background colours to generate a numerical ratio which is a pass or fail of the minimum contrast according to WCAG.</p>
+<p>A shortcut to an accessible focus style is to use a 2 pixel (px) thickness or above solid border around an element and make sure the border has at least a 3:1 contrast ratio against its adjacent colour. Use the <a href="https://www.tpgi.com/color-contrast-checker/">Colour Contrast Analyser</a> to test designs. This Contrast Analyser tool includes an eye dropper which allows you to select the foreground and background colours to generate a numerical ratio which is a pass or fail of the minimum contrast according to the Web Content Accessibility Guidelines (WCAG).</p>
 <p>There are more details to consider around colour contrast and designing effective focus styles but I don't aim to cover them in this post (for the sake of brevity). If you'd like to know more, I recommend this comprehensive <a href="https://www.sarasoueidan.com/blog/focus-indicators/">guide to focus indicators by Sara Soueidan</a>.</p>
 <h2>Expected behaviour for interactive elements using a keyboard</h2>
 <p>One of the questions I get asked when running training, is what the correct behaviour is when interacting with certain elements on a page using a keyboard. For example, 'I pressed <kbd>Space bar</kbd> to activate this link but nothing happened?!' In the case of links, they would only be activated by pressing the <kbd>Enter</kbd> key by default.</p>
@@ -92,14 +92,30 @@
 </li>
 </ul>
 
-
+  
   </main>
 
   <footer>
   <div class="wrapper">
   <p>Made with <span focusable="false" aria-hidden="true">❤</span> <span class="visually-hidden">Love</span> in Bristol, United Kingdom.</p>
 
+<hr>
+
+  <h2>Contact me</h2>
+
+  <p>I'd love to hear from you. You can find me at: </p>
+  <ul class="list--spaced">
+      <li><a href="mailto:joelstrohmeier@gmail.com">joelstrohmeier@gmail.com</a></li>
+      <li>
+        <a href="https://www.linkedin.com/in/joel-strohmeier/"> LinkedIn</a>
+      </li>   
+      <li><a href="https://twitter.com/JoelStrohmeier">Twitter / X</a></li>
+
+  </ul>
   </div>
 </footer>
+
+
 </body>
 </html>
+

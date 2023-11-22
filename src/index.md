@@ -38,16 +38,3 @@ I've led work with NHS Test and Trace, Department for Work and Pensions, Zurich,
 
 <li><a href="https://www.youtube.com/watch?v=T6zTbcZnXpo&t=2497s">The inclusive organisation (with Simon Norris) - YouTube</a></li>
 </ul>
-
-
-## Contact me
-
-<p>I'd love to hear from you. You can find me at: </p>
-<ul class="list--spaced">
-    <li>joelstrohmeier@gmail.com</li>
-    <li>
-       <a href="https://www.linkedin.com/in/joel-strohmeier/"> LinkedIn</a>
-    </li>   
-    <li><a href="https://twitter.com/JoelStrohmeier">Twitter / X</a></li>
-
-</ul>

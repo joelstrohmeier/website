@@ -1,6 +1,6 @@
 ---
 
-layout: base.njk
+layout: blog_detail.njk
 title: Testing keyboard accessibility
 date: 2023-09-05
 description: A quick guide on testing for keyboard accessibility
@@ -35,7 +35,7 @@ Both for testing purposes and for end users, it's critical to be able to clearly
 
 Good designs include clear focus styles. We need to make sure a broad group of people can see which element on a web page can be interacted with (has focus). 
 
-A shortcut to an accessible focus style is to use a 2 pixel (px) thickness or above solid border around an element and make sure the border has at least a 3:1 contrast ratio against its adjacent colour. Use the <a href="https://www.tpgi.com/color-contrast-checker/">Colour Contrast Analyser</a> to test designs. This Contrast Analyser tool includes an eye dropper which allows you to select the foreground and background colours to generate a numerical ratio which is a pass or fail of the minimum contrast according to WCAG. 
+A shortcut to an accessible focus style is to use a 2 pixel (px) thickness or above solid border around an element and make sure the border has at least a 3:1 contrast ratio against its adjacent colour. Use the <a href="https://www.tpgi.com/color-contrast-checker/">Colour Contrast Analyser</a> to test designs. This Contrast Analyser tool includes an eye dropper which allows you to select the foreground and background colours to generate a numerical ratio which is a pass or fail of the minimum contrast according to the Web Content Accessibility Guidelines (WCAG). 
 
 There are more details to consider around colour contrast and designing effective focus styles but I don't aim to cover them in this post (for the sake of brevity). If you'd like to know more, I recommend this comprehensive <a href="https://www.sarasoueidan.com/blog/focus-indicators/">guide to focus indicators by Sara Soueidan</a>. 
 

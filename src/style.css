@@ -13,12 +13,14 @@ body {
     margin:0;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5 {
     color: #3D4043;
+    line-height: 1.2;
 }
 
 h1 {
     margin-bottom: 3rem;
+    line-height: 1.1;
 }
 
 h2 {
@@ -60,24 +62,21 @@ ul.list--spaced li {
 
 footer {
     background:#E5E5FF;
-    padding: 3em 0;
+    padding: 2em 0;
     margin-top: 3rem;
 }
 
 .wrapper {
-    max-width: 70ch;
+    max-width: 55ch;
     margin: 0 auto;
     padding: 0.5em;
-}
-
-header.wrapper {
-    padding: 0;
 }
 
  img {
      display: block;
      max-width: 85%;
  }
+
 
  a {
 
@@ -114,6 +113,19 @@ a:hover {
             box-shadow: 0 0.3em #00FFD5;
 }
 
+nav a:hover,  a.skip-link:hover {
+    -webkit-box-shadow: none;
+            box-shadow: none; 
+}
+
+a[aria-current="page"] {
+    border-bottom: solid 0.3em #000039;
+}
+
+hr {
+    border: solid 0.1em #CCCCFF;
+}
+
 /* Credit to Erik Kroes for the Oreo cookie focus style approach */
 
 a:focus {
@@ -148,7 +160,7 @@ nav > ul
         padding-left: 0;
         flex-wrap: wrap;
         margin: 0.2em;
-        border-bottom: 0.3em solid #EEF;
+        align-items: baseline;
     }
 
     nav > ul > li {	
@@ -160,13 +172,13 @@ nav > ul
                 align-items: center;
         -ms-flex-line-pack: justify;
         align-content: space-between;
-        margin-right: 2em;
+        margin-right: 1.6em;
        
     }
 
     nav > ul > li > a {
       
-        padding: .5em 2em;
+        padding: 0.2em 0;
         text-align: left;
         min-width: 5em;
         text-decoration: none;
@@ -196,23 +208,22 @@ nav > ul
 
 .skip-link {
     display: block;
-    margin: 0.7em;
-    font-size: 0.85em;
+    margin: 0.3em 0;
     padding: 0.2em;
 }
 
 @media screen and (min-width:60em) {
 
     body {
-        font-size: 1.4em;
+        font-size: 1.6rem;
     }
 
     h1:first-of-type {
-        margin-top: 1.4rem;
+        margin-top: 2.6rem;
     }
 
     h1 {
-        line-height: 1.2;
+        line-height: 1.1;
         font-size: 3.2em;
     }
 
@@ -237,6 +248,10 @@ nav > ul
         -ms-flex-line-pack: start;
             align-content: flex-start;
         
+    }
+
+    footer h2 {
+        margin-top: 3.2rem;
     }
 
 }
