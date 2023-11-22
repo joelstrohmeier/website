@@ -7,13 +7,13 @@ layout: "home.njk"
 
 <img class="headshot" src="/images/picture-of-me.jpeg" alt="Headshot: i'm wearing a blue turtleneck and have a little stubble growing. In the background there is the suggestion of a cafe or bar setting.">
 
-## About me
+## Introduction
 
 I'm an accessibility specialist with a background in: digital, design and experience which spans over 11 years. 
 
 I tend to switch between thinking about big holistic ideas and getting into the details and fixing things. 
 
-I don’t subscribe to a limited view of accessibility and work on the basis it overlaps with various other areas. I'm particularly interested in its role in service design, content design and, increasingly, brand identity and strategy. 
+I don’t work based on a limited view of accessibility and appreciate collaboration with various other disciplines. I'm particularly interested in the overlap between accessibility and: service design, content design and, increasingly, brand identity and strategy. 
 
 I've led work with NHS Test and Trace, Department for Work and Pensions, Zurich, Booking.com and Transport for Greater Manchester. While at NHS Test and Trace, I helped establish the processes and standards for digital accessibility across the programme. 
 

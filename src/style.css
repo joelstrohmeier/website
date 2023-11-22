@@ -103,6 +103,14 @@ pre {
 	overflow-y: hidden;
 }
 
+figure {
+    margin: 0;
+}
+
+figcaption {
+    font-size: 0.8em;
+}
+
 a:hover {
     text-decoration-thickness: max(3px, .1875rem, .12em);
     -webkit-text-decoration-skip-ink: none;
@@ -252,6 +260,11 @@ nav > ul
 
     footer h2 {
         margin-top: 3.2rem;
+    }
+
+    figcaption {
+        margin-top: 0.2em;
+        font-size: 0.7em;
     }
 
 }
