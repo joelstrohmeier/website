@@ -118,7 +118,7 @@ nav a:hover,  a.skip-link:hover {
             box-shadow: none; 
 }
 
-a[aria-current="page"] {
+a[aria-current="true"] {
     border-bottom: solid 0.3em #3D4043;
 }
 

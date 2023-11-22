@@ -119,7 +119,7 @@ nav a:hover,  a.skip-link:hover {
 }
 
 a[aria-current="true"] {
-    border-bottom: solid 0.3em #000039;
+    border-bottom: solid 0.3em #3D4043;
 }
 
 hr {
