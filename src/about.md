@@ -6,7 +6,7 @@ layout: "about.njk"
 # About
 
 <figure>
-<img src="images/presenting-connect-marketing-event.jpeg">
+<img src="/images/presenting-connect-marketing-event.jpeg">
 <figcaption>
 Presenting at the Connect Marketing meet-up organised by Flex Digital, Runway East, Bristol 2023. 
 </figcaption>
