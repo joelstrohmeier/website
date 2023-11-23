@@ -16,7 +16,7 @@ As I grew up, my parents discovered that one particularly effective way of keepi
 
 In the years that followed, I worked in various roles &mdash; including digital content editing, search engine optimisation and UX/front-end development-adjacent positions.  
 
-I was lucky enough to have been around for the sea change that was the move to response web design and worked on several significant website re-designs including the complete rebuild of two separate websites for the insurance giant AXA. 
+I was lucky enough to have been around for the sea change that was the move to responsive web design and worked on several significant website re-designs including the complete rebuild of two separate websites for the insurance giant AXA. 
 
 More recently I was Digital Transformation Manager for the municipally-owned Bristol Energy. 
 
