@@ -3,11 +3,11 @@ description: Thoughts on accessibility, inclusion and experience design. And a s
 layout: "home.njk"
 ---
 
-# Hi, i&rsquo;m Joel Strohmeier. <br> Welcome to my site.
+<h1>Thoughts on accessibility, inclusion and experience design.</h1>
 
 <img class="headshot" src="/images/picture-of-me.jpeg" alt="Headshot: i'm wearing a blue turtleneck and have a little stubble growing. In the background there is the suggestion of a cafe or bar setting.">
 
-## Introduction
+## About
 
 I'm an accessibility specialist with a background in: digital, design and experience which spans over 11 years. 
 
@@ -15,11 +15,13 @@ I tend to switch between thinking about big holistic ideas and getting into the 
 
 I don’t work based on a limited view of accessibility and appreciate collaboration with various other disciplines. I'm particularly interested in the overlap between accessibility and: service design, content design and, increasingly, brand identity and strategy. 
 
+## Work
+
 I've led work with NHS Test and Trace, Department for Work and Pensions, Zurich, Booking.com and Transport for Greater Manchester. While at NHS Test and Trace, I helped establish the processes and standards for digital accessibility across the programme. 
 
-## Speaking about accessibility
+## Speaking
 
-<ul class="list--spaced">
+<ul>
 
 <li>
 <a href="https://www.adaptworldwide.com/insights/2022/withindigital-episode-13-website-accessibility-101">Within Digital Podcast - Accessibility 101</a>

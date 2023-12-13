@@ -6,7 +6,12 @@ layout: "about.njk"
 # About
 
 <figure>
+<picture>
+<source srcset="/images/presenting-connect-marketing-event.webp" type="image/webp">
+<source srcset="/images/presenting-connect-marketing-event.jpeg" type="image/jpeg">
 <img src="/images/presenting-connect-marketing-event.jpeg" alt="Shot in which I'm wearing a polo shirt, clear round rimmed glasses with a mid-length beard. My hands are clasped and mouth slightly open suggesting i'm mid way through a key point in my presentation. In the background there is a blurred pink and purple banner for the event.">
+</picture>
+
 <figcaption>
 Presenting at the Connect Marketing meet-up organised by Flex Digital, Runway East, Bristol 2023. 
 </figcaption>
