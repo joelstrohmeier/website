@@ -72,8 +72,7 @@ My observation is that a lot of accessibility work that gets commissioned (in my
 
 <strong>If the above is true then inclusive service design would: take a cross channel view, look to feed into business outcomes and, ideally, influence at a policy and strategy level.</strong>
 
-It is important to clarify that this blog is not out undermine any work which focusses on fixing specific, interface or product-level issues. A single attribute on an HTML attribute (<code>role="application"</code>) can obliterate a page for users and it's easy to underestimate the importance of fixing such details. Great experiences require people to address barriers at an interface level but we must also have people who see how this fits within a wider journey or experience. We need various planes of thinking. The reality of accessibility is that it is still heavily influenced by technological quirks &mdash; such as how certain assistive technologies work with certain web browsers and front-end coding practices. 
-
+It is important to clarify that this blog is not out undermine any work which focusses on fixing specific, interface or product-level issues. A single attribute on an HTML element (<code>role="application"</code>) can obliterate a page for users and it's easy to underestimate the importance of fixing such details. Great experiences require people to address barriers at an interface level but we must also have people who see how this fits within a wider journey or experience. We need various planes of thinking. The reality of accessibility is that it is still heavily influenced by technological quirks &mdash; such as how certain assistive technologies work with certain web browsers and front-end coding practices. 
 
 ## Prompts for service designers
 
