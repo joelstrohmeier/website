@@ -144,6 +144,8 @@ hr {
 
 blockquote {
     border-left: solid 0.3em #CCCCFF;
+    padding-left: 0.7em;
+    margin-left: 0;
 }
 
 /* Credit to Erik Kroes for the Oreo cookie focus style approach */
