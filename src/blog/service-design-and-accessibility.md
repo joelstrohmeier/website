@@ -19,14 +19,6 @@ Quoting Lou Downe former Director of Design for the Government Digital Service:
 "Service design is the design of services. To a user, a service is simple. It's something that helps them to do something - like to learn to drive, buy a house or become a childminder."
 </blockquote>
 
-<!--
-Neilsen Norman Group provides us with the following similar but alternate definition:
-
-<blockquote>"Service design is the activity of planning and organizing a business’s resources (people, props, and processes) in order to (1) directly improve the employee’s experience, and (2) indirectly, the customer’s experience."</blockquote>
-
--->
-
-
 ## Good services
 
 Returning to Lou Downe, in their role as Head of Services and later Director of Design, they created a set of principles which described things that need to be in place to build 'good services'. 
