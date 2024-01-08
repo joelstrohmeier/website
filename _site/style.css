@@ -93,22 +93,17 @@ footer {
     text-underline-offset: .1578em
 }
 
-kbd {
-    background: #eee;
-    padding: .2em;
-    border-radius: 10%;
-}
-
-pre {
+pre, kbd, code {
     
     font-size: 90%;
 	background-color: #eee;
 	box-sizing: border-box;
 	padding: .5em 1em;
 	overflow: auto;
-	white-space: pre-wrap;
+	white-space: normal;
 	position: relative;
-	overflow-y: hidden;
+    overflow-y: hidden;
+    padding: .2em;
 }
 
 figure {
@@ -144,6 +139,8 @@ hr {
 
 blockquote {
     border-left: solid 0.3em #CCCCFF;
+    padding-left: 0.7em;
+    margin-left: 0;
 }
 
 /* Credit to Erik Kroes for the Oreo cookie focus style approach */
@@ -152,7 +149,7 @@ a:focus {
     outline: 9px double black;
     -webkit-box-shadow: 0 0 0 6px white;
             box-shadow: 0 0 0 6px white;
-    text-decoration: none;
+    text-decoration: none;     
 }
 
 button:focus {

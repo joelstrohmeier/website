@@ -22,7 +22,7 @@ Testing for keyboard accessibility also allows us to identify barriers for peopl
 A simple and effective test you can do is to identify all the tasks you can complete with a mouse or trackpad and then check they're possible using a keyboard alone. The following is a short list of navigation keys:
 
 - <kbd>Tab</kbd> to move through the interactive elements of the page
-- <kbd> Shift</kbd> + <kbd>Tab</kbd> to reverse back up the page through the interactive elements
+- <kbd>Shift</kbd> + <kbd>Tab</kbd> to reverse back up the page through the interactive elements
 - <kbd>Enter</kbd> OR <kbd>Space bar</kbd> to select button controls
 - <kbd>Left</kbd> / <kbd>Right</kbd> / <kbd>Up</kbd> /<kbd>Down</kbd> buttons for radio buttons.
 

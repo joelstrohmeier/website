@@ -100,11 +100,10 @@ pre, kbd, code {
 	box-sizing: border-box;
 	padding: .5em 1em;
 	overflow: auto;
-	white-space: pre-wrap;
+	white-space: normal;
 	position: relative;
     overflow-y: hidden;
     padding: .2em;
-    border-radius: 10%;
 }
 
 figure {
