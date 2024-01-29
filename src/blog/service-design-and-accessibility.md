@@ -3,7 +3,7 @@
 layout: blog_detail.njk
 title: Accessible service design
 date: 2023-12-14
-description: How to approach accessible service design
+description: Accessible service design - collected thoughts
 
 ---
 
@@ -72,7 +72,7 @@ My observation is that a lot of accessibility work that gets commissioned (in my
 
 <strong>If the above is true then inclusive service design would: take a cross channel view, look to feed into business outcomes and, ideally, influence at a policy and strategy level.</strong>
 
-It is important to clarify that this blog is not out undermine any work which focusses on fixing specific, interface or product-level issues. A single attribute on an HTML element (<code>role="application"</code>) can obliterate a page for users and it's easy to underestimate the importance of fixing such details. Great experiences require people to address barriers at an interface level but we must also have people who see how this fits within a wider journey or experience. We need various planes of thinking. The reality of accessibility is that it is still heavily influenced by technological quirks &mdash; such as how certain assistive technologies work with certain web browsers and front-end coding practices. 
+It is important to clarify that this blog is not out to undermine any work which focusses on fixing specific, interface or product-level issues. A single attribute on an HTML element (<code>role="application"</code>) can obliterate a page for users of assistive technology and it's easy to underestimate the importance of fixing such details. Great experiences require people to address barriers at an interface level but we must also have people who see how this fits within a wider journey or experience. We need various planes of thinking.
 
 ## Prompts for service designers
 
@@ -98,9 +98,9 @@ Monzo seems to have understood the importance of moving away from relying on PDF
 
 The previous example still mostly focusses on barriers within a single medium (even if it presents a significant challenge to understanding the service). Let's look at inclusion across media and its impact on a service. 
 
-Cancelling subscriptions is infamous for its issues. It is often easy to start a service but in an attempt to cancel, one is required to phone a costly call centre number and wait for unacceptable amounts of time to speak to someone &mdash; for most people this is beyond stressful even if the person does not identify as having some form of anxiety, for example. This process not only penalises people from a monetary point-of-view (call centre phone call costs) but also requires people to pay a tax from an attention and patience point-of-view. 
+Cancelling subscriptions is infamous for its issues. It is often easy to start a service (online) but in an attempt to cancel, one is required to phone a costly call centre number and wait for unacceptable amounts of time to speak to someone &mdash; for most people this is beyond stressful even if the person does not identify as having some form of anxiety, for example. This process not only penalises people from a monetary point-of-view (call centre phone call costs) but also requires people to pay a tax from an attention and patience point-of-view. 
 
-To further emphasise the distinction between something which is accessible at an interface level but which still contributes to a bad service experience we can consider the <a href="https://www.deceptive.design/">'deceptive pattern'</a>. This is a a certain type of content (or combinations of content) premeditated to fool users into a certain course of action. We might have a perfectly formed chunk of content on a page (from an accessibility point-of-view) which nevertheless &mdash; as a result of its design &mdash; tricks people into an a detrimental action. Examples include, travel insurance being automatically added to the basket during the purchase of airplane tickets without the user realising or the phenomenon of <a href="https://www.deceptive.design/types/confirmshaming">'confirm shaming'</a>.  
+A common troublesome factor in bad services is the <a href="https://www.deceptive.design/">'deceptive pattern'</a>. This is a a certain type of content (or combinations of content) premeditated to fool users into a certain course of action. We might have a perfectly formed chunk of content on a page (in that it is available to users and assistive technologies) which nevertheless &mdash; as a result of its design &mdash; tricks people into an a detrimental action. Examples include, travel insurance being automatically added to the basket during the purchase of airplane tickets without the user realising or the phenomenon of <a href="https://www.deceptive.design/types/confirmshaming">'confirm shaming'</a>.  
 
 ## Positive steps for inclusive services
 
