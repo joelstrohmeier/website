@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌖</text></svg>">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  
+  <title>Testing keyboard accessibility — Joel Strohmeier </title> <!-- Grab title from the page data and dump it here -->
+  <meta name="description" content="A quick guide on testing for keyboard accessibility "/>
+</head>
+<body>
+
+<div class="wrapper"><a href="#main" class="skip-link">Skip to content</a></div>
+
+  <header class="wrapper">
+      <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/blog" aria-current="true">Blog</a></li>
+        </ul>
+        </nav>
+</header>
+  
+  <main class="wrapper blog" id="main">
+    
+    <h1>How to test for keyboard accessibility</h1>
+<p>In this blog we'll look at some of the ways you can check the keyboard accessibility of website content.</p>
+<h2>Why keyboard accessibility is important</h2>
+<p>People may interact with your website using a keyboard alone for many reasons. Some people can't make precise movements with their hands and so will instead of using a mouse will use a keyboard rather than a mouse or trackpad. For example, people with repetitive strain injury (RSI) or with Parkinson's disease. There are various situational reasons why someone may benefit from good keyboard accessibility, too. For example, parents might be holding a baby in one arm and so complete a task using a keyboard using one hand.</p>
+<p>Testing for keyboard accessibility also allows us to identify barriers for people using other adaptive inputs and keyboard-like interfaces. For example, switch devices and voice recognition software.</p>
+<h2>How to do a quick test</h2>
+<p>A simple and effective test you can do is to identify all the tasks you can complete with a mouse or trackpad and then check they're possible using a keyboard alone. The following is a short list of navigation keys for your tests:</p>
+<ul>
+<li><kbd>Tab</kbd> to move through the interactive elements of the page</li>
+<li><kbd>Shift</kbd> + <kbd>Tab</kbd> to reverse back up the page through the interactive elements</li>
+<li><kbd>Enter</kbd> OR <kbd>Space bar</kbd> to select button controls</li>
+<li><kbd>Left</kbd> / <kbd>Right</kbd> / <kbd>Up</kbd> /<kbd>Down</kbd> keys for radio buttons.</li>
+</ul>
+<p>With the preceding keys, check whether all interactive elements — such as links, form inputs and buttons can be interacted with using a keyboard. Then, make a note of whether you can navigate and complete tasks as you would expect or with equivalence to someone using a mouse.</p>
+<p>Both for testing purposes and for end users, it's critical to be able to clearly see where you are on the page when navigating via keyboard. This is known as being able to see 'keyboard focus' or the 'keyboard focus indicator' and is similar to how you can track the mouse cursor around a page.</p>
+<h2>Keyboard focus styles</h2>
+<p>Good designs include clear focus styles. We need to make sure a broad group of people can see which element on a web page can be interacted with (has focus).</p>
+<p>A shortcut to an accessible focus style is to use a 2 pixel (px) thickness or above solid border around an element and make sure the border has at least a 3:1 contrast ratio against its adjacent colour. Use the <a href="https://www.tpgi.com/color-contrast-checker/">Colour Contrast Analyser</a> to test designs. This Contrast Analyser tool includes an eye dropper which allows you to select the foreground and background colours to generate a numerical ratio which is a pass or fail of the minimum contrast according to the Web Content Accessibility Guidelines (WCAG).</p>
+<p>There are more details to consider around colour contrast and designing effective focus styles but I don't aim to cover them in this post (for the sake of brevity). If you'd like to know more, I recommend this comprehensive <a href="https://www.sarasoueidan.com/blog/focus-indicators/">guide to focus indicators by Sara Soueidan</a>.</p>
+<h2>Expected behaviour for interactive elements using a keyboard</h2>
+<p>One of the questions I get asked when running training is what the correct behaviour is when interacting with certain elements on a page using a keyboard. For example, 'I pressed <kbd>Space bar</kbd> to activate this link but nothing happened?!' In the case of links, they would only be activated by pressing the <kbd>Enter</kbd> key by default.</p>
+<p>So, here's a list of common interactive elements and their expected keyboard behaviour.</p>
+<dl>
+    <dt>Link</dt>
+    <dd><kbd>Enter</kbd> to follow</dd>
+    <dt>Button</dt>
+    <dd><kbd>Enter</kbd> or <kbd>Space bar</kbd> to activate</dd>
+    <dt>Checkbox</dt>
+    <dd><kbd>Tab</kbd> to reach each input. Note: <kbd>left,</kbd> <kbd>right</kbd>, <kbd>up</kbd>, and <kbd>down</kbd> key presses not supported by default</dd>
+    <dd><kbd>Space bar</kbd> to check and uncheck</dd>  
+    <dt>Radio button</dt>
+    <dd><kbd>Tab</kbd> to reach first input in a group</dd>
+    <dd><kbd>Left</kbd>, <kbd>right</kbd>, <kbd>up</kbd>, and <kbd>down</kbd> key presses are supported and allow you to move through each item in a group</dd>
+    <dd><kbd>Space bar</kbd> to select a radio</dd>
+</dl>
+<h2>Knowing what has 'focus'</h2>
+<p>If the website you're testing does not include clear focus styles, you'll find it hard to spot keyboard issues. You can force focus styles for a page — this involves overriding the authored CSS for any given page with a nice, clear indicator. To force focus styles you can install a simple tool called a 'bookmarklet'. These are tools which you can switch on via your web browser to perform simple tasks.</p>
+<p>Head to the link below and follow the instructions to install the bookmarklet for forced focus styles:</p>
+<p><a href="https://www.pauljadam.com/bookmarklets/focus.html">Force / show keyboard focus style</a></p>
+<p>It's likely certain elements can be reached even though the designer intends for them to be hidden. This is quite common for carousel components, navigation menus and overlay content. This suggests the keyboard experience wasn't designed and tested effectively.</p>
+<h2>Logical order</h2>
+<p>While completing the previously outlined checks, you should also check whether the order that you move through the page using a keyboard is logical. For example, does the order match the intention of the visual design and could it negatively affect the understanding of the key information. For example, if you were to move to a 'Submit' button at the end of a form and then backwards to the start of the form inputs, this would not be a logical order.</p>
+<h2>Voice recognition</h2>
+<p>When we test for keyboard accessibility we often end up finding improvements for a wider variety of input approaches — including voice input. For example, if a carousel component does not have 'Previous' and 'Next' button controls, it makes it harder for people using voice recognition software. Without a control on screen whose name is visible, or at least can be guessed, it is hard for someone using voice recognition to know what verbal command to use to interact. However, if there's a control which looks like a button and contains the word 'Next' I can speak &quot;Click next&quot; (or similar) and reveal more content from the carousel.</p>
+<p>Of course, in this example the website visitor actually wants to interact with a carousel which might require some suspention of disbelief unless the website happens to the BBC or Netflix.</p>
+<h2>Developer tools - active expression</h2>
+<p>If you are familiar with developer tools, you can use the following technique to reliably track your focus, if the 'force focus bookmarklet' hasn't worked.</p>
+<ul>
+<li>Open Developer Tools</li>
+<li>Open the Console</li>
+<li>Move to the 'Live Expression' input (it may be named differently dependent on your browser)</li>
+<li>Type in document.activeElement</li>
+<li>Press Enter</li>
+<li>Continue tabbing</li>
+<li>Make a note of the elements shown in the Console</li>
+</ul>
+<p>You should find the element in focus is printed in real time in the Console output.</p>
+<h2>Further reading:</h2>
+<ul>
+<li>
+<p><a href="https://webaim.org/techniques/keyboard/">WebAIM Keyboard accessibility</a></p>
+</li>
+<li>
+<p><a href="https://davatron5000.github.io/a11y-nutrition-cards/">Accessible components - a11y nutrition cards</a></p>
+</li>
+</ul>
+
+  
+  </main>
+
+  <footer>
+  <div class="wrapper">
+  <p>Made with <span focusable="false" aria-hidden="true">❤</span> <span class="visually-hidden">Love</span> in Bristol, United Kingdom.</p>
+
+<hr>
+
+  <h2>Contact</h2>
+
+  <p>I'd love to hear from you. You can find me at: </p>
+  <ul class="list--spaced">
+      <li><a href="mailto:joelstrohmeier@gmail.com">joelstrohmeier@gmail.com</a></li>
+      <li>
+        <a href="https://www.linkedin.com/in/joel-strohmeier/"> LinkedIn</a>
+      </li>   
+      <li><a href="https://twitter.com/JoelStrohmeier">Twitter / X</a></li>
+
+  </ul>
+
+  </div>
+
+</footer>
+
+
+</body>
+</html>
+

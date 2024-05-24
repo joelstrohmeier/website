@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌖</text></svg>">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  
+  <title>Accessible service design — Joel Strohmeier </title> <!-- Grab title from the page data and dump it here -->
+  <meta name="description" content="Accessible service design - collected thoughts "/>
+</head>
+<body>
+
+<div class="wrapper"><a href="#main" class="skip-link">Skip to content</a></div>
+
+  <header class="wrapper">
+      <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/blog" aria-current="true">Blog</a></li>
+        </ul>
+        </nav>
+</header>
+  
+  <main class="wrapper blog" id="main">
+    
+    <h1>Accessible service design — some thoughts</h1>
+<p>Accessibility continues to be addressed as an afterthought for many organisations. So, i'd like to take a look at its role in service design and how it affects the design and build of 'good services'.</p>
+<h2>Defining service design</h2>
+<p>Quoting Lou Downe former Director of Design for the Government Digital Service:</p>
+<blockquote>
+"Service design is the design of services. To a user, a service is simple. It's something that helps them to do something - like to learn to drive, buy a house or become a childminder."
+</blockquote>
+<h2>Good services</h2>
+<p>Returning to Lou Downe, in their role as Head of Services and later Director of Design, they created a set of principles which described things that need to true in the creation of 'good services'.</p>
+<p>What we find is all of the 'good services' principles contribute to removing barriers to accessibility in some way.</p>
+<p>Organisations often invest money and effort into improving their public-facing touchpoints — such as their website, emails and mobile applications. But, they often only address the symptoms of user experience issues. A key factor that separates 'service design' from other disciples is that it considers the internal machinations of an organisation and how this impacts the public-facing user experience.</p>
+<p>To provide an example, if call centre staff are 'outsourced' in another country and cannot access the same customer complaints database as, say, an operations team how does this impact the organisation in its ability to provide a connected and positive end-to-end experience for effective responses to customer complaints?</p>
+<h2><abbr title="Web Content Accessibility Guidelines">WCAG</abbr> role in good services</h2>
+<p>Even if you feel unsure where to start with the design and build of an accessible service, the principles aren't new. The steps should be familiar to anyone who is aware of, for example, the Web Content Accessibility Guidelines (WCAG) — or various other related principles and general rules — for exmample, Jakob Nielsen's 10 usability heuristics.</p>
+<p>Let's look at the Good Services principles by Lou Downe and how they relate to items in the WCAG:</p>
+<h2>Be easy to find (1)</h2>
+<p>This principle would encompass the WCAG check of 'Multiple Ways' which asks that people are given multiple ways to locate and navigate content within a website.</p>
+<h2>Require the minimum possible steps to complete (8)</h2>
+<p>This principle would encompass the WCAG check of 'Redundant Entry' which asks us not to make people enter information which has already been supplied.</p>
+<h2>Be consistent throughout (9)</h2>
+<p>This principle encompasses various items in WCAG but, specifically, 'Consistent Navigation' which requires websites to position navigation in the same relative order each time it is repeated. It also encompasses 'Consistent Identification' which requires websites to make sure functionality which is repeated across pages is identified consistently. For example, if we include a log-in button in the header and footer, it should be labelled as 'Log in' across both.</p>
+<h2>Be usable by everyone, equally (11)</h2>
+<p>This is accessibility and inclusion.</p>
+<hr>
+<p>We can see that there is clear connection between more recent service design principles and observations with longstanding accessibility requirements. There is perhaps more cross-over than might be apparent to each discipline.</p>
+<h2>How might we re-use WCAG for services</h2>
+<p>While established service design principles may indirectly address accessibility requirements (as described in WCAG), the opposite is also true.</p>
+<p>Looking closer at WCAG, how might we abstract its requirements such that they can be used in a cross-channel service design context?</p>
+<p>Let's look at a single WCAG success criterion and see how this could help a service designer consider accessibility.</p>
+<h3>Consistent Help (3.2.6)</h3>
+<p>At an interface level, the 'Consistent Help (3.2.6)' success criterion says we must place help support in a consistent position across web pages. This helps ensure the route to finding support is predictable from a cognitive point-of-view and simplifies the task of finding help for people who use assistive technology.</p>
+<p>While the WCAG focusses on 'help' across web pages, the kernel of the guidance is about making help easy to find, in general. In the service design world, we might use this check to focus the mind on signposting and providing help clearly, consistently across, for example: letters, emails, web pages, mobile apps and then across all our products.</p>
+<p>Imagine a situation where a totally new customer, based in certain geographical location, can benefit from 24/7 online chat-based support but customers based elsewhere with older products are forced to phone in for support. This would be an example of inconsistent provision of help. But, rather than help being inconsistently positioned across web pages, it is inconsistent at a service level; across channels. As a service designer, we can identify this as a barrier inspired by the spirit of the WCAG 'Consistent Help (3.2.6)' success criterion!</p>
+<p>With this mindset, the WCAG can be considered by service designers as a guide which can be slightly tweaked in scope and specificity and deployed to remove barriers for a broader more holistic purpose.</p>
+<h2>Prompts for service designers</h2>
+<p>Here are some more general prompts for considering accessibility in your service:</p>
+<ul>
+<li>If someone can't interact with us through one channel (for example app) do we offer accessible alternatives</li>
+<li>How might our payment structure create barriers to inclusion - for example, do we penalise someone for smaller regular payments vs yearly. Is our call centre phone number free phone or £X per minute</li>
+<li>How flexible is our eligibility criteria? Do we require fixed address, do we require someone to complete 2 Factor authentication and how might this create technology barriers?</li>
+<li>Do the features of our service prevent people from engaging with our service if we consider: gender, religion, ethnicity, socio-economic background or disability? For example, do you force people to identify their gender in certain ways at any point?</li>
+</ul>
+<h2>Inaccessible service design: documents</h2>
+<p>Let's look at another simple but common example of inaccessibility in service design.</p>
+<p>Many companies I work with make great progress fixing issues in their web pages. Even if we work hard to identify problematic content types during the standard scoping process, we may later find that important features of their service are trapped in inaccessible PDFs or that they have integrated inaccessible chat components or, often worse, accessibility overlays. The accessibility is dictated by the weakest link in the chain.</p>
+<p>A PDF may be a single document but, if the information within is important enough (and no alternative is offered), it may affect completion of goals across steps and channels. It may present a significant barrier and potentially straddle the gap between not just preventing completion of goals within that interface but rather inclusion to the service in general.</p>
+<p>Monzo seems to have understood the importance of moving away from relying on PDFs for key information and has provided a well structured simple web-based version of their terms and conditions. While it could be further improved, it's a nice example of making their core information more accessible: <a href="https://monzo.com/legal/terms-and-conditions/">Monzo terms and conditions</a></p>
+<h2>Symptoms-based accessibility vs service design mindset</h2>
+<p>Service design is characterised by a broader outlook than that often gifted to, or expected of accessibility practitioners — who seem to be more commonly asked to focus on accessibility issues once they have manifested in public-facing interfaces. But, if we start to also consider accessibility through a service design lens we may be able to better identify root causes for inaccessibility at a systemic/organisation level. Let's break this down:</p>
+<ul>
+<li>
+<p>While accessibility audits tend to focus on a single channel - for example: app, website, intranet... service level thinking would consider multi-channel including offline (letters, telephone, in-person)</p>
+</li>
+<li>
+<p>Accessibility projects often occur after digital strategy goals and outcomes have already been defined</p>
+</li>
+<li>
+<p>A more 'traditional' accessibility outlook is more task oriented - for example, &quot;can someone submit X form&quot; service design would consider holistic cross-channel outcomes</p>
+</li>
+<li>
+<p>Accessibility outputs tend to appear more in process or procedural documents than policy and strategy</p>
+</li>
+</ul>
+<p class="highlight">
+<span class="visually-hidden">Important:</span>If the above is true then inclusive service design would: take a cross channel view, look to feed into business outcomes and, ideally, influence at a policy and strategy level. 
+<span class="tag" aria-hidden="true">Highlight</span>
+</p>
+<h2>Service design and deceptive patterns</h2>
+<p>The process of cancelling a subscription is infamous from a customer experience perspective. It is often easy to start a service (online) but in an attempt to cancel, one is required to use expensive call centre phone numbers and wait for unacceptable amounts of time to speak to someone. For most people this is beyond stressful. This process not only penalises people from a monetary point-of-view (call centre phone call costs) but also requires people to pay a tax from an attention and patience point-of-view. The barrier this creates is multiplied for people who experience cognitive disability or impairment of any kind.</p>
+<p>A common theme of bad services is the <a href="https://www.deceptive.design/">'deceptive pattern'</a>. This is a a certain type of content or feature designed to fool users into a certain course of action. While something can be technically 'accessible', it can still be highly detrimental. One example of this is when certain airlines have been known to add travel insurance to the user basket in such a subtle way that it is only possible to detect once it is too late.</p>
+<h2>Closing steps for inclusive services</h2>
+<p>Here are some final prompts to help you avoid inclusion barriers and build better services:</p>
+<ul>
+<li>
+<p>Consider if you have problematic internal systems and processes — how might these also negatively impact the customer experience</p>
+</li>
+<li>
+<p>Involve accessibility subject matter experts in discovery and problem definition</p>
+</li>
+<li>
+<p>Involve people with disabilities and diverse perspectives throughout the design and build process</p>
+</li>
+<li>
+<p>Offer multiple channels to communicate and offer multiple ways for people to interact</p>
+</li>
+<li>
+<p>Be critical of your service - are you asking more from your users than you'd be personally willing to accept?</p>
+</li>
+</ul>
+<p>This is a blog of collected thoughts. I realise it is far from a well-rounded piece but I hope it sparks some ideas!</p>
+<h2>Further reading</h2>
+<ul>
+<li><a href="https://good.services/">Good Services</a>
+</ul>
+  
+  </main>
+
+  <footer>
+  <div class="wrapper">
+  <p>Made with <span focusable="false" aria-hidden="true">❤</span> <span class="visually-hidden">Love</span> in Bristol, United Kingdom.</p>
+
+<hr>
+
+  <h2>Contact</h2>
+
+  <p>I'd love to hear from you. You can find me at: </p>
+  <ul class="list--spaced">
+      <li><a href="mailto:joelstrohmeier@gmail.com">joelstrohmeier@gmail.com</a></li>
+      <li>
+        <a href="https://www.linkedin.com/in/joel-strohmeier/"> LinkedIn</a>
+      </li>   
+      <li><a href="https://twitter.com/JoelStrohmeier">Twitter / X</a></li>
+
+  </ul>
+
+  </div>
+
+</footer>
+
+
+</body>
+</html>
+
