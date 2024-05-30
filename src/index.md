@@ -11,7 +11,7 @@ Hello. I'm an accessibility specialist with a background in: digital, design and
 
 I tend to switch between thinking about big holistic ideas and getting into the details and fixing things. 
 
-I don’t work based on a limited view of accessibility and always seek ways to learn from other disciplines. I'm particularly interested in the overlap between accessibility and: service design, content design and, increasingly, brand strategy. 
+I don’t work based on a limited view of accessibility and always seek ways to learn from other disciplines. I'm particularly interested in the overlap between accessibility and: service design, content design and, increasingly, brand strategy.  
 
 ## Work
 

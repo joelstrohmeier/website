@@ -2,7 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌖</text></svg>">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/images/site.webmanifest">
+  <link rel="shortcut icon" href="/images/favicon.ico">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/style.css">
@@ -31,7 +35,7 @@
 <p>Here are some of the top accessibility issues i've collected in recent years and how you can avoid them. This is not an exhaustive list but I hope it is useful.</p>
 <h2>Broken labels</h2>
 <p>Labels tell someone what information to provide for a form input. Generally, visible labels are included in web designs. This means people who can see the screen benefit. But, there is a continuing trend in which labels are not associated with their relevant input in the HTML code. Without this code association people using screen readers, for example, may be unsure what information to provide.</p>
-<p>The fix for this is simple. We use the <code>for</code> attribute on the label. The value for the <code>for</code> attribute should be an the value of an <code>id</code> which we add to the relevant input. This creates what is sometimes referred to as a 'programmatic association'. For example:</p>
+<p>The fix for this is simple. We use the <code>for</code> attribute on the label. The value for the <code>for</code> attribute should be the value of an <code>id</code> which we add to the relevant input. This creates what is sometimes referred to as a 'programmatic association'. For example:</p>
 <pre>
 <code>
 &lt;label for="first-name"&gt;First name&lt;/label&gt; </br>
@@ -61,18 +65,18 @@
 <li>Daily</li>
 </ul>
 <h2>2. Multiple questions about the same topic</h2>
-<p>We might include a section in a form which asks for various bits of information on the same topic. For example, we might ask 'Your address details':</p>
+<p>We might include a section in a form which asks for various bits of information on the same topic. For example, we might ask 'Address details':</p>
 <ul>
-<li>Your street</li>
-<li>Your town or city</li>
+<li>Street</li>
+<li>Town or city</li>
 <li>Country</li>
 <li>Postcode</li>
 </ul>
-<p>In example 1, if the inputs aren't grouped in a <code>fieldset</code> with a <code>legend</code>, someone using a screen reader will move to the first input and hear something like:</p>
+<p>In example 1 (How often do you exercise?), if the inputs aren't grouped in a <code>fieldset</code> with a <code>legend</code>, someone using a screen reader will move to the first input and hear something like:</p>
 <p>&quot;Never, radio button, 1 of 4&quot;.</p>
 <p>But with no understanding of which question 'never' refers to as an answer.</p>
-<p>In example 2, we may realise we're being asked about address details from context. But we can't be sure which type of address details.</p>
-<p>For example, we might have bought a gift but want it to be delivered to friend or family member's address rather than our own. We need to be sure we supply the right information in the right section of the page. Or, it may be we're asked for our billing address and delivery address in the same form. In both cases, we need the question (content within our <code>&lt;legend&gt;</code> element) to be announced.</p>
+<p>In example 2, if we hear 'Street', we know what type of information is expected but not how the information relates to the form overall.</p>
+<p>For example, we might have bought a gift but want it to be delivered to a friend or family member's address not ours. We need to be sure we supply the right information in the right section. Or, it may be we're asked for our billing address and delivery address in the same form. In any situation where multiple addresses could be valid, we need the key question (content within our <code>&lt;legend&gt;</code> element) to be announced.</p>
 <h2>Length and complexity of forms</h2>
 <p>It is important to consider the experience of people with cognitive impairments or disabilities. The length and complexity of forms will significantly affect how easy they are for people to complete. Some website visitors are more inclined to become tired, distracted or anxious filling in forms. This is likely to be true, in particular, for autistic users or people with ADHD, to provide a couple of examples.</p>
 <p>Only ask necessary questions in forms — don't be tempted to gather as much data as you can, because you think you can!</p>
