@@ -212,6 +212,10 @@ nav > ul
         font-weight: bold;
     }
 
+    ul.blogs-list {
+        padding: 0 1.4em;
+    }
+
     ul.blogs-list > li h2 {
         margin-bottom: 0.25em;
     }
@@ -222,7 +226,7 @@ nav > ul
     }
 
 .headshot {
-    max-width: 17%;
+    max-width: 24%;
     border-radius: 50%;
 }
 
