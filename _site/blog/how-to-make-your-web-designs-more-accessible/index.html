@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/images/site.webmanifest">
+  <link rel="shortcut icon" href="/images/favicon.ico">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  
+  <title>Making your web designs more accessible — Joel Strohmeier </title> <!-- Grab title from the page data and dump it here -->
+  <meta name="description" content="Introducing some key accessibility practices into your web design workflow "/>
+</head>
+<body>
+
+<div class="wrapper"><a href="#main" class="skip-link">Skip to content</a></div>
+
+  <header class="wrapper">
+      <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/blog" aria-current="true">Blog</a></li>
+        </ul>
+        </nav>
+</header>
+  
+  <main class="wrapper blog" id="main">
+    
+    <h1>Making your web designs more accessible</h1>
+<p>Below are a key tips to help you to avoid introducing accessibility barriers as you produce visual design outputs (for example using tools like Figma). This is far from a complete list. It is, instead, informed by my past few years working with designers.</p>
+<p>It also assumes that you are aware of some of the more fundamental accessible design principles such as: the importance of colour/contrast and designing with responsive web design in mind.</p>
+<p>I hope it is useful.</p>
+<h2>Provide labels for all form inputs</h2>
+<p>Provide a written text label next to each form input included in your designs.</p>
+<p>Don't rely on placeholder text alone.</p>
+<p>To expand on the term: 'placeholder' this is text (generally light grey text) which sits inside a form input. It is there as a prompt for what type /format of data is considered suitable to enter.</p>
+<p>Crucially, placeholders do not sit above or separate to the form input. As such, they are often (over) used in design as a space-saving excercise.</p>
+<p>But, placeholders introduce barriers because they:</p>
+<ul>
+<li>generally have poor contrast and so are hard to read</li>
+<li>lead people to think text has already been entered into the input</li>
+<li>stop working as an effective prompt as soon as people start to write things in the input (because they disappear)</li>
+</ul>
+<h2>Include button controls for any complex gestures — such as 'swipe to reveal more'</h2>
+<p>Designs often include blocks of content which seem to continue or disappear beyond edge of the artboard frame or device edge. This has become understood as a way to communicate that the interface includes overflow content. Developers and interaction designers understand that this means the user would 'swipe' to left /right to reveal more content.</p>
+<p>The issue is that many people cannot complete swiping gestures.</p>
+<p>People with limited dexterity or limited upper body movement may interact with a keyboard or 'switch' device alone. People with limited or no upper body movement may interact with (for example):</p>
+<ul>
+<li>eye tracking software</li>
+<li>head wands</li>
+<li>voice recogntion software</li>
+</ul>
+<p>In any of these cases, they may be blocked by the requirement to 'swipe'.</p>
+<p>To avoid barriers for these people, we must ensure we include alternative ways to reveal more content in our design. One simple way to achieve this is to make sure we include visible button controls in our designs. For example 'next' and 'previous' buttons adjacent to our component.</p>
+<p>By providing distinct visible button controls in the design, this essentially guarantees a developer will code them. In so doing, we provide a target for non-mouse and trackpad interactions and allow a variety of different inputs (some of which were listed previously) to succesfully trigger the revelation of more content with (next to) no issue.</p>
+<p>From a usability perspective, it's worth considering that there's sufficient evidence to suggest that carousels, and similar collections which ask us to reveal more of their content, are quite likely to be ineffective. <a href="https://shouldiuseacarousel.com/">More information on the user experience pitfalls of carousels (contains automated animation)</a>.</p>
+<h2>Provide descriptive names for all links and buttons in your design</h2>
+<p>Where you include buttons or links in your design, avoid vague text such as 'read more', 'learn more' or 'find out more'.</p>
+<p>People who cannot see the screen may be using screen reading technology — which takes your website content and turns it into audible announcements. If the links and buttons are announced as 'read more', they have no clue as to the value or destination for those elements. &quot;Read more about what?!&quot;</p>
+<p>If you find yourself including this vague text in your design, it may be a sign you are missing a key skill / discipline. By this I mean a content expert (for example, content editor, strategist or content designer).</p>
+<h2>Introduce complex components with care</h2>
+<p>Clarity or simplicity of design is fundamental to producing accessible design.</p>
+<p>The more complex components or implied complex interactions that are included in your designs, the more work there is for a developer, and, crucially, the more potential there is for accessibility and usability issues to be introduced.</p>
+<p>This is not to say you shouldn't include complex components but rather to introduce them intentionally and with a disciplined outlook. One thing to be particularly aware of is combining complex components. For example, the following are just a few of the requirements for ensuring the accessibility of a tab component:</p>
+<ul>
+<li>each tab control must have a visible focus indicator</li>
+<li>the text inside each tab control must have a minimum 4.5:1 contrast ratio (in all of its states)</li>
+<li>it must be possible to reach and interact with each tab control using a keyboard alone</li>
+<li>each tab control must announce when it is selected to a screen reader</li>
+</ul>
+<p>If we now imagine that inside each of the tabs (once activated) a carousel is also revealed, the complexity of what needs to be coded and tested has increased significantly. It might only take 10% more time as a designer to suggest these interactions but it is not a careful or disciplined approach when we consider how our designs will be picked up and moved onwards as part of a holistic project.</p>
+<p>Nesting or combining components also brings another key drawback. It reduces the clarity of the interface. The ultimate aim is for any person visiting our website to presses 'Enter' or clicks something that they are confident of the result. The more experimental we are with components; the more we combine, re-work or merge them, the more we undermine the mental models and conventions people have learned about what a thing is and how we expect it to behave.</p>
+<p>I won't go into the topic here (for brevity) but another similar topic I recommend investigating is the idea of <a href="https://alistapart.com/article/material-honesty-on-the-web/">material honesty on the web</a>.</p>
+<h2>Don't rely on colour to communicate issues or errors</h2>
+<p>If there is an issue — for example on a form, don't simply change the border of the form input to red. The reason for this is, for people with colour vision deficiency (aka colour blindness) or people using screen reading technology this is ineffective.</p>
+<p>Make sure your design includes a textual description of the issue.</p>
+<h2>Start using a good accessibility plug-in</h2>
+<p>Use a tool to help automate some of the simpler checks as you design. I recommend the <a href="https://www.figma.com/community/plugin/1208180794570801545/includeaccessibility-annotations">Include plug-in for Figma by the team at Ebay</a></p>
+<h2>Further reading:</h2>
+<ul>
+<li><a href="https://gerireid.com/wcag-for-designers.html">WCAG for designers: accessibility checklist - Geri Reid</a></li>
+<li><a href="https://accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility/">Dos and Dont's for designing for accessibility - GOV.UK</li>
+</ul>
+
+  
+  </main>
+
+  <footer>
+  <div class="wrapper">
+  <p>Made with <span focusable="false" aria-hidden="true">❤</span> <span class="visually-hidden">Love</span> in Bristol, United Kingdom.</p>
+
+<hr>
+
+  <h2>Contact</h2>
+
+  <p>I'd love to hear from you. You can find me at: </p>
+  <ul class="list--spaced">
+      <li><a href="mailto:joelstrohmeier@gmail.com">joelstrohmeier@gmail.com</a></li>
+      <li>
+        <a href="https://www.linkedin.com/in/joel-strohmeier/"> LinkedIn</a>
+      </li>   
+      <li><a href="https://twitter.com/JoelStrohmeier">Twitter / X</a></li>
+
+  </ul>
+
+  </div>
+
+</footer>
+
+
+</body>
+</html>
+
