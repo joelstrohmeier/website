@@ -91,4 +91,4 @@ Use a tool to help automate some of the simpler checks as you design. I recommen
 ## Further reading:
 
 - <a href="https://gerireid.com/wcag-for-designers.html">WCAG for designers: accessibility checklist - Geri Reid</a>
-- <a href="https://accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility/">Dos and Dont's for designing for accessibility - GOV.UK
+- <a href="https://accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility/">Dos and Dont's for designing for accessibility - GOV.UK</a>
