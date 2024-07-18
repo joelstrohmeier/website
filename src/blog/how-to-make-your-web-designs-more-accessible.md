@@ -11,7 +11,7 @@ description: Introducing some key accessibility practices into your web design w
 
 Below are some key tips to help you to avoid introducing accessibility issues into your visual designs (for example using tools like Figma). This is far from a complete list. The blog highlights some common issues i've witnessed re-occuring in designs i've reviewed in the past few years. 
 
-The blog also assumes that you are aware of some of the more fundamental accessible design principles such as: the importance of colour/contrast and designing with responsive web design in mind. 
+The blog assumes that you are aware of some of the more fundamental accessible design principles such as: the importance of colour/contrast and designing with responsive web design in mind. 
 
 I hope it is useful. 
 
