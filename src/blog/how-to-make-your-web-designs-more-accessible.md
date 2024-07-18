@@ -76,7 +76,7 @@ If we now imagine that inside each of the tabs (once activated) a carousel is al
 
 Nesting or combining components also brings another key drawback. It reduces the clarity of the interface. The ultimate aim is for any person visiting our website to press 'Enter' or click something and be confident of the result. The more experimental we are with components; the more we combine, re-work or merge them, the more we undermine the mental models and conventions people have learned. We should lean in towards what people have learned about web things how we expect them to behave. 
 
-I won't go into the topic here (for brevity) but another similar topic I recommend investigating is the idea of <a href="https://alistapart.com/article/material-honesty-on-the-web/">material honesty on the web</a>. 
+I won't go into the topic here (for brevity) but two related topics I recommend investigating are the ideas of <a href="https://alistapart.com/article/material-honesty-on-the-web/">material honesty on the web</a> and <a href="https://tink.uk/perceived-affordances-and-the-functionality-mismatch/">perceived affordances and their mismatches in web design. 
 
 ## Don't rely on colour to communicate issues or errors 
 
