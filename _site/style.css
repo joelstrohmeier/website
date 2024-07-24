@@ -127,6 +127,7 @@ nav a:hover,  a.skip-link:hover {
             box-shadow: none; 
 }
 
+
 a[aria-current="true"] {
     border-bottom: solid 0.3em #3D4043;
 }
@@ -147,14 +148,19 @@ blockquote {
 
 /* Credit to Erik Kroes for the Oreo cookie focus style approach */
 
-a:focus {
+a:focus-visible {
     outline: 9px double black;
     -webkit-box-shadow: 0 0 0 6px white;
             box-shadow: 0 0 0 6px white;
     text-decoration: none;     
 }
 
-button:focus {
+:focus-visible {
+    border:0;
+    outline:0;
+}
+
+button:focus-visible {
     outline: 3px solid black;
     -webkit-box-shadow: 0 0 0 6px white;
             box-shadow: 0 0 0 6px white;
