@@ -21,7 +21,7 @@ Quoting Lou Downe former Director of Design for the Government Digital Service:
 
 ## Good services
 
-Returning to Lou Downe, in their role as Head of Services and later Director of Design, they created a set of principles which described things that need to true in the creation of 'good services'. 
+Returning to Lou Downe, in their role as Head of Services and later Director of Design, they created a set of principles which described things that need to be true in the creation of 'good services'. 
 
 What we find is all of the 'good services' principles contribute to removing barriers to accessibility in some way. 
 
