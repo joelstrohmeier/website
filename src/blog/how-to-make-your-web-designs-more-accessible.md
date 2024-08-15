@@ -1,86 +1,88 @@
 ---
 
 layout: blog_detail.njk
-title: Making your web designs more accessible
+title: A more accessible web design workflow - some key tips
 date: 2024-07-17
-description: Introducing some key accessibility practices into your web design workflow
+description: A few key ways to introduce accessibility best practices to your visual design workflow
 
 ---
 
-# Making your web designs more accessible
+# A more accessible web design workflow &mdash; some key tips
 
-Below are some key tips to help you to avoid introducing accessibility issues into your visual designs (for example using tools like Figma). This is far from a complete list. The blog highlights some common issues i've witnessed re-occuring in designs i've reviewed in the past few years. 
+Here are some tips to help you to create more accessible visual designs. This is not a complete list. The blog focusses on a few key issues i've seen repeated in designs over the past few years. 
 
-The blog assumes that you are aware of some of the more fundamental accessible design principles such as: the importance of colour/contrast and designing with responsive web design in mind. 
+I have assumed that you are aware of some of the more fundamental accessibility principles for designers &mdash; such as the importance of colour contrast and designing with responsive web design in mind. 
 
 I hope it is useful. 
 
 ## Provide labels for all form inputs
 
-Provide a written text label next to each form input included in your designs. 
+Provide a text label for each form input included in your designs. 
 
 Don't rely on placeholder text alone. 
 
-To expand on the term: 'placeholder' this is text (generally light grey text) which sits inside a form input. It is there as a prompt for what type /format of data is considered suitable to enter. 
+By 'placeholder' I mean text (generally light grey text) which sits inside a form input. They are intended to help you understand what type or format of information is suitable for each form input. 
 
-Crucially, placeholders do not sit above or separate to the form input. As such, they are often (over) used in design as a space-saving excercise.
+Because placeholders sit inside the input itself &mdash; rather than above or adjacent to the input (which is the case with real labels) &mdash; they are often (over) used in design as a way to save space. 
 
-But, placeholders introduce barriers because they:
+Placeholders introduce barriers because they:
 
 - generally have poor contrast and so are hard to read
-- lead people to think text has already been entered into the input
-- stop working as an effective prompt as soon as people start to write things in the input (because the prompt disappears)
+- lead people to think the input has already been filled in
+- stop working as an effective prompt because the placeholder disappears as soon as you start writing
 
 ## Include button controls for any complex gestures &mdash; such as 'swipe to reveal more'
 
-Designs often include blocks of content which seem to continue or disappear beyond edge of the artboard frame or device edge. This has become understood as a way to communicate that the interface includes overflow content. Developers and interaction designers understand that this means the user would 'swipe' to left /right to reveal more content. 
+Designs often include components in which content appears to spill out of the edge of the screen. This visual approach or device has become understoof to mean that the user would 'swipe' left or right to reveal more content. A common example of this behaviour is the 'carousel' component.  
 
-The issue is that many people cannot complete swiping gestures. 
+Not everyone, however, can complete these swiping gestures. 
 
-People with limited dexterity or limited upper body movement may interact with a keyboard or 'switch' device alone. People with no upper body movement may interact with (for example): 
+People with limited dexterity or limited upper body movement may interact with a keyboard or 'switch' device alone. People with no upper body movement may interact with, for example: 
 
 - eye tracking software 
 - head wands
 - voice recogntion software 
 
-In any of these cases, they may be blocked by the requirement to 'swipe'. 
+In any of these cases, they can't 'swipe'. 
 
-To avoid barriers for these people, we must ensure we include alternative ways to reveal more content in our design. One simple way to achieve this is to make sure we include visible button controls in our designs. For example 'next' and 'previous' buttons adjacent to our component. 
+To avoid designing these barriers, we should include alternative controls to allow the revelation of more content. The simplest way is to include visible button controls in our designs. For example 'next' and 'previous' buttons next to our carousel component. 
 
-By providing distinct visible button controls in the design this essentially guarantees a developer will code them. In so doing, we provide a target for non-mouse and trackpad interactions and allow a variety of different inputs (some of which were listed previously) to succesfully trigger the revelation of more content with (next to) no issue. 
+Including these visible controls provides a target for non-mouse/trackpad interactions. For example, as a voioce recognition user, I can now say "Click next" and our carousel should slide new content into view. 
 
-From a usability perspective, it's worth considering that there's sufficient evidence to suggest that carousels, and similar collections which ask us to reveal more of their content, are quite likely to be ineffective. <a href="https://shouldiuseacarousel.com/">More information on the user experience pitfalls of carousels (contains automated animation)</a>. 
+Including these controls in our designs from the start helps clarify requirements for developers and helps to avoid these issues being identified in accessibility reviews and testing later in the process. 
+
+As an aside, from a usability perspective, it's worth considering that there's a lot of evidence to suggest that carousels and similar components are often ineffective. <a href="https://shouldiuseacarousel.com/">More information on the user experience pitfalls of carousels (contains automated animation)</a>. 
 
 ## Provide descriptive names for all links and buttons in your design
 
 Where you include buttons or links in your design, avoid vague text such as 'read more', 'learn more' or 'find out more'. 
 
-People who cannot see the screen may be using screen reading technology &mdash; which takes your website content and turns it into audible announcements. If the links and buttons are announced as 'read more', some people may have no clue as to the value or destination for those interactive elements. "Read more about what?!" 
+People who cannot see the screen may be using screen reading technology. This technology takes your website content and turns it into audible announcements. It's common for people using screen reading technology to skip to buttons and links without hearing the surrounding content. So, if our link is vague those visitors won't know the value or destination of the element. "Read more about what?!" 
 
-If you find yourself including this vague text in your design, it may be a sign you are missing a key skill / discipline. By this I mean a content expert (for example, content editor, strategist or content designer). 
+If there are vague link and button names in your designs, it signal room for improvement in your process and/ or team. You probably need a content expert &mdash; for example, content editor / designer. 
 
 ## Introduce complex components with care
 
-Clarity or simplicity of design is fundamental to producing accessible experiences. 
+Simple designs tend to lead to more accessible experiences. 
 
-The more complex components or implied complex interactions that are included in your designs, the more work there is for a developer, and, crucially, the more potential there is for accessibility and usability issues to be introduced. 
+Thye more complex your designs are the more work there is for a developer. This means greater potential for accessibility and usability issues to be introduced. 
 
-This is not to say you shouldn't include complex components but rather to introduce them intentionally and with a disciplined outlook. One thing to be particularly aware of is combining complex components. For example, the following are just a few of the requirements for ensuring the accessibility of a tab component:
+Wherever possible, lean towards standard HTML interface elements in designs. Avoid introducing complex components unless necessary. For example, including a <a href="https://www.w3.org/WAI/tutorials/carousels/">carousel</a> requires far more JavaScript than if static images are used. If the carousel is then nested within a <a href="https://design-system.service.gov.uk/components/tabs/">tab component</a>, this increases the complexity significantly again. The total number of acceptance criteria we would need to meet in our testing phase could easily reach 40-50 +. Which represents many hours of work! 
 
-- each tab control must have a visible focus indicator
-- the text inside each tab control must have a minimum 4.5:1 contrast ratio (in all of its states)
-- it must be possible to reach and interact with each tab control using a keyboard alone
-- each tab control must announce when it is selected to a screen reader
+Key to being an effective designer is having an awareness of the impact of your design as part of a holistic process. 
 
-If we now imagine that inside each of the tabs (once activated) a carousel is also revealed, the complexity of what needs to be coded and tested has increased significantly. It might only take 10% more time as a designer to suggest these interactions but it is not a careful or disciplined approach when we consider how our designs will be picked up and moved onwards as part of a holistic project. 
 
-Nesting or combining components also brings another key drawback. It reduces the clarity of the interface. The ultimate aim is for any person visiting our website to press 'Enter' or click something and be confident of the result. The more experimental we are with components; the more we combine, re-work or merge them, the more we undermine the mental models and conventions people have learned. We should lean in towards what people have learned about web things how we expect them to behave. 
+Combining or nesting components brings another drawback. It reduces clarity. 
 
-I won't go into the topics here (for brevity) but two related topics I recommend investigating are the ideas of <a href="https://alistapart.com/article/material-honesty-on-the-web/">material honesty on the web</a> and <a href="https://tink.uk/perceived-affordances-and-the-functionality-mismatch/">perceived affordances and their mismatches in web design</a>. 
+We want people who visit our interface to feel confident about how to use it and what the results will be. The more we experiment, combine things or try to be clever or cute, the more we undermine how clearly the interface speaks for itself &mdash; we lessen the effectiveness of the affordances. We introduce doubt for the user.
+
+Two related topics I recommend investigating are the ideas of <a href="https://alistapart.com/article/material-honesty-on-the-web/">material honesty on the web</a> and <a href="https://tink.uk/perceived-affordances-and-the-functionality-mismatch/">perceived affordances and their mismatches in web design</a>. 
 
 ## Don't rely on colour to communicate issues or errors 
 
-If there is an issue &mdash; for example on a form &mdash; don't simply change the border of the form input from grey to red to communicate an issue. The reason for this is, for people with colour vision deficiency (aka colour blindness) or people using screen reading technology, this is ineffective. They cannot perceive this change.  
+If there is an error in a form don't simply change the colour of the form border to communicate an issue (for example from grey to red). 
+
+The reason is, for people with colour vision deficiency (aka colour blindness) or people using screen reading technology, this is ineffective. They cannot perceive this change.  
 
 Make sure your design includes a textual description of the issue (as well as any changes in colour). 
 

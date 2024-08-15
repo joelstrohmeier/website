@@ -9,7 +9,7 @@ description: Top myths and misconceptions about accessibility
 
 # Top misconceptions and myths about accessibility
 
-Here are some (recent) common myths and misconceptions in the world of accessibility. These are then followed by prompts for you to both research and use in response to challenges you might face &mdash; to keep you on the right track in your journey to improving accessibility in your organisation. 
+Top myths and misconceptions in the world of accessibility. Followed by prompts for you to either research or start to use in response to challenges you might face while discussing accessibility in your organisation. 
 
 ## We don't have any / many disabled people who use our product or service
 

@@ -184,7 +184,7 @@ nav > ul
         flex-direction: row;
         padding-left: 0;
         flex-wrap: wrap;
-        margin: 0.2em;
+        margin: 0;
         align-items: baseline;
     }
 
@@ -203,7 +203,7 @@ nav > ul
 
     nav > ul > li > a {
       
-        padding: 0.2em 0;
+        padding: 0;
         text-align: left;
         min-width: 5em;
         text-decoration: none;
@@ -239,7 +239,7 @@ nav > ul
 .skip-link {
     display: inline-block;
     margin: 0.3em 0;
-    padding: 0.2em;
+    padding: 0;
 }
 
   .visually-hidden:not(:focus):not(:active) {
