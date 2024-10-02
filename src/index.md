@@ -7,7 +7,7 @@ layout: "home.njk"
 
 <img class="headshot" src="/images/picture-of-me.jpeg" alt="Headshot: i'm wearing a blue turtleneck and have a little stubble growing. In the background there is the suggestion of a cafe or bar setting.">
 
-Hello. I'm an accessibility specialist with a background in: digital, design and experience which spans over 11 years. 
+Hello. I'm an accessibility specialist with a background in: digital, design and experience which spans over 14 years. 
 
 I tend to switch between thinking about big holistic ideas and getting into the details and fixing things. 
 

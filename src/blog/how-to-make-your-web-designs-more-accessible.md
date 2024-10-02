@@ -33,7 +33,7 @@ Placeholders introduce barriers because they:
 
 ## Include button controls for any complex gestures &mdash; such as 'swipe to reveal more'
 
-Designs often include components in which content appears to spill out of the edge of the screen. This visual approach or device has become understoof to mean that the user would 'swipe' left or right to reveal more content. A common example of this behaviour is the 'carousel' component.  
+Designs often include components in which content appears to spill out of the edge of the screen. This visual approach or device has become understood to mean that the user would 'swipe' left or right to reveal more content. A common example of this behaviour is the 'carousel' component.  
 
 Not everyone, however, can complete these swiping gestures. 
 
@@ -47,7 +47,7 @@ In any of these cases, they can't 'swipe'.
 
 To avoid designing these barriers, we should include alternative controls to allow the revelation of more content. The simplest way is to include visible button controls in our designs. For example 'next' and 'previous' buttons next to our carousel component. 
 
-Including these visible controls provides a target for non-mouse/trackpad interactions. For example, as a voioce recognition user, I can now say "Click next" and our carousel should slide new content into view. 
+Including these visible controls provides a target for non-mouse/trackpad interactions. For example, as a voice recognition user, I can now say "Click next" and our carousel should slide new content into view. 
 
 Including these controls in our designs from the start helps clarify requirements for developers and helps to avoid these issues being identified in accessibility reviews and testing later in the process. 
 
@@ -59,13 +59,13 @@ Where you include buttons or links in your design, avoid vague text such as 'rea
 
 People who cannot see the screen may be using screen reading technology. This technology takes your website content and turns it into audible announcements. It's common for people using screen reading technology to skip to buttons and links without hearing the surrounding content. So, if our link is vague those visitors won't know the value or destination of the element. "Read more about what?!" 
 
-If there are vague link and button names in your designs, it signal room for improvement in your process and/ or team. You probably need a content expert &mdash; for example, content editor / designer. 
+If there are vague link and button names in your designs, it signals room for improvement in your process and/ or team. You probably need a content expert &mdash; for example, content editor / designer. 
 
 ## Introduce complex components with care
 
 Simple designs tend to lead to more accessible experiences. 
 
-Thye more complex your designs are the more work there is for a developer. This means greater potential for accessibility and usability issues to be introduced. 
+The more complex your designs are, the more work there is for a developer. This means greater potential for accessibility and usability issues to be introduced. 
 
 Wherever possible, lean towards standard HTML interface elements in designs. Avoid introducing complex components unless necessary. For example, including a <a href="https://www.w3.org/WAI/tutorials/carousels/">carousel</a> requires far more JavaScript than if static images are used. If the carousel is then nested within a <a href="https://design-system.service.gov.uk/components/tabs/">tab component</a>, this increases the complexity significantly again. The total number of acceptance criteria we would need to meet in our testing phase could easily reach 40-50 +. Which represents many hours of work! 
 
