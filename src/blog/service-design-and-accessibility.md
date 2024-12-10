@@ -11,7 +11,7 @@ tags: post
 
 Accessibility continues to be addressed as an afterthought for many organisations. So, i'd like to take a look at its role in service design and how it affects the design and build of 'good services'.
 
-This blog assumes (apologies!) you understand what the Web Content Accessibility Guidelines are. If that's not the case, please take a look at: 
+This blog assumes (apologies!) you understand what the Web Content Accessibility Guidelines are. If that's not the case, please take a look at: <a href="https://w3c.github.io/wcag/guidelines/22/">WCAG 2.2 AA official documentation</a>. 
 
 ## Defining service design
 
