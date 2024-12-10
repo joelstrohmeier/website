@@ -6,27 +6,37 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
   <link rel="manifest" href="/images/site.webmanifest">
+  
   <link rel="shortcut icon" href="/images/favicon.ico">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="google-site-verification" content="P__qBzExkTbryRTmB1px0JAj0T5PklHh9EKZMpi2bPI" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/style.css">
   
-  <title>Joel Strohmeier — Accessibility consultant </title> <!-- Grab title from the page data and dump it here -->
+    
+    
+      <title>Joel Strohmeier</title>
+    
+  
+  
+  
   <meta name="description" content="Songs for Carl Strohmeier - January 2024. "/>
 </head>
 <body>
 
 <div class="wrapper"><a href="#main" class="skip-link">Skip to content</a></div>
-
-  <header class="wrapper">
-      <nav>
-        <ul>
-            <li><a href="/" aria-current="true">Home</a></li>
-            
-        </ul>
-        </nav>
-  </header>
   
+  <header class="wrapper">
+    <nav class="navigation">
+      <ul>
+          <li><a href="/" class="menu-link">Home</a></li>
+          <li><a href="/about" class="menu-link">About</a></li>
+          <li><a href="/blog" class="menu-link">Blog</a></li>
+          
+      </ul>
+      </nav>
+</header>
+
   <main class="wrapper" id="main" tabindex="-1">
   
   <h1>Songs for Carl &mdash; January 2024</h1>
@@ -65,6 +75,48 @@
 
 
   </main>
-  
+
+  <footer>
+  <div class="wrapper">
+
+  <h2>Contact</h2>
+
+  <p>I'd love to hear from you. You can find me at: </p>
+  <ul class="list--spaced">
+      <li><a href="mailto:joelstrohmeier@gmail.com">joelstrohmeier@gmail.com</a></li>
+      <li>
+        <a href="https://www.linkedin.com/in/joel-strohmeier/"> LinkedIn</a>
+      </li>   
+      <li><a href="https://twitter.com/JoelStrohmeier">Twitter / X</a></li>
+
+  </ul>
+
+  <hr>
+
+<p>Made with <span focusable="false" aria-hidden="true">❤</span> <span class="visually-hidden">Love</span> in Bristol, United Kingdom.</p>
+
+
+
+  </div>
+
+</footer>
+
+<script>
+ document.addEventListener("DOMContentLoaded", () => {
+  const links = document.querySelectorAll(".menu-link");
+  const currentPath = window.location.pathname.replace(/\/$/, "") || "/"; // Normalize the path, default to "/"
+
+  links.forEach(link => {
+    const linkPath = link.getAttribute("href").replace(/\/$/, "") || "/"; // Normalize href, default to "/"
+
+    // Match exact pages or subpaths under "/blog/"
+    if (currentPath === linkPath || (linkPath === "/blog" && currentPath.startsWith("/blog/"))) {
+      link.setAttribute("aria-current", "true");
+      link.classList.add("active");
+    }
+  });
+});
+
+</script>
 </body>
 </html>

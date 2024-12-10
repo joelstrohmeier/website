@@ -6,53 +6,64 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
   <link rel="manifest" href="/images/site.webmanifest">
+  
   <link rel="shortcut icon" href="/images/favicon.ico">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="google-site-verification" content="P__qBzExkTbryRTmB1px0JAj0T5PklHh9EKZMpi2bPI" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/style.css">
   
-  <title>Blogs — Joel Strohmeier </title> <!-- Grab title from the page data and dump it here -->
-  <meta name="description" content=" "/>
+    
+    
+      <title>
+        
+          All blogs &mdash; Joel Strohmeier
+        
+      </title>
+    
+  
+  
+  
+  <meta name="description" content="Blogs "/>
 </head>
 <body>
 
 <div class="wrapper"><a href="#main" class="skip-link">Skip to content</a></div>
-
-  <header class="wrapper">
-      <nav>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/blog" aria-current="true">Blog</a></li>
-        </ul>
-        </nav>
-</header>
   
-  <main class="wrapper" id="main">
+  <header class="wrapper">
+    <nav class="navigation">
+      <ul>
+          <li><a href="/" class="menu-link">Home</a></li>
+          <li><a href="/about" class="menu-link">About</a></li>
+          <li><a href="/blog" class="menu-link">Blog</a></li>
+          
+      </ul>
+      </nav>
+</header>
 
-  <h1>Blogs</h1>
-
+  <main class="wrapper" id="main" tabindex="-1">
+  
+    <h1>Blogs</h1>
   <ul class="blogs-list"><li>
-        <h2><a href="/blog/how-to-make-your-web-designs-more-accessible/">A more accessible web design workflow - some key tips</a></h2>
-        <p>A few key ways to introduce accessibility best practices to your visual design workflow &mdash; 17 Jul 2024</p>
-      </li><li>
-        <h2><a href="/blog/forms-common-accessibility-issues-and-how-to-avoid-them/">Forms - common accessibility issues and how to avoid them</a></h2>
-        <p>Some of the common accessibility issues in forms and practical ways to avoid them &mdash; 3 Apr 2024</p>
-      </li><li>
-        <h2><a href="/blog/service-design-and-accessibility/">Accessible service design</a></h2>
-        <p>Accessible service design - collected thoughts &mdash; 14 Dec 2023</p>
-      </li><li>
-        <h2><a href="/blog/myths/">Accessibility misconceptions</a></h2>
-        <p>Top myths and misconceptions about accessibility &mdash; 8 Nov 2023</p>
-      </li><li>
-        <h2><a href="/blog/linked-images/">How to write alternative text for linked images</a></h2>
-        <p>A short guide to writing alternative text for linked images &mdash; 3 Oct 2023</p>
-      </li><li>
-        <h2><a href="/blog/how-to-test-for-keyboard-accessibility/">Testing keyboard accessibility</a></h2>
-        <p>A quick guide on testing for keyboard accessibility &mdash; 5 Sept 2023</p>
-      </li> 
+    <h2><a href="/blog/how-to-make-your-web-designs-more-accessible/">A more accessible web design workflow - some key tips</a></h2>
+    <p>A few key ways to introduce accessibility best practices to your visual design workflow <span class="post-date">&nbsp;·&nbsp;17 Jul 2024</span></p> 
+  </li><li>
+    <h2><a href="/blog/forms-common-accessibility-issues-and-how-to-avoid-them/">Forms - common accessibility issues and how to avoid them</a></h2>
+    <p>Some of the common accessibility issues in forms and practical ways to avoid them <span class="post-date">&nbsp;·&nbsp;3 Apr 2024</span></p> 
+  </li><li>
+    <h2><a href="/blog/service-design-and-accessibility/">Accessible service design</a></h2>
+    <p>Accessible service design - collected thoughts <span class="post-date">&nbsp;·&nbsp;14 Dec 2023</span></p> 
+  </li><li>
+    <h2><a href="/blog/myths/">Accessibility misconceptions</a></h2>
+    <p>Top myths and misconceptions about accessibility <span class="post-date">&nbsp;·&nbsp;8 Nov 2023</span></p> 
+  </li><li>
+    <h2><a href="/blog/linked-images/">How to write alternative text for linked images</a></h2>
+    <p>A short guide to writing alternative text for linked images <span class="post-date">&nbsp;·&nbsp;3 Oct 2023</span></p> 
+  </li><li>
+    <h2><a href="/blog/how-to-test-for-keyboard-accessibility/">Testing keyboard accessibility</a></h2>
+    <p>Testing keyboard accessibility - practical tips covering navigation keys and their role, using browser developer tools and checking focus styles <span class="post-date">&nbsp;·&nbsp;5 Sept 2023</span></p> 
+  </li></ul>
 
-  </ul>
 
   </main>
 
@@ -81,7 +92,22 @@
 
 </footer>
 
+<script>
+ document.addEventListener("DOMContentLoaded", () => {
+  const links = document.querySelectorAll(".menu-link");
+  const currentPath = window.location.pathname.replace(/\/$/, "") || "/"; // Normalize the path, default to "/"
 
+  links.forEach(link => {
+    const linkPath = link.getAttribute("href").replace(/\/$/, "") || "/"; // Normalize href, default to "/"
+
+    // Match exact pages or subpaths under "/blog/"
+    if (currentPath === linkPath || (linkPath === "/blog" && currentPath.startsWith("/blog/"))) {
+      link.setAttribute("aria-current", "true");
+      link.classList.add("active");
+    }
+  });
+});
+
+</script>
 </body>
 </html>
-

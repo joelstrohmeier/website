@@ -1,6 +1,7 @@
 ---
-description: About me 
-layout: "about.njk"
+description: About me
+title: About 
+layout: "base.njk"
 ---
 
 # About

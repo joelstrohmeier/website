@@ -6,31 +6,44 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
   <link rel="manifest" href="/images/site.webmanifest">
+  
   <link rel="shortcut icon" href="/images/favicon.ico">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="google-site-verification" content="P__qBzExkTbryRTmB1px0JAj0T5PklHh9EKZMpi2bPI" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/style.css">
   
-  <title>Forms - common accessibility issues and how to avoid them — Joel Strohmeier </title> <!-- Grab title from the page data and dump it here -->
+    
+    
+      <title>
+        
+          Forms - common accessibility issues and how to avoid them &mdash; Joel Strohmeier
+        
+      </title>
+    
+  
+  
+  
   <meta name="description" content="Some of the common accessibility issues in forms and practical ways to avoid them "/>
 </head>
 <body>
 
 <div class="wrapper"><a href="#main" class="skip-link">Skip to content</a></div>
-
-  <header class="wrapper">
-      <nav>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/blog" aria-current="true">Blog</a></li>
-        </ul>
-        </nav>
-</header>
   
-  <main class="wrapper blog" id="main" tabindex="-1">
-    
-    <h1>Forms: common accessibility issues and ways to avoid them</h1>
+  <header class="wrapper">
+    <nav class="navigation">
+      <ul>
+          <li><a href="/" class="menu-link">Home</a></li>
+          <li><a href="/about" class="menu-link">About</a></li>
+          <li><a href="/blog" class="menu-link">Blog</a></li>
+          
+      </ul>
+      </nav>
+</header>
+
+  <main class="wrapper" id="main" tabindex="-1">
+  
+  <h1>Forms: common accessibility issues and ways to avoid them</h1>
 <p>Forms are fundamental to modern internet-enabled services. They're how we provide or upload information, buy stuff and otherwise make value exchanges with brands and organisations in our daily lives. If they're designed and built to work for <em>all</em> your website visitors, they offer a commercial advantage.</p>
 <p>Here are some of the top accessibility issues i've collected in recent years and how you can avoid them. This is not an exhaustive list but I hope it is useful.</p>
 <h2>Broken labels</h2>
@@ -104,7 +117,7 @@
 <p>Requirements for providing reasonable time for people to read and interact with content: <a href="https://www.w3.org/WAI/WCAG21/Understanding/timing-adjustable.html">WCAG Timing Adjustable (2.2.1)</a>.</p>
 <p>A short guide to <a href="https://www.w3.org/WAI/WCAG2/supplemental/patterns/o4p04-supportive-forms/">designing forms to prevent mistakes - W3C</a></p>
 
-  
+
   </main>
 
   <footer>
@@ -132,7 +145,22 @@
 
 </footer>
 
+<script>
+ document.addEventListener("DOMContentLoaded", () => {
+  const links = document.querySelectorAll(".menu-link");
+  const currentPath = window.location.pathname.replace(/\/$/, "") || "/"; // Normalize the path, default to "/"
 
+  links.forEach(link => {
+    const linkPath = link.getAttribute("href").replace(/\/$/, "") || "/"; // Normalize href, default to "/"
+
+    // Match exact pages or subpaths under "/blog/"
+    if (currentPath === linkPath || (linkPath === "/blog" && currentPath.startsWith("/blog/"))) {
+      link.setAttribute("aria-current", "true");
+      link.classList.add("active");
+    }
+  });
+});
+
+</script>
 </body>
 </html>
-

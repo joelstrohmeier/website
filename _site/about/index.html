@@ -6,31 +6,41 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
   <link rel="manifest" href="/images/site.webmanifest">
+  
   <link rel="shortcut icon" href="/images/favicon.ico">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="google-site-verification" content="P__qBzExkTbryRTmB1px0JAj0T5PklHh9EKZMpi2bPI" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/style.css">
   
-  <title>About — Joel Strohmeier </title> <!-- Grab title from the page data and dump it here -->
+    
+    
+      <title>
+        
+          About &mdash; Joel Strohmeier
+        
+      </title>
+    
+  
+  
+  
   <meta name="description" content="About me "/>
 </head>
 <body>
 
 <div class="wrapper"><a href="#main" class="skip-link">Skip to content</a></div>
-
+  
   <header class="wrapper">
-      <nav>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about" aria-current="true">About</a></li>
-            <li><a href="/blog">Blog</a></li>
-            
-        </ul>
-        </nav>
+    <nav class="navigation">
+      <ul>
+          <li><a href="/" class="menu-link">Home</a></li>
+          <li><a href="/about" class="menu-link">About</a></li>
+          <li><a href="/blog" class="menu-link">Blog</a></li>
+          
+      </ul>
+      </nav>
 </header>
 
-
-  
   <main class="wrapper" id="main" tabindex="-1">
   
   <h1>About</h1>
@@ -79,7 +89,22 @@ Presenting at the Connect Marketing meet-up organised by Flex Digital, Runway Ea
 
 </footer>
 
+<script>
+ document.addEventListener("DOMContentLoaded", () => {
+  const links = document.querySelectorAll(".menu-link");
+  const currentPath = window.location.pathname.replace(/\/$/, "") || "/"; // Normalize the path, default to "/"
 
+  links.forEach(link => {
+    const linkPath = link.getAttribute("href").replace(/\/$/, "") || "/"; // Normalize href, default to "/"
+
+    // Match exact pages or subpaths under "/blog/"
+    if (currentPath === linkPath || (linkPath === "/blog" && currentPath.startsWith("/blog/"))) {
+      link.setAttribute("aria-current", "true");
+      link.classList.add("active");
+    }
+  });
+});
+
+</script>
 </body>
 </html>
-

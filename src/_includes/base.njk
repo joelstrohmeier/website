@@ -6,17 +6,36 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
   <link rel="manifest" href="/images/site.webmanifest">
+  
   <link rel="shortcut icon" href="/images/favicon.ico">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="google-site-verification" content="P__qBzExkTbryRTmB1px0JAj0T5PklHh9EKZMpi2bPI" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/style.css">
   
-  <title>{{ title }} — Joel Strohmeier </title> <!-- Grab title from the page data and dump it here -->
+    {% block title %}
+    {% if title %}
+      <title>
+        {% if page.url == '/' %}
+          Joel Strohmeier &mdash; accessibility consultant
+        {% else %}
+          {{ title }} &mdash; Joel Strohmeier
+        {% endif %}
+      </title>
+    {% else %}
+      <title>Joel Strohmeier</title>
+    {% endif %}
+  {% endblock %}
+  
+  
   <meta name="description" content="{{ description }} "/>
 </head>
 <body>
 
 <div class="wrapper"><a href="#main" class="skip-link">Skip to content</a></div>
   
+  {% include 'partials/header.html' %}
+
   <main class="wrapper" id="main" tabindex="-1">
   
   {{ content | safe }}
@@ -25,6 +44,22 @@
 
   {% include 'footer.njk' %}
 
+<script>
+ document.addEventListener("DOMContentLoaded", () => {
+  const links = document.querySelectorAll(".menu-link");
+  const currentPath = window.location.pathname.replace(/\/$/, "") || "/"; // Normalize the path, default to "/"
 
+  links.forEach(link => {
+    const linkPath = link.getAttribute("href").replace(/\/$/, "") || "/"; // Normalize href, default to "/"
+
+    // Match exact pages or subpaths under "/blog/"
+    if (currentPath === linkPath || (linkPath === "/blog" && currentPath.startsWith("/blog/"))) {
+      link.setAttribute("aria-current", "true");
+      link.classList.add("active");
+    }
+  });
+});
+
+</script>
 </body>
 </html>

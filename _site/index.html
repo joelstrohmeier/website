@@ -6,37 +6,44 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
   <link rel="manifest" href="/images/site.webmanifest">
+  
   <link rel="shortcut icon" href="/images/favicon.ico">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="google-site-verification" content="P__qBzExkTbryRTmB1px0JAj0T5PklHh9EKZMpi2bPI" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/style.css">
   
-  <title>Joel Strohmeier — Accessibility consultant </title> <!-- Grab title from the page data and dump it here -->
+    
+    
+      <title>Joel Strohmeier</title>
+    
+  
+  
+  
   <meta name="description" content="Thoughts on accessibility, inclusion and experience design. And a short personal profile. "/>
 </head>
 <body>
 
 <div class="wrapper"><a href="#main" class="skip-link">Skip to content</a></div>
-
-  <header class="wrapper">
-      <nav>
-        <ul>
-            <li><a href="/" aria-current="true">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/blog">Blog</a></li>
-            
-        </ul>
-        </nav>
-  </header>
   
+  <header class="wrapper">
+    <nav class="navigation">
+      <ul>
+          <li><a href="/" class="menu-link">Home</a></li>
+          <li><a href="/about" class="menu-link">About</a></li>
+          <li><a href="/blog" class="menu-link">Blog</a></li>
+          
+      </ul>
+      </nav>
+</header>
+
   <main class="wrapper" id="main" tabindex="-1">
   
   <h1>Thoughts on accessibility, inclusion and experience design.</h1>
 <img class="headshot" src="/images/picture-of-me.jpeg" alt="Headshot: i'm wearing a blue turtleneck and have a little stubble growing. In the background there is the suggestion of a cafe or bar setting.">
-<p>Hello. I'm an accessibility specialist with a background in: digital, design and experience which spans over 11 years.</p>
-<p>I tend to switch between thinking about big holistic ideas and getting into the details and fixing things.</p>
-<p>I don’t work based on a limited view of accessibility and always seek ways to learn from other disciplines. I'm particularly interested in the overlap between accessibility and: service design, content design and, increasingly, brand strategy.</p>
+<p>Hello. I'm an accessibility specialist with a background in: digital, design and experience which spans over 14 years.</p>
+<p>I like switching between big, abstract, holistic problems as much as getting into the details and fixing things.</p>
+<p>I always look to learn from the disciplines around me. I'm particularly interested in the overlap between accessibility and: service design, content design and, brand strategy.</p>
 <h2>Work</h2>
 <p>I've led work with NHS Test and Trace, Zurich, British Airways, Booking.com and Transport for Greater Manchester. While at NHS Test and Trace, I helped establish the processes and standards for digital accessibility across the programme.</p>
 <h2>Speaking</h2>
@@ -84,5 +91,23 @@
   </div>
 
 </footer>
+
+<script>
+ document.addEventListener("DOMContentLoaded", () => {
+  const links = document.querySelectorAll(".menu-link");
+  const currentPath = window.location.pathname.replace(/\/$/, "") || "/"; // Normalize the path, default to "/"
+
+  links.forEach(link => {
+    const linkPath = link.getAttribute("href").replace(/\/$/, "") || "/"; // Normalize href, default to "/"
+
+    // Match exact pages or subpaths under "/blog/"
+    if (currentPath === linkPath || (linkPath === "/blog" && currentPath.startsWith("/blog/"))) {
+      link.setAttribute("aria-current", "true");
+      link.classList.add("active");
+    }
+  });
+});
+
+</script>
 </body>
 </html>

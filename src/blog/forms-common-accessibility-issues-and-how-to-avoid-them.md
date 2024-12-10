@@ -1,9 +1,10 @@
 ---
 
-layout: blog_detail.njk
+layout: base.njk
 title: Forms - common accessibility issues and how to avoid them
 date: 2024-04-03
 description: Some of the common accessibility issues in forms and practical ways to avoid them
+tags: post
 
 ---
 

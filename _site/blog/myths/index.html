@@ -6,38 +6,51 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
   <link rel="manifest" href="/images/site.webmanifest">
+  
   <link rel="shortcut icon" href="/images/favicon.ico">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="google-site-verification" content="P__qBzExkTbryRTmB1px0JAj0T5PklHh9EKZMpi2bPI" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/style.css">
   
-  <title>Accessibility misconceptions — Joel Strohmeier </title> <!-- Grab title from the page data and dump it here -->
+    
+    
+      <title>
+        
+          Accessibility misconceptions &mdash; Joel Strohmeier
+        
+      </title>
+    
+  
+  
+  
   <meta name="description" content="Top myths and misconceptions about accessibility "/>
 </head>
 <body>
 
 <div class="wrapper"><a href="#main" class="skip-link">Skip to content</a></div>
-
-  <header class="wrapper">
-      <nav>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/blog" aria-current="true">Blog</a></li>
-        </ul>
-        </nav>
-</header>
   
-  <main class="wrapper blog" id="main" tabindex="-1">
-    
-    <h1>Top misconceptions and myths about accessibility</h1>
+  <header class="wrapper">
+    <nav class="navigation">
+      <ul>
+          <li><a href="/" class="menu-link">Home</a></li>
+          <li><a href="/about" class="menu-link">About</a></li>
+          <li><a href="/blog" class="menu-link">Blog</a></li>
+          
+      </ul>
+      </nav>
+</header>
+
+  <main class="wrapper" id="main" tabindex="-1">
+  
+  <h1>Top misconceptions and myths about accessibility</h1>
 <p>Top myths and misconceptions in the world of accessibility. Followed by prompts for you to either research or start to use in response to challenges you might face while discussing accessibility in your organisation.</p>
 <h2>We don't have any / many disabled people who use our product or service</h2>
 <ul>
 <li>How have you arrived at this viewpoint? What data and insights back this up?</li>
 <li>Are you assuming 'no news is good news?' If there are accessibility barriers in your product or service could they be preventing people from providing you feedback about issues you have?</li>
 <li>What's your understanding of the word 'disability'? Have you considered how many people have less visible disabilities and impairments?</li>
-<li>Have you made use of this website? <a href="https://how-many.herokuapp.com/">Estimate the number of people with disabilities using your website./</a></li>
+<li>Have you made use of this resource? <a href="https://how-many.herokuapp.com/">Estimate the number of people with disabilities using your website</a>.</li>
 </ul>
 <h2>Our developers will find and fix issues</h2>
 <ul>
@@ -51,7 +64,7 @@
 <li>Where in X framework documentation is the explanation for how it has solved accessibility?</li>
 <li>What details has X framework provided about their approach to testing and the current benchmark that has been reached (for example, audit results and assistive technology testing or usability testing?)</li>
 <li>Can you show we me a demo page which clearly showcases the quality of the accessibility inherent in X framework?</li>
-<li>What happens if I were to combine several components from X framework to build an end-to-end service or journey - is it still accessible? How are you testing this?</li>
+<li>What happens if I were to combine several components from X framework to build an end-to-end service or journey — is it still accessible? How are you testing this?</li>
 <li>What happens if you need or chose to customise X framework with your own theme, brand identity, for example? How does this affect accessibility?</li>
 </ul>
 <h2>We have an accessibility plug-in / overlay so we are OK</h2>
@@ -70,7 +83,7 @@
 <h2>Feedback and questions</h2>
 <p>If this list has prompted questions, please speak with me -- i'm happy to offer any support and ideas I can.</p>
 
-  
+
   </main>
 
   <footer>
@@ -98,7 +111,22 @@
 
 </footer>
 
+<script>
+ document.addEventListener("DOMContentLoaded", () => {
+  const links = document.querySelectorAll(".menu-link");
+  const currentPath = window.location.pathname.replace(/\/$/, "") || "/"; // Normalize the path, default to "/"
 
+  links.forEach(link => {
+    const linkPath = link.getAttribute("href").replace(/\/$/, "") || "/"; // Normalize href, default to "/"
+
+    // Match exact pages or subpaths under "/blog/"
+    if (currentPath === linkPath || (linkPath === "/blog" && currentPath.startsWith("/blog/"))) {
+      link.setAttribute("aria-current", "true");
+      link.classList.add("active");
+    }
+  });
+});
+
+</script>
 </body>
 </html>
-

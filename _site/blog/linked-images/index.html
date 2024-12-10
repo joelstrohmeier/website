@@ -6,31 +6,44 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
   <link rel="manifest" href="/images/site.webmanifest">
+  
   <link rel="shortcut icon" href="/images/favicon.ico">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="google-site-verification" content="P__qBzExkTbryRTmB1px0JAj0T5PklHh9EKZMpi2bPI" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/style.css">
   
-  <title>How to write alternative text for linked images — Joel Strohmeier </title> <!-- Grab title from the page data and dump it here -->
+    
+    
+      <title>
+        
+          How to write alternative text for linked images &mdash; Joel Strohmeier
+        
+      </title>
+    
+  
+  
+  
   <meta name="description" content="A short guide to writing alternative text for linked images "/>
 </head>
 <body>
 
 <div class="wrapper"><a href="#main" class="skip-link">Skip to content</a></div>
-
-  <header class="wrapper">
-      <nav>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/blog" aria-current="true">Blog</a></li>
-        </ul>
-        </nav>
-</header>
   
-  <main class="wrapper blog" id="main" tabindex="-1">
-    
-    <h1>How to write <abbr title="alternative">alt</abbr> text for linked images</h1>
+  <header class="wrapper">
+    <nav class="navigation">
+      <ul>
+          <li><a href="/" class="menu-link">Home</a></li>
+          <li><a href="/about" class="menu-link">About</a></li>
+          <li><a href="/blog" class="menu-link">Blog</a></li>
+          
+      </ul>
+      </nav>
+</header>
+
+  <main class="wrapper" id="main" tabindex="-1">
+  
+  <h1>How to write <abbr title="alternative">alt</abbr> text for linked images</h1>
 <p>When starting to learn accessibility, we're often told: provide alternative text description for all images.</p>
 <p>At some point, we might gather a bit more detail on writing these descriptions. Something like:</p>
 <p>&quot;Imagine you were describing the page content to someone over the phone. How would you describe the image in context. What is the content and what is the emotion?&quot;</p>
@@ -69,7 +82,7 @@
 </pre>
 <h2>Further reading</h2>
 <p><a href="https://www.w3.org/WAI/tutorials/images/functional/">W3C functional images</a></p>
-  
+
   </main>
 
   <footer>
@@ -97,7 +110,22 @@
 
 </footer>
 
+<script>
+ document.addEventListener("DOMContentLoaded", () => {
+  const links = document.querySelectorAll(".menu-link");
+  const currentPath = window.location.pathname.replace(/\/$/, "") || "/"; // Normalize the path, default to "/"
 
+  links.forEach(link => {
+    const linkPath = link.getAttribute("href").replace(/\/$/, "") || "/"; // Normalize href, default to "/"
+
+    // Match exact pages or subpaths under "/blog/"
+    if (currentPath === linkPath || (linkPath === "/blog" && currentPath.startsWith("/blog/"))) {
+      link.setAttribute("aria-current", "true");
+      link.classList.add("active");
+    }
+  });
+});
+
+</script>
 </body>
 </html>
-

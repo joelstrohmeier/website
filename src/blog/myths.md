@@ -1,9 +1,10 @@
 ---
 
-layout: blog_detail.njk
+layout: base.njk
 title: Accessibility misconceptions
 date: 2023-11-08
 description: Top myths and misconceptions about accessibility
+tags: post
 
 ---
 
@@ -16,7 +17,7 @@ Top myths and misconceptions in the world of accessibility. Followed by prompts 
 - How have you arrived at this viewpoint? What data and insights back this up?
 - Are you assuming 'no news is good news?' If there are accessibility barriers in your product or service could they be preventing people from providing you feedback about issues you have?
 - What's your understanding of the word 'disability'? Have you considered how many people have less visible disabilities and impairments?
-- Have you made use of this website? <a href="https://how-many.herokuapp.com/">Estimate the number of people with disabilities using your website./</a>  
+- Have you made use of this resource? <a href="https://how-many.herokuapp.com/">Estimate the number of people with disabilities using your website</a>.  
 
 ## Our developers will find and fix issues
 
@@ -30,7 +31,7 @@ Top myths and misconceptions in the world of accessibility. Followed by prompts 
 - Where in X framework documentation is the explanation for how it has solved accessibility? 
 - What details has X framework provided about their approach to testing and the current benchmark that has been reached (for example, audit results and assistive technology testing or usability testing?)
 - Can you show we me a demo page which clearly showcases the quality of the accessibility inherent in X framework?
-- What happens if I were to combine several components from X framework to build an end-to-end service or journey - is it still accessible? How are you testing this?
+- What happens if I were to combine several components from X framework to build an end-to-end service or journey &mdash; is it still accessible? How are you testing this?
 - What happens if you need or chose to customise X framework with your own theme, brand identity, for example? How does this affect accessibility?
 
 ## We have an accessibility plug-in / overlay so we are OK

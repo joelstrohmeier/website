@@ -1,6 +1,6 @@
 ---
 description: Thoughts on accessibility, inclusion and experience design. And a short personal profile. 
-layout: "home.njk"
+layout: "base.njk"
 ---
 
 <h1>Thoughts on accessibility, inclusion and experience design.</h1>
@@ -9,9 +9,9 @@ layout: "home.njk"
 
 Hello. I'm an accessibility specialist with a background in: digital, design and experience which spans over 14 years. 
 
-I tend to switch between thinking about big holistic ideas and getting into the details and fixing things. 
+I like switching between big, abstract, holistic problems as much as getting into the details and fixing things. 
 
-I don’t work based on a limited view of accessibility and always seek ways to learn from other disciplines. I'm particularly interested in the overlap between accessibility and: service design, content design and, increasingly, brand strategy.  
+I always look to learn from the disciplines around me. I'm particularly interested in the overlap between accessibility and: service design, content design and, brand strategy.  
 
 ## Work
 

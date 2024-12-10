@@ -1,9 +1,10 @@
 ---
 
-layout: blog_detail.njk
+layout: base.njk
 title: Testing keyboard accessibility
 date: 2023-09-05
 description: Testing keyboard accessibility - practical tips covering navigation keys and their role, using browser developer tools and checking focus styles
+tags: post
 
 ---
 
@@ -13,22 +14,22 @@ In this blog we'll look at some of the ways you can check the keyboard accessibi
 
 ## Why keyboard accessibility is important
 
-People may interact with your website using a keyboard alone for many reasons. Some people can't make precise movements with their hands and so will use a keyboard rather than a mouse or trackpad. For example, people with repetitive strain injury (RSI) or with Parkinson's disease. There are various situational reasons why someone may benefit from good keyboard accessibility, too. For example, parents might hold a baby in one arm and need to complete a task using a keyboard using one hand. 
+People may interact with your website using a keyboard alone for many reasons. Some people can't make precise movements with their hands and so will use a keyboard rather than a mouse or trackpad to interact. For example, people with repetitive strain injury (RSI) or with Parkinson's Disease. There are various situational reasons why someone may benefit from good keyboard accessibility, too. For example, parents might hold a baby in one arm and need to complete a task using a keyboard using only one hand. 
 
-Testing for keyboard accessibility also allows us to identify barriers for people using other adaptive inputs and keyboard-like interfaces. For example, switch devices and voice recognition software.  
+Testing for keyboard accessibility also allows us to identify barriers for people using other adaptive inputs and keyboard-like interfaces. For example, switch devices and voice recognition software - both of which are somewhat based on keyboard logic.  
 
 ## How to do a quick test
 
-A simple and effective test you can do is to identify all the tasks you can complete with a mouse or trackpad and then check they're possible using a keyboard alone. The following is a short list of navigation keys for such tests:
+A simple and effective test to idenitfy potential accessibility barriers is to consider the tasks you can complete with a mouse or trackpad on a webpage and then check they're possible using a keyboard alone. The following is a short list of navigation keys to use in your tests:
 
 - <kbd>Tab</kbd> to move through the interactive elements of the page
 - <kbd>Shift</kbd> + <kbd>Tab</kbd> to reverse back up the page through the interactive elements
 - <kbd>Enter</kbd> OR <kbd>Space bar</kbd> to select button controls
 - <kbd>Left</kbd> / <kbd>Right</kbd> / <kbd>Up</kbd> /<kbd>Down</kbd> keys for radio buttons.
 
-With the preceding keys, check whether all interactive elements &mdash; such as links, form inputs and buttons can be interacted with using a keyboard. Then, make a note of whether you can navigate and complete tasks as you would expect or with equivalence to someone using a mouse. 
+With the preceding keys, check whether all interactive elements &mdash; such as links, form inputs and buttons can be interacted with using a keyboard. Then, make a note of whether you can navigate and complete tasks as you would using a mouse. 
 
-Both for testing purposes and for end users, it's critical to be able to clearly see where you are on the page when navigating via keyboard. This is known as being able to see 'keyboard focus' or the 'keyboard focus indicator' and is similar to how you can track the mouse cursor around a page.
+An important thing to note is that, as a mouse user, you can almost always follow where you are on the page via a cursor - an arrow or hand icon indicating your position on the page. If try to complete a task using your keyboard alone - whether as part of a test scenario or not - you might not be able to identify where you are on the page. 
 
 
 ## Keyboard focus styles

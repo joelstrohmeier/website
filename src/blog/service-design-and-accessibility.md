@@ -1,15 +1,17 @@
 ---
 
-layout: blog_detail.njk
+layout: base.njk
 title: Accessible service design
 date: 2023-12-14
 description: Accessible service design - collected thoughts
-
+tags: post
 ---
 
 # Accessible service design &mdash; some thoughts
 
-Accessibility continues to be addressed as an afterthought for many organisations. So, i'd like to take a look at its role in service design and how it affects the design and build of 'good services'. 
+Accessibility continues to be addressed as an afterthought for many organisations. So, i'd like to take a look at its role in service design and how it affects the design and build of 'good services'.
+
+This blog assumes (apologies!) you understand what the Web Content Accessibility Guidelines are. If that's not the case, please take a look at: 
 
 ## Defining service design
 
@@ -31,10 +33,9 @@ To provide an example, if call centre staff are 'outsourced' in another country 
 
 ## <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> role in good services
 
-Even if you feel unsure where to start with the design and build of an accessible service, the principles aren't new. The steps should be familiar to anyone who is aware of, for example, the Web Content Accessibility Guidelines (WCAG) &mdash; or various other related principles and general rules &mdash; for exmample, Jakob Nielsen's 10 usability heuristics. 
+If you feel unsure where to start with the design and build of an accessible service, the principles aren't new. The <a href="https://www.w3.org/TR/WCAG22/">Web Content Accessibility Guidelines (WCAG)</a> &mdash; which are the internationally recognised standard for building accessible digital interfaces &mdash; have documented various principles and techniques that, with some consideration, can and should be applied at a service design level. 
 
-
-Let's look at the Good Services principles by Lou Downe and how they relate to items in the WCAG:
+Now, I'm going to try to help bridge the gap between the topics of service design and accessibility. Each heading below is a 'Good Services' principle and, below this, the corresponding criterion (or check) from the WCAG. Then, we will reverse this approach and focus on WCAG criteria and how they relate to 'Good Services' principles.
 
 ## Be easy to find (1)
 

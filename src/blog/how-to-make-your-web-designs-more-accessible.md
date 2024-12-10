@@ -1,9 +1,10 @@
 ---
 
-layout: blog_detail.njk
+layout: base.njk
 title: A more accessible web design workflow - some key tips
 date: 2024-07-17
 description: A few key ways to introduce accessibility best practices to your visual design workflow
+tags: post
 
 ---
 

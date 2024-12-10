@@ -6,32 +6,46 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
   <link rel="manifest" href="/images/site.webmanifest">
+  
   <link rel="shortcut icon" href="/images/favicon.ico">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="google-site-verification" content="P__qBzExkTbryRTmB1px0JAj0T5PklHh9EKZMpi2bPI" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/style.css">
   
-  <title>Accessible service design — Joel Strohmeier </title> <!-- Grab title from the page data and dump it here -->
+    
+    
+      <title>
+        
+          Accessible service design &mdash; Joel Strohmeier
+        
+      </title>
+    
+  
+  
+  
   <meta name="description" content="Accessible service design - collected thoughts "/>
 </head>
 <body>
 
 <div class="wrapper"><a href="#main" class="skip-link">Skip to content</a></div>
-
-  <header class="wrapper">
-      <nav>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/blog" aria-current="true">Blog</a></li>
-        </ul>
-        </nav>
-</header>
   
-  <main class="wrapper blog" id="main" tabindex="-1">
-    
-    <h1>Accessible service design — some thoughts</h1>
+  <header class="wrapper">
+    <nav class="navigation">
+      <ul>
+          <li><a href="/" class="menu-link">Home</a></li>
+          <li><a href="/about" class="menu-link">About</a></li>
+          <li><a href="/blog" class="menu-link">Blog</a></li>
+          
+      </ul>
+      </nav>
+</header>
+
+  <main class="wrapper" id="main" tabindex="-1">
+  
+  <h1>Accessible service design — some thoughts</h1>
 <p>Accessibility continues to be addressed as an afterthought for many organisations. So, i'd like to take a look at its role in service design and how it affects the design and build of 'good services'.</p>
+<p>This blog assumes (apologies!) you understand what the Web Content Accessibility Guidelines are. If that's not the case, please take a look at:</p>
 <h2>Defining service design</h2>
 <p>Quoting Lou Downe former Director of Design for the Government Digital Service:</p>
 <blockquote>
@@ -43,8 +57,8 @@
 <p>Organisations often invest money and effort into improving their public-facing touchpoints — such as their website, emails and mobile applications. But, they often only address the symptoms of user experience issues. A key factor that separates 'service design' from other disciples is that it considers the internal machinations of an organisation and how this impacts the public-facing user experience.</p>
 <p>To provide an example, if call centre staff are 'outsourced' in another country and cannot access the same customer complaints database as, say, an operations team how does this impact the organisation in its ability to provide a connected and positive end-to-end experience for effective responses to customer complaints?</p>
 <h2><abbr title="Web Content Accessibility Guidelines">WCAG</abbr> role in good services</h2>
-<p>Even if you feel unsure where to start with the design and build of an accessible service, the principles aren't new. The steps should be familiar to anyone who is aware of, for example, the Web Content Accessibility Guidelines (WCAG) — or various other related principles and general rules — for exmample, Jakob Nielsen's 10 usability heuristics.</p>
-<p>Let's look at the Good Services principles by Lou Downe and how they relate to items in the WCAG:</p>
+<p>If you feel unsure where to start with the design and build of an accessible service, the principles aren't new. The <a href="https://www.w3.org/TR/WCAG22/">Web Content Accessibility Guidelines (WCAG)</a> — which are the internationally recognised standard for building accessible digital interfaces — have documented various principles and techniques that, with some consideration, can and should be applied at a service design level.</p>
+<p>Now, I'm going to try to help bridge the gap between the topics of service design and accessibility. Each heading below is a 'Good Services' principle and, below this, the corresponding criterion (or check) from the WCAG. Then, we will reverse this approach and focus on WCAG criteria and how they relate to 'Good Services' principles.</p>
 <h2>Be easy to find (1)</h2>
 <p>This principle would encompass the WCAG check of 'Multiple Ways' which asks that people are given multiple ways to locate and navigate content within a website.</p>
 <h2>Require the minimum possible steps to complete (8)</h2>
@@ -124,7 +138,7 @@
 <ul>
 <li><a href="https://good.services/">Good Services</a>
 </ul>
-  
+
   </main>
 
   <footer>
@@ -152,7 +166,22 @@
 
 </footer>
 
+<script>
+ document.addEventListener("DOMContentLoaded", () => {
+  const links = document.querySelectorAll(".menu-link");
+  const currentPath = window.location.pathname.replace(/\/$/, "") || "/"; // Normalize the path, default to "/"
 
+  links.forEach(link => {
+    const linkPath = link.getAttribute("href").replace(/\/$/, "") || "/"; // Normalize href, default to "/"
+
+    // Match exact pages or subpaths under "/blog/"
+    if (currentPath === linkPath || (linkPath === "/blog" && currentPath.startsWith("/blog/"))) {
+      link.setAttribute("aria-current", "true");
+      link.classList.add("active");
+    }
+  });
+});
+
+</script>
 </body>
 </html>
-

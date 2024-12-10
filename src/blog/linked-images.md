@@ -1,10 +1,10 @@
 ---
 
-layout: blog_detail.njk
+layout: base.njk
 title: How to write alternative text for linked images
 date: 2023-10-03
 description: A short guide to writing alternative text for linked images 
-
+tags: post
 ---
 
 # How to write <abbr title="alternative">alt</abbr> text for linked images
