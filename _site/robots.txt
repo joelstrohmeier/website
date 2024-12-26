@@ -2,3 +2,4 @@ Sitemap: https://www.joelstrohmeier.co.uk/sitemap.xml
 
 User-agent: *
 Disallow: /carl-2024/
+Disallow: /carl-2025/
