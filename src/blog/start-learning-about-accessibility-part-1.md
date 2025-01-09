@@ -87,6 +87,5 @@ The World Health Organisation estimates that 16% of the world population experie
 
 <hr>
 
-
 In the next blog &mdash; part 2 &mdash; we will take a closer look at the motivations for prioritising accessibility and the different models for thinking about disability.
 </p>
