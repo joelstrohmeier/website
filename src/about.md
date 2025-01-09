@@ -14,7 +14,7 @@ layout: "base.njk"
 </picture>
 
 <figcaption>
-Presenting at the Connect Marketing meet-up organised by Flex Digital, Runway East, Bristol 2023. 
+Presenting at the Connect Marketing meet-up organised by Flex Digital. At Runway East, Bristol 2023. 
 </figcaption>
 </figure>
 

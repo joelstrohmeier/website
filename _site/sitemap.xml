@@ -67,4 +67,10 @@
             <changefreq>monthly</changefreq>
         </url>
     
+        <url>
+            <loc>https://www.joelstrohmeier.co.uk/blog/start-learning-about-accessibility-part-1/</loc>
+            <lastmod>2025-01-07T00:00:00.000Z</lastmod>
+            <changefreq>monthly</changefreq>
+        </url>
+    
 </urlset>  

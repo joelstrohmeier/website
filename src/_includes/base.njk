@@ -15,15 +15,13 @@
   
     {% block title %}
     {% if title %}
-      <title>
-        {% if page.url == '/' %}
-          Joel Strohmeier &mdash; accessibility consultant
+     <title>
+        {% if page.url == '/' or page.url == '' %}
+          Joel Strohmeier &mdash; accessibility, inclusion and experience design
         {% else %}
           {{ title }} &mdash; Joel Strohmeier
         {% endif %}
       </title>
-    {% else %}
-      <title>Joel Strohmeier</title>
     {% endif %}
   {% endblock %}
   
