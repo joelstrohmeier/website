@@ -2,7 +2,7 @@
 layout: base.njk
 title: Start learning about accessibility - part 1
 date: 2025-01-09
-description: Start learning about accessibility - part 1
+description: Start learning about accessibility - part 1. Definitions for accessibility, who it benefits and how people with disabilities may interact with your product or service. 
 tags: post
 ---
 

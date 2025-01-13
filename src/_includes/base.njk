@@ -13,18 +13,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/style.css">
   
-    {% block title %}
-    {% if title %}
-     <title>
-        {% if page.url == '/' or page.url == '' %}
-          Joel Strohmeier &mdash; accessibility, inclusion and experience design
-        {% else %}
-          {{ title }} &mdash; Joel Strohmeier
-        {% endif %}
-      </title>
+  {% block title %}
+  <title>
+    {% if page.url == '/' or page.url == '' %}
+      Joel Strohmeier &mdash; accessibility, inclusion and experience design
+    {% else %}
+      {% if title %}
+        {{ title }} &mdash; Joel Strohmeier
+      {% else %}
+        Joel Strohmeier
+      {% endif %}
     {% endif %}
-  {% endblock %}
-  
+  </title>
+{% endblock %}
+
   
   <meta name="description" content="{{ description }} "/>
 </head>
