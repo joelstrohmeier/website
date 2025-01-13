@@ -49,7 +49,7 @@ It is particularly important that we do not forget less visible or less apparent
 
 Another important thing to keep in mind is people with disabilities generally want to complete the same goals as anyone else. They might, however, approach these goals differently. For example, people with disabilities might complete their goal using additional tools and technologies. 
 
-Understanding which specific details make accessibility its own subject area will make you a much better designer. If you remember just one thing, it should be that people with disabilities want to get on with their lives like we all do.   
+Understanding which specific details make accessibility its own subject area will make you a much better designer.
 
 ### Further reading
 - A closer look at accessibility and inclusion: [building the woke web: web accessibility, inclusion and social justice](https://alistapart.com/article/building-the-woke-web/) 
