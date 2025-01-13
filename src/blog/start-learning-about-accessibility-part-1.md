@@ -1,12 +1,12 @@
 ---
 layout: base.njk
 title: Start learning about accessibility - part 1
-date: 2025-01-07
+date: 2025-01-09
 description: Start learning about accessibility - part 1
 tags: post
 ---
 
-# Start learning about accessibility: part 1   
+# Start learning about accessibility: part 1  
 
 How do you start learning about accessibility? The topic is broader than it might first seem and is often misunderstood. At its core, it's simple. It's about people &mdash; in particular, people with disabilities &mdash; and making sure the things we design and build don't prevent people with a disability from getting on with their lives. 
 
