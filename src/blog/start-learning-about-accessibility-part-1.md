@@ -27,7 +27,7 @@ Terms change but this definition still seems to work &mdash; in that 'accessibil
 
 Another way to think about accessibility is that accessibility is a measure of the quality of design &mdash; it is a measure of how usable something is for people with disabilities. Inclusive design is how we approach building those experiences. This idea is explained expertly in the book 'Mismatch' by Kat Holmes. 
 
-We shouldn't get too distracted by definitions. The important thing is that there is a work to be done on removing barriers to products and services and it requires both accessibility and inclusion. Not one or the other. 
+We shouldn't get too distracted by definitions. The important thing is that there is work to be done on removing barriers to products and services and it requires both accessibility and inclusion. Not one or the other. 
 
 As you read and learn more, you'll probably notice similarities between how user experience and accessibility as disciplines are described and how they can be applied in the real world. That's expected. User experience and accessibility both want to improve the experiences of people. It's just that accessibility traditionally focusses on specific groups of people. 
 
