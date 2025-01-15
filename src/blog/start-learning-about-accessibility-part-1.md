@@ -25,14 +25,14 @@ A friend of mine introduced me to the following explanation, which I love:
 
 Terms change but this definition still seems to work &mdash; in that 'accessibility' focusses on disability and impairment whereas 'inclusion' is broader in scope. Inclusion considers how someone's: race, religion, gender, socio-economic background and other protected characteristics affect experience. 
 
-Another way to think about accessibility is that accessibility is a measure of the quality of design &mdash; it is a measure of how usable something is for people with disabilities. Inclusive design is how we approach building those experiences. This idea is explained expertly in the book 'Mismatch' by Kat Holmes. 
+Another way to think about accessibility is that it is a measure of the quality of design &mdash; it is a measure of how usable something is &mdash; in particular for people with disabilities. Inclusive design is a 'method' or a way we can approach building experiences that reach a that accessible standard. This idea is explained expertly in the book 'Mismatch' by Kat Holmes. 
 
 We shouldn't get too distracted by definitions. The important thing is that there is work to be done on removing barriers to products and services and it requires both accessibility and inclusion. Not one or the other. 
 
-As you read and learn more, you'll probably notice similarities between how user experience and accessibility as disciplines are described and how they can be applied in the real world. That's expected. User experience and accessibility both want to improve the experiences of people. It's just that accessibility traditionally focusses on specific groups of people. 
+As you read and learn more, you'll probably notice similarities between how user experience and accessibility, as disciplines, are described and how they can be applied in the real world. That's expected. User experience and accessibility both want to improve the experiences of people. It's just that accessibility traditionally focusses on specific groups of people. 
 
 ### Further reading
-- [GOV.UK blog: What we mean when we mean when we talk about accessibility](https://accessibility.blog.gov.uk/2016/05/16/what-we-mean-when-we-talk-about-accessibility-2/) 
+- [GOV.UK blog: what we mean when we mean when we talk about accessibility](https://accessibility.blog.gov.uk/2016/05/16/what-we-mean-when-we-talk-about-accessibility-2/) 
 
 
 ## Accessibility and disability 
