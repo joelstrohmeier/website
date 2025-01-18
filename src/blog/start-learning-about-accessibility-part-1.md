@@ -25,7 +25,7 @@ A friend of mine introduced me to the following explanation, which I love:
 
 Terms change but this definition still seems to work &mdash; in that 'accessibility' focusses on disability and impairment whereas 'inclusion' is broader in scope. Inclusion considers how someone's: race, religion, gender, socio-economic background and other protected characteristics affect experience. 
 
-Another way to think about accessibility is that it is a measure of the quality of design &mdash; it is a measure of how usable something is &mdash; in particular for people with disabilities. Inclusive design is a 'method' or a way we can approach building experiences that reach a that accessible standard. This idea is explained expertly in the book 'Mismatch' by Kat Holmes. 
+Another way to think about accessibility is that it is a measure of the quality of design &mdash; it is a measure of how usable something is &mdash; in particular for people with disabilities. Inclusive design is a 'method' or a way we can approach building experiences that reach that accessibility standard. This idea is explained expertly in the book 'Mismatch' by Kat Holmes. 
 
 We shouldn't get too distracted by definitions. The important thing is that there is work to be done on removing barriers to products and services and it requires both accessibility and inclusion. Not one or the other. 
 
@@ -64,18 +64,18 @@ In digital accessibility, specifically, the following are common examples of ass
 ### Switch devices / sip and puff devices, adapted keyboards and head wands
 This technology helps people with limited dexterity or limited / no upper body movement complete tasks.
 
-Switch devices allow someone to send a signal (similar to a keystroke) to a digital device which allows someone to complete interactions &mdash; such as submitting a form following a link to navigate a website. 
+Switch devices allow someone to send a signal (similar to a keystroke) to a digital device which allows someone to complete interactions &mdash; such as submitting a form or following a link to navigate a website. 
 
-Switch devices come in all varieties &mdash; including aparatus in physical button form which can be pressed, aparatus that can be squeezed or even straw-like devices which allow for sipping and puffing input. All of which then send a signal allowing digital interactions. 
+Switch devices come in all varieties &mdash; including aparatus in physical button form which can be pressed, aparatus that can be squeezed or straw-like devices which allow for sipping and puffing input. All of which then send a signal allowing someone to interact with a digital interface. 
 
 ### Screen reading technology
 This technology translates website content (and metadata) into audible announcements. This primarily helps people with low or no vision but may be used by others - for example people might use a screen reader as they benefit from or prefer to have information read out rather than reading it from a screen. 
 
 ### Screen magnification software
-This technology magnifies website content to make it easier for people with low vision. The technology may also include features that allow someone to customise interface colours and may also include screen reading functions too. 
+This technology magnifies website content to make it easier for people with low vision to see what they are doing. The technology may also include features that allow someone to customise the colours of their interface and may also include screen reading functions too. 
 
 ### Voice recognition software
-This technology allows someone to speak commands using their voice to both interact with and navigate websites and apps. People may use this techology because they have limited or no upper body movement. But, people might use the technology because they can't or don't want to interact using their hands. For example, this type of voice-based interacting could be useful for a new parent holding their baby. 
+This technology allows soneone to navigate or otherwise control a digital interface using voice commands. For example, by saying: "Click buy now", "Click listbox", "Show choices", "Choose large". People may use this techology because they have limited or no upper body movement. They may, however, use the technology because they can't or don't want to interact using their hands for other reasons. For example, this type of voice-based interaction could be useful for a new parent trying to complete a task while holding their baby. 
 
 ## Further reading
 - [Switches](https://axesslab.com/switches/)
