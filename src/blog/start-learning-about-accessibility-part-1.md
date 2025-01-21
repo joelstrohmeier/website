@@ -81,7 +81,7 @@ This technology allows soneone to navigate or otherwise control a digital interf
 
 ## Further reading
 - [Switches](https://axesslab.com/switches/)
-- [Web AIM: Motor disabilities ] (https://webaim.org/articles/motor/assistive)
+- [Web AIM: Motor disabilities](https://webaim.org/articles/motor/assistive)
 - [W3C: video perspectives - voice](https://www.w3.org/WAI/perspective-videos/voice/)
 
 ## How many people are affected
