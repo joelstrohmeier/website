@@ -61,7 +61,7 @@ Assistive technology is something that helps a person to complete a task or goal
 
 In digital accessibility, specifically, the following are common examples of assistive technology:
 
-### Switch devices / sip and puff devices, adapted keyboards and head wands
+### Switch devices
 This technology helps people with limited dexterity or limited / no upper body movement complete tasks.
 
 Switch devices allow someone to send a signal (similar to a keystroke) to a digital device which allows someone to complete interactions &mdash; such as submitting a form or following a link to navigate a website. 
