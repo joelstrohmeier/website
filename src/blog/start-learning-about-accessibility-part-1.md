@@ -68,6 +68,8 @@ Switch devices allow someone to send a signal (similar to a keystroke) to a digi
 
 Switch devices come in all varieties &mdash; including aparatus in physical button form which can be pressed, aparatus that can be squeezed or straw-like devices which allow for sipping and puffing input. All of which then send a signal allowing someone to interact with a digital interface. 
 
+Similar examples of assistive technology for people with limited or no upper body movement include: sip and puff technology, head wands and eye tracking software, to name a few of examples. 
+
 ### Screen reading technology
 This technology translates website content (and metadata) into audible announcements. This primarily helps people with low or no vision but may be used by others - for example people might use a screen reader as they benefit from or prefer to have information read out rather than reading it from a screen. 
 
@@ -79,6 +81,7 @@ This technology allows soneone to navigate or otherwise control a digital interf
 
 ## Further reading
 - [Switches](https://axesslab.com/switches/)
+- [Web AIM: Motor disabilities ] (https://webaim.org/articles/motor/assistive)
 - [W3C: video perspectives - voice](https://www.w3.org/WAI/perspective-videos/voice/)
 
 ## How many people are affected
