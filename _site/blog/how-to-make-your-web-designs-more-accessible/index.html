@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/images/site.webmanifest">
+  
+  <link rel="shortcut icon" href="/images/favicon.ico">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="google-site-verification" content="P__qBzExkTbryRTmB1px0JAj0T5PklHh9EKZMpi2bPI" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  
+  
+  <title>
+    
+      
+        A more accessible web design workflow - some key tips &mdash; Joel Strohmeier
+      
+    
+  </title>
+
+
+  
+  <meta name="description" content="A few key ways to introduce accessibility best practices to your visual design workflow "/>
+</head>
+<body>
+
+<div class="wrapper"><a href="#main" class="skip-link">Skip to content</a></div>
+  
+  <header class="wrapper">
+    <nav class="navigation">
+      <ul>
+          <li><a href="/" class="menu-link">Home</a></li>
+          <li><a href="/about" class="menu-link">About</a></li>
+          <li><a href="/blog" class="menu-link">Blog</a></li>
+          
+      </ul>
+      </nav>
+</header>
+
+  <main class="wrapper" id="main" tabindex="-1">
+  
+  <h1>A more accessible web design workflow — some key tips</h1>
+<p>Here are some tips to help you to create more accessible visual designs. This is not a complete list. The blog focusses on a few key issues i've seen repeated in designs over the past few years.</p>
+<p>I have assumed that you are aware of some of the more fundamental accessibility principles for designers — such as the importance of colour contrast and designing with responsive web design in mind.</p>
+<p>I hope it is useful.</p>
+<h2>Provide labels for all form inputs</h2>
+<p>Provide a text label for each form input included in your designs.</p>
+<p>Don't rely on placeholder text alone.</p>
+<p>By 'placeholder' I mean text (generally light grey text) which sits inside a form input. They are intended to help you understand what type or format of information is suitable for each form input.</p>
+<p>Because placeholders sit inside the input itself — rather than above or adjacent to the input (which is the case with real labels) — they are often (over) used in design as a way to save space.</p>
+<p>Placeholders introduce barriers because they:</p>
+<ul>
+<li>generally have poor contrast and so are hard to read</li>
+<li>lead people to think the input has already been filled in</li>
+<li>stop working as an effective prompt because the placeholder disappears as soon as you start writing</li>
+</ul>
+<h2>Include button controls for any complex gestures — such as 'swipe to reveal more'</h2>
+<p>Designs often include components in which content appears to spill out of the edge of the screen. This visual approach or device has become understood to mean that the user would 'swipe' left or right to reveal more content. A common example of this behaviour is the 'carousel' component.</p>
+<p>Not everyone, however, can complete these swiping gestures.</p>
+<p>People with limited dexterity or limited upper body movement may interact with a keyboard or 'switch' device alone. People with no upper body movement may interact with, for example:</p>
+<ul>
+<li>eye tracking software</li>
+<li>head wands</li>
+<li>voice recogntion software</li>
+</ul>
+<p>In any of these cases, they can't 'swipe'.</p>
+<p>To avoid designing these barriers, we should include alternative controls to allow the revelation of more content. The simplest way is to include visible button controls in our designs. For example 'next' and 'previous' buttons next to our carousel component.</p>
+<p>Including these visible controls provides a target for non-mouse/trackpad interactions. For example, as a voice recognition user, I can now say &quot;Click next&quot; and our carousel should slide new content into view.</p>
+<p>Including these controls in our designs from the start helps clarify requirements for developers and helps to avoid these issues being identified in accessibility reviews and testing later in the process.</p>
+<p>As an aside, from a usability perspective, it's worth considering that there's a lot of evidence to suggest that carousels and similar components are often ineffective. <a href="https://shouldiuseacarousel.com/">More information on the user experience pitfalls of carousels (contains automated animation)</a>.</p>
+<h2>Provide descriptive names for all links and buttons in your design</h2>
+<p>Where you include buttons or links in your design, avoid vague text such as 'read more', 'learn more' or 'find out more'.</p>
+<p>People who cannot see the screen may be using screen reading technology. This technology takes your website content and turns it into audible announcements. It's common for people using screen reading technology to skip to buttons and links without hearing the surrounding content. So, if our link is vague those visitors won't know the value or destination of the element. &quot;Read more about what?!&quot;</p>
+<p>If there are vague link and button names in your designs, it signals room for improvement in your process and/ or team. You probably need a content expert — for example, content editor / designer.</p>
+<h2>Introduce complex components with care</h2>
+<p>Simple designs tend to lead to more accessible experiences.</p>
+<p>The more complex your designs are, the more work there is for a developer. This means greater potential for accessibility and usability issues to be introduced.</p>
+<p>Wherever possible, lean towards standard HTML interface elements in designs. Avoid introducing complex components unless necessary. For example, including a <a href="https://www.w3.org/WAI/tutorials/carousels/">carousel</a> requires far more JavaScript than if static images are used. If the carousel is then nested within a <a href="https://design-system.service.gov.uk/components/tabs/">tab component</a>, this increases the complexity significantly again. The total number of acceptance criteria we would need to meet in our testing phase could easily reach 40-50 +. Which represents many hours of work!</p>
+<p>Key to being an effective designer is having an awareness of the impact of your design as part of a holistic process.</p>
+<p>Combining or nesting components brings another drawback. It reduces clarity.</p>
+<p>We want people who visit our interface to feel confident about how to use it and what the results will be. The more we experiment, combine things or try to be clever or cute, the more we undermine how clearly the interface speaks for itself — we lessen the effectiveness of the affordances. We introduce doubt for the user.</p>
+<p>Two related topics I recommend investigating are the ideas of <a href="https://alistapart.com/article/material-honesty-on-the-web/">material honesty on the web</a> and <a href="https://tink.uk/perceived-affordances-and-the-functionality-mismatch/">perceived affordances and their mismatches in web design</a>.</p>
+<h2>Don't rely on colour to communicate issues or errors</h2>
+<p>If there is an error in a form don't simply change the colour of the form border to communicate an issue (for example from grey to red).</p>
+<p>The reason is, for people with colour vision deficiency (aka colour blindness) or people using screen reading technology, this is ineffective. They cannot perceive this change.</p>
+<p>Make sure your design includes a textual description of the issue (as well as any changes in colour).</p>
+<h2>Start using a good accessibility plug-in</h2>
+<p>Use a tool to help automate some of the simpler checks as you design. I recommend the <a href="https://www.figma.com/community/plugin/1208180794570801545/includeaccessibility-annotations">Include plug-in for Figma by the team at Ebay</a></p>
+<h2>Further reading:</h2>
+<ul>
+<li><a href="https://gerireid.com/wcag-for-designers.html">WCAG for designers: accessibility checklist - Geri Reid</a></li>
+<li><a href="https://accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility/">Dos and Dont's for designing for accessibility - GOV.UK</a></li>
+</ul>
+
+
+  </main>
+
+  <footer>
+  <div class="wrapper">
+
+  <h2>Contact</h2>
+
+  <p>I'd love to hear from you. You can find me at: </p>
+  <ul class="list--spaced">
+      <li><a href="mailto:joelstrohmeier@gmail.com">joelstrohmeier@gmail.com</a></li>
+      <li>
+        <a href="https://www.linkedin.com/in/joel-strohmeier/">LinkedIn</a>
+      </li>   
+      <li><a href="https://bsky.app/profile/joelstrohmeier.bsky.social">Bluesky</a></li>
+
+  </ul>
+
+  <hr>
+
+<p>Made with <span focusable="false" aria-hidden="true">❤</span> <span class="visually-hidden">Love</span> in Bristol, United Kingdom.</p>
+
+
+
+  </div>
+
+</footer>
+
+<script>
+ document.addEventListener("DOMContentLoaded", () => {
+  const links = document.querySelectorAll(".menu-link");
+  const currentPath = window.location.pathname.replace(/\/$/, "") || "/"; // Normalize the path, default to "/"
+
+  links.forEach(link => {
+    const linkPath = link.getAttribute("href").replace(/\/$/, "") || "/"; // Normalize href, default to "/"
+
+    // Match exact pages or subpaths under "/blog/"
+    if (currentPath === linkPath || (linkPath === "/blog" && currentPath.startsWith("/blog/"))) {
+      link.setAttribute("aria-current", "true");
+      link.classList.add("active");
+    }
+  });
+});
+
+</script>
+</body>
+</html>

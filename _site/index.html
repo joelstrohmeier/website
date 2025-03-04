@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/images/site.webmanifest">
+  
+  <link rel="shortcut icon" href="/images/favicon.ico">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="google-site-verification" content="P__qBzExkTbryRTmB1px0JAj0T5PklHh9EKZMpi2bPI" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  
+  
+  <title>
+    
+      Joel Strohmeier &mdash; accessibility, inclusion and experience design
+    
+  </title>
+
+
+  
+  <meta name="description" content="Thoughts on accessibility, inclusion and experience design. And a short personal profile. "/>
+</head>
+<body>
+
+<div class="wrapper"><a href="#main" class="skip-link">Skip to content</a></div>
+  
+  <header class="wrapper">
+    <nav class="navigation">
+      <ul>
+          <li><a href="/" class="menu-link">Home</a></li>
+          <li><a href="/about" class="menu-link">About</a></li>
+          <li><a href="/blog" class="menu-link">Blog</a></li>
+          
+      </ul>
+      </nav>
+</header>
+
+  <main class="wrapper" id="main" tabindex="-1">
+  
+  <h1>Thoughts on accessibility, inclusion and experience design.</h1>
+<img class="headshot" src="/images/picture-of-me.jpeg" alt="Headshot: i'm wearing a blue turtleneck and have a little stubble growing. In the background there is the suggestion of a cafe or bar setting.">
+<p>Hello. I'm an accessibility specialist with a background in: digital, design and experience which spans over 14 years.</p>
+<p>I like switching between big, abstract, holistic problems as much as getting into the details and fixing things.</p>
+<p>I always look to learn from the disciplines around me. I'm particularly interested in the overlap between accessibility and: service design, content design and, brand strategy.</p>
+<h2>Work</h2>
+<p>I've led work with NHS Test and Trace, Zurich, British Airways, Booking.com and Transport for Greater Manchester. While at NHS Test and Trace, I helped establish the processes and standards for digital accessibility across the programme.</p>
+<h2>Speaking</h2>
+<ul>
+<li>Webinar Roundtable: <a href="https://bima.co.uk/events/navigating-digital-accessibility-merging-design-tech-and-content/">Navigating Digital Accessibility: Merging Design Tech and Content</a></li>
+<li>Empathy lab workshop (offline 2-day event), <a href="https://interactconf.com/empathy-lab/">Interact 2023 conference</a></li>
+<li>
+<a href="https://www.adaptworldwide.com/insights/2022/withindigital-episode-13-website-accessibility-101">Within Digital Podcast - Accessibility 101</a>
+</li>
+<li>
+<a href="https://www.youtube.com/watch?v=ctxxo-47m_o">Introduction to accessible and inclusive social media - YouTube</a>
+</li>
+<li>
+<a href="https://www.youtube.com/watch?v=HyC1gGSXPcA">Building inclusive health services - YouTube</a>
+</li>
+<li>
+<a href="https://www.youtube.com/watch?v=5DBnOgSj4hk&t=1832s">Commercial impact of accessibility - YouTube</a></li>
+<li><a href="https://www.youtube.com/watch?v=T6zTbcZnXpo&t=2497s">The inclusive organisation (with Simon Norris) - YouTube</a></li>
+</ul>
+
+
+  </main>
+
+  <footer>
+  <div class="wrapper">
+
+  <h2>Contact</h2>
+
+  <p>I'd love to hear from you. You can find me at: </p>
+  <ul class="list--spaced">
+      <li><a href="mailto:joelstrohmeier@gmail.com">joelstrohmeier@gmail.com</a></li>
+      <li>
+        <a href="https://www.linkedin.com/in/joel-strohmeier/">LinkedIn</a>
+      </li>   
+      <li><a href="https://bsky.app/profile/joelstrohmeier.bsky.social">Bluesky</a></li>
+
+  </ul>
+
+  <hr>
+
+<p>Made with <span focusable="false" aria-hidden="true">❤</span> <span class="visually-hidden">Love</span> in Bristol, United Kingdom.</p>
+
+
+
+  </div>
+
+</footer>
+
+<script>
+ document.addEventListener("DOMContentLoaded", () => {
+  const links = document.querySelectorAll(".menu-link");
+  const currentPath = window.location.pathname.replace(/\/$/, "") || "/"; // Normalize the path, default to "/"
+
+  links.forEach(link => {
+    const linkPath = link.getAttribute("href").replace(/\/$/, "") || "/"; // Normalize href, default to "/"
+
+    // Match exact pages or subpaths under "/blog/"
+    if (currentPath === linkPath || (linkPath === "/blog" && currentPath.startsWith("/blog/"))) {
+      link.setAttribute("aria-current", "true");
+      link.classList.add("active");
+    }
+  });
+});
+
+</script>
+</body>
+</html>

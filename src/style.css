@@ -1,0 +1,342 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    line-height: 1.5;
+    background-color: #FFFCFF;
+    color: #000039;
+    margin:0;
+    font-size: 1.2rem;
+}
+
+.noise {
+    background:
+    linear-gradient(to right, blue, transparent),
+    url(https://grainy-gradients.vercel.app/noise.svg);
+}
+
+h1, h2, h3, h4, h5 {
+    color: #3D4043;
+    line-height: 1.2;
+}
+
+h1 {
+    margin-bottom: 3rem;
+    line-height: 1.1;
+}
+
+h2 {
+    margin-bottom: 2rem;
+}
+
+h3 {
+    margin-bottom: 1.5rem;
+}
+
+h4 {
+
+margin-bottom: 1rem;
+
+}
+
+ul {
+    padding-left: 1.4em;
+}
+
+ul li {
+    line-height: 2;
+    margin-bottom: .5em;
+}
+
+.blog ul li{
+    line-height: 1.6;
+    margin-bottom: .7em;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+    clip: rect(0 0 0 0); 
+    -webkit-clip-path: inset(50%); 
+            clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+    width: 1px;
+  }
+ 
+footer {
+    background:#E5E5FF;
+    
+    margin-top: 3rem;
+}
+
+.wrapper {
+    max-width: 55ch;
+    margin: 0 auto;
+    padding: 0.5em;
+}
+
+ img {
+     display: block;
+     max-width: 85%;
+ }
+
+
+ a {
+
+    text-decoration: underline;
+    text-decoration-thickness: max(1px, .0625rem);
+    text-underline-offset: .1578em
+}
+
+pre, kbd, code {
+	background-color: #eee;
+	box-sizing: border-box;
+	padding: .5em 1em;
+	overflow: auto;
+	white-space: normal;
+	position: relative;
+    overflow-y: hidden;
+    padding: .2em;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    font-size: 0.8em;
+}
+
+a:hover {
+    text-decoration-thickness: max(3px, .1875rem, .12em);
+    -webkit-text-decoration-skip-ink: none;
+    text-decoration-skip-ink: none;
+    -webkit-text-decoration-skip: none;
+    text-decoration-skip: none;
+    -webkit-box-shadow: 0 0.3em #00FFD5;
+            box-shadow: 0 0.3em #00FFD5;
+}
+
+nav a:hover,  a.skip-link:hover {
+    -webkit-box-shadow: none;
+            box-shadow: none; 
+}
+
+
+a[aria-current="true"] {
+    border-bottom: solid 0.3em #3D4043;
+}
+
+h1, h2, h3, h4, a[href^="mailto:"] {
+    word-break: break-word;
+}
+
+hr {
+    border: solid 0.1em #CCCCFF;
+}
+
+blockquote {
+    border-left: solid 0.3em #CCCCFF;
+    padding-left: 0.7em;
+    margin-left: 0;
+}
+
+/* Credit to Erik Kroes for the Oreo cookie focus style approach */
+
+a:focus-visible {
+    outline: 9px double black;
+    -webkit-box-shadow: 0 0 0 6px white;
+            box-shadow: 0 0 0 6px white;
+    text-decoration: none;     
+}
+
+:focus-visible {
+    border:0;
+    outline:0;
+}
+
+button:focus-visible {
+    outline: 3px solid black;
+    -webkit-box-shadow: 0 0 0 6px white;
+            box-shadow: 0 0 0 6px white;
+      
+}
+
+dl dt {
+    font-weight: bold;
+}
+
+dl dd {
+    margin-bottom: 0.3em;
+}
+
+nav > ul	
+    {	display: -webkit-box;	
+        display: -ms-flexbox;	
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: row;
+        padding-left: 0;
+        flex-wrap: wrap;
+        margin: 0;
+        align-items: baseline;
+    }
+
+    nav > ul > li {	
+        display: -webkit-box;	
+        display: -ms-flexbox;	
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -ms-flex-line-pack: justify;
+        align-content: space-between;
+        margin-right: 0.6em;
+       
+    }
+
+    nav > ul > li > a {
+      
+        padding: 0;
+        text-align: left;
+        min-width: 5em;
+        text-decoration: none;
+    }
+
+    nav > ul > li > a:hover {
+        text-decoration: underline;
+    }
+
+    .email {
+        font-family: 'menlo', monospace; 
+        font-weight: bold;
+    }
+
+    ul.blogs-list {
+        padding: 0 1.4em;
+    }
+
+    ul.blogs-list > li h2 {
+        margin-bottom: 0.25em;
+    }
+
+    ul.blogs-list > li p {
+        margin-top: 0;
+        line-height: 1.3;
+    }
+
+.headshot {
+    max-width: 26%;
+    border-radius: 50%;
+}
+
+.skip-link {
+    display: inline-block;
+    margin: 0.3em 0;
+    padding: 0;
+    font-size: 0.95em;
+}
+
+  .visually-hidden:not(:focus):not(:active) {
+    clip: rect(0 0 0 0); 
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+    width: 1px;
+  }
+  
+  .highlight {
+    background-color: #E8F3E8;
+    display: inline;
+    padding: 0.4em 0.1em;
+  }
+  
+  .highlight em {
+    font-style: normal;
+  }
+  
+  .highlight .tag {
+    font-size: 65%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-left: 0.4em;
+    background-color: #BADEBA;
+  }
+
+  .post-date {
+    font-size: 0.87em;
+  }
+
+@media screen and (min-width:60em) {
+
+    body {
+        font-size: 1.6rem;
+    }
+
+    h1:first-of-type {
+        margin-top: 2.6rem;
+    }
+
+    h1 {
+        line-height: 1.1;
+        font-size: 2.8em;
+    }
+
+    h1, h2, h3, h4 {
+        word-break: normal;
+    }
+
+    nav > ul	
+    {	display: -webkit-box;	
+        display: -ms-flexbox;	
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        padding-left: 0;
+    }
+
+    nav > ul > li	{	
+        display: -webkit-box;	
+        display: -ms-flexbox;	
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -ms-flex-line-pack: start;
+            align-content: flex-start;
+            margin-right: 1.8em;
+        
+    }
+
+    footer h2 {
+        margin-top: 3.2rem;
+    }
+
+    figcaption {
+        margin-top: 0.2em;
+        font-size: 0.7em;
+    }
+
+    pre, kbd, code {
+        font-size: 90%;
+    }
+
+    .about-figure {
+        min-height: 1100px;
+    }
+
+}
+
+
+

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/images/site.webmanifest">
+  
+  <link rel="shortcut icon" href="/images/favicon.ico">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="google-site-verification" content="P__qBzExkTbryRTmB1px0JAj0T5PklHh9EKZMpi2bPI" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  
+  
+  <title>
+    
+      
+        About &mdash; Joel Strohmeier
+      
+    
+  </title>
+
+
+  
+  <meta name="description" content="About me "/>
+</head>
+<body>
+
+<div class="wrapper"><a href="#main" class="skip-link">Skip to content</a></div>
+  
+  <header class="wrapper">
+    <nav class="navigation">
+      <ul>
+          <li><a href="/" class="menu-link">Home</a></li>
+          <li><a href="/about" class="menu-link">About</a></li>
+          <li><a href="/blog" class="menu-link">Blog</a></li>
+          
+      </ul>
+      </nav>
+</header>
+
+  <main class="wrapper" id="main" tabindex="-1">
+  
+  <h1>About</h1>
+<figure class="about-figure">
+<picture>
+<source srcset="/images/presenting-connect-marketing-event.webp" type="image/webp">
+<source srcset="/images/presenting-connect-marketing-event.jpeg" type="image/jpeg">
+<img src="/images/presenting-connect-marketing-event.jpeg" alt="Shot in which I'm wearing a polo shirt, clear round rimmed glasses with a mid-length beard. My hands are clasped and mouth slightly open suggesting i'm mid way through a key point in my presentation. In the background there is a blurred pink and purple banner for the event.">
+</picture>
+<figcaption>
+Presenting at the Connect Marketing meet-up organised by Flex Digital. At Runway East, Bristol 2023. 
+</figcaption>
+</figure>
+<p>When I was young, my parents realised one way to keep me occupied in restaurants was to give me pens, pencils or anything that made a mark and get me to sketch. Years later, I decided — rather than attempt to become a fully-fledged artist — I would study history of art at university. After graduating, I tried to get a job in advertising and eventually got an account executive role at a digital communications agency.</p>
+<p>In the years that followed, I worked in various roles — including digital content editing, search engine optimisation and UX/front-end development-adjacent positions.</p>
+<p>I was lucky enough to have been around for the sea change that was the move to responsive web design and worked on several significant website re-designs including the complete rebuild of two separate websites for the insurance company AXA.</p>
+<p>In recent years I was Digital Transformation Manager for the municipally-owned Bristol Energy.</p>
+<p>While each role has its unique challenges, a constant throughout my career has been a fascination with communication through words and images, digital systems and interfaces and how we can use design for 'good'.</p>
+<p>I now work exclusively in accessibility and inclusion as Principal Accessibility Consultant at <a href="https://www.nomensa.com/">Nomensa</a> — a strategic experience design agency based in Bristol, United Kingdom.</p>
+
+
+  </main>
+
+  <footer>
+  <div class="wrapper">
+
+  <h2>Contact</h2>
+
+  <p>I'd love to hear from you. You can find me at: </p>
+  <ul class="list--spaced">
+      <li><a href="mailto:joelstrohmeier@gmail.com">joelstrohmeier@gmail.com</a></li>
+      <li>
+        <a href="https://www.linkedin.com/in/joel-strohmeier/">LinkedIn</a>
+      </li>   
+      <li><a href="https://bsky.app/profile/joelstrohmeier.bsky.social">Bluesky</a></li>
+
+  </ul>
+
+  <hr>
+
+<p>Made with <span focusable="false" aria-hidden="true">❤</span> <span class="visually-hidden">Love</span> in Bristol, United Kingdom.</p>
+
+
+
+  </div>
+
+</footer>
+
+<script>
+ document.addEventListener("DOMContentLoaded", () => {
+  const links = document.querySelectorAll(".menu-link");
+  const currentPath = window.location.pathname.replace(/\/$/, "") || "/"; // Normalize the path, default to "/"
+
+  links.forEach(link => {
+    const linkPath = link.getAttribute("href").replace(/\/$/, "") || "/"; // Normalize href, default to "/"
+
+    // Match exact pages or subpaths under "/blog/"
+    if (currentPath === linkPath || (linkPath === "/blog" && currentPath.startsWith("/blog/"))) {
+      link.setAttribute("aria-current", "true");
+      link.classList.add("active");
+    }
+  });
+});
+
+</script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/images/site.webmanifest">
+  
+  <link rel="shortcut icon" href="/images/favicon.ico">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="google-site-verification" content="P__qBzExkTbryRTmB1px0JAj0T5PklHh9EKZMpi2bPI" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  
+  
+  <title>
+    
+      
+        How to write alternative text for linked images &mdash; Joel Strohmeier
+      
+    
+  </title>
+
+
+  
+  <meta name="description" content="A short guide to writing alternative text for linked images "/>
+</head>
+<body>
+
+<div class="wrapper"><a href="#main" class="skip-link">Skip to content</a></div>
+  
+  <header class="wrapper">
+    <nav class="navigation">
+      <ul>
+          <li><a href="/" class="menu-link">Home</a></li>
+          <li><a href="/about" class="menu-link">About</a></li>
+          <li><a href="/blog" class="menu-link">Blog</a></li>
+          
+      </ul>
+      </nav>
+</header>
+
+  <main class="wrapper" id="main" tabindex="-1">
+  
+  <h1>How to write <abbr title="alternative">alt</abbr> text for linked images</h1>
+<p>When starting to learn accessibility, we're often told: provide alternative text description for all images.</p>
+<p>At some point, we might gather a bit more detail on writing these descriptions. Something like:</p>
+<p>&quot;Imagine you were describing the page content to someone over the phone. How would you describe the image in context. What is the content and what is the emotion?&quot;</p>
+<p>When the image communicates information that is helpful or relevant for the website visitor, we should follow the preceding advice.</p>
+<p>But, when an image is wrapped in a link, we must take a different appproach. We'll look at that now.</p>
+<h2>Linked or 'functional' images</h2>
+<p>Images are regularly wrapped with links. For example, this approach is commonly found across the web in the build of <a href="https://www.nomensa.com/blog/how-build-accessible-cards-block-links/">'card' components</a>.</p>
+<p>What's important to note is, once the image sits inside a link element it's what's known as a 'functional' image – it can now be interacted with and its primary role has changed from communicating information to transporting people to a new destination.</p>
+<p class="highlight">
+<span class="visually-hidden">Important:</span>So, while the aim for static images is to convey the content and emotion within, for functional images we should use the alternative text to describe the link purpose or destination.
+<span class="tag" aria-hidden="true">Highlight</span>
+</p>
+<p>Let's imagine we have 2 versions of a card component. In the first, the image is not linked. In the second, it is linked and navigates people to a blog article:</p>
+<pre>
+<code>
+&lt;img src="/lab-photo.jpg" alt="Scientist inspecting a petri dish in a lab setting"&gt;
+</code>
+</pre>
+<p>Now the image is linked, the alt text describes the link destination:</p>
+<pre> 
+<code>
+&lt;a href="/path-to-scientific-article"&gt; &lt;img src="/lab-photo.jpg" alt="Head to our blog for the June laboratory update"&gt; &lt;/a&gt;
+</code>
+</pre>
+<p>To provide a final example. Say we have a linked icon of a phone which takes people to a 'contact us' page. Here is the incorrect and then correct approach to alt text:</p>
+<pre>
+<code>
+&lt;a href="/contact-us"&gt; &lt;img src="/telephone-icon" alt="Phone icon"&gt; &lt;/a&gt;
+</code>
+</pre>
+<p>Rather than describing the appearance of the icon, we instead provide a description of the link destination:</p>
+<pre>
+<code>
+&lt;a href="/contact-us"&gt; &lt;img src="/telephone-icon" alt="Visit contact us form"&gt; &lt;/a&gt;
+</code>
+</pre>
+<h2>Further reading</h2>
+<p><a href="https://www.w3.org/WAI/tutorials/images/functional/">W3C functional images</a></p>
+
+  </main>
+
+  <footer>
+  <div class="wrapper">
+
+  <h2>Contact</h2>
+
+  <p>I'd love to hear from you. You can find me at: </p>
+  <ul class="list--spaced">
+      <li><a href="mailto:joelstrohmeier@gmail.com">joelstrohmeier@gmail.com</a></li>
+      <li>
+        <a href="https://www.linkedin.com/in/joel-strohmeier/">LinkedIn</a>
+      </li>   
+      <li><a href="https://bsky.app/profile/joelstrohmeier.bsky.social">Bluesky</a></li>
+
+  </ul>
+
+  <hr>
+
+<p>Made with <span focusable="false" aria-hidden="true">❤</span> <span class="visually-hidden">Love</span> in Bristol, United Kingdom.</p>
+
+
+
+  </div>
+
+</footer>
+
+<script>
+ document.addEventListener("DOMContentLoaded", () => {
+  const links = document.querySelectorAll(".menu-link");
+  const currentPath = window.location.pathname.replace(/\/$/, "") || "/"; // Normalize the path, default to "/"
+
+  links.forEach(link => {
+    const linkPath = link.getAttribute("href").replace(/\/$/, "") || "/"; // Normalize href, default to "/"
+
+    // Match exact pages or subpaths under "/blog/"
+    if (currentPath === linkPath || (linkPath === "/blog" && currentPath.startsWith("/blog/"))) {
+      link.setAttribute("aria-current", "true");
+      link.classList.add("active");
+    }
+  });
+});
+
+</script>
+</body>
+</html>
