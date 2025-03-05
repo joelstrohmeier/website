@@ -52,7 +52,7 @@ Following a similar approach to PSBAR, the European Accessibility Act (EAA) was 
 If you'd like to learn more about accessibility policy in your location, the <a href="https://www.w3.org/WAI/policies/">W3C provides a comprehensive table of international accessibility policies</a>.  
 
 ## Better more innovative products
-The last key reason to prioritise accessibility (which we're covering here) is that it simply leads to better products and, often, more innovative solutions. 
+A less discussed reason to prioritise accessibility is that it simply leads to better products and, often, more innovative solutions. 
 
 There are many, many examples of products and technologies we all enjoy and don't think twice about that started out as solutions intended, specifically, at removing an accessibility barrier. A few key examples include: 
 - the typewriter 
