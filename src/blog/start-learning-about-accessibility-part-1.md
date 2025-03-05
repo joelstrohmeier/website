@@ -89,5 +89,5 @@ The World Health Organisation estimates that 16% of the world population experie
 
 <hr>
 
-In the next blog &mdash; part 2 &mdash; we will take a closer look at the motivations for prioritising accessibility and the different models for thinking about disability.
+<a href="https://www.joelstrohmeier.co.uk/blog/start-learning-about-accessibility-part-2/">In the next blog &mdash; part 2 &mdash; we take a closer look at the motivations for prioritising accessibility and the different models for thinking about disability.</a>
 </p>
