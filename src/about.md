@@ -29,3 +29,5 @@ In recent years I was Digital Transformation Manager for the municipally-owned B
 While each role has its unique challenges, a constant throughout my career has been a fascination with communication through words and images, digital systems and interfaces and how we can use design for 'good'. 
 
 I am currently working for the BBC as an accessibility specialist. Before this, I worked in accessibility and inclusion as Principal Accessibility Consultant at Nomensa &mdash; a strategic experience design agency.
+
+My work on accessible card components has been featured in: MI6 Design System, Smashing Magazine, the Scrimba front-end development e-learning course and the Stark Library. 
