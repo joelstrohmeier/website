@@ -5,7 +5,7 @@ layout: "base.njk"
 
 <h1>Thoughts on accessibility, inclusion and experience design.</h1>
 
-<img class="headshot" src="/images/picture-of-me.jpeg" alt="Headshot: i'm wearing a blue turtleneck and have a little stubble growing. In the background there is the suggestion of a cafe or bar setting.">
+<img class="headshot" src="/images/picture-of-me.jpeg" alt="Mid-length shot of me presenting - showing head, upper body and the very top of my arms. The camera has captured me slightly from the side - such that I look downwards and to the right, rather than toward the viewer. I am wearing a blue and black polo shirt and glasses which have both clear and tortoiseshell detail. In the background, a purple event banner can be seen but is not in focus.">
 
 Hello. I'm an accessibility specialist with a background in: digital, design and experience which spans over 14 years. 
 

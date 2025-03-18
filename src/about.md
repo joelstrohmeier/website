@@ -28,4 +28,4 @@ In recent years I was Digital Transformation Manager for the municipally-owned B
 
 While each role has its unique challenges, a constant throughout my career has been a fascination with communication through words and images, digital systems and interfaces and how we can use design for 'good'. 
 
-I now work exclusively in accessibility and inclusion as Principal Accessibility Consultant at <a href="https://www.nomensa.com/">Nomensa</a> &mdash; a strategic experience design agency based in Bristol, United Kingdom.
+I am currently working for the BBC as an accessibility specialist. Before this, I worked in accessibility and inclusion as Principal Accessibility Consultant at Nomensa &mdash; a strategic experience design agency.
