@@ -24,10 +24,10 @@ In the years that followed, I worked in various roles &mdash; including digital 
 
 I was lucky enough to have been around for the sea change that was the move to responsive web design and worked on several significant website re-designs including the complete rebuild of two separate websites for the insurance company AXA. 
 
-In recent years I was Digital Transformation Manager for the municipally-owned Bristol Energy. 
+In recent years I was Digital Transformation Manager for the municipally-owned Bristol Energy and before this Website Product Manager at AXA SunLife.
 
 While each role has its unique challenges, a constant throughout my career has been a fascination with communication through words and images, digital systems and interfaces and how we can use design for 'good'. 
 
 I am currently working for the BBC as an accessibility specialist. Before this, I worked in accessibility and inclusion as Principal Accessibility Consultant at Nomensa &mdash; a strategic experience design agency.
 
-Work i've lead on accessible card components has featured in: MI6 Design System, Smashing Magazine, the Scrimba front-end development e-learning course and the Stark Library. 
+Work i've led on accessible card components has featured in: MI6 Design System, Smashing Magazine, the Scrimba front-end development e-learning course and the Stark Library. 

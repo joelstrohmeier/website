@@ -58,7 +58,7 @@ There are many, many examples of products and technologies we all enjoy and don'
 - the typewriter 
 - electric toothbrushes 
 - bendy straws 
-- the lowered curbs on pavements 'curb cuts'. 
+- the lowered curbs on pavements &mdash; also known as 'curb cuts'. 
 
 Below we'll look closer at why it might be that accessibility consideration often leads to innovation. 
 
