@@ -64,20 +64,28 @@ In digital accessibility, specifically, the following are common examples of ass
 ### Switch devices
 This technology helps people with limited dexterity or limited / no upper body movement complete tasks.
 
-Switch devices allow someone to send a signal (similar to a keystroke) to a digital device which allows someone to complete interactions &mdash; such as submitting a form or following a link to navigate a website. 
+Switch devices send a signal (similar to a keystroke) to a digital device which allows someone to complete common digital interactions &mdash; such as submitting a form or following a link to navigate a website. 
 
-Switch devices come in all varieties &mdash; including aparatus in physical button form which can be pressed, aparatus that can be squeezed or straw-like devices which allow for sipping and puffing input. All of which then send a signal allowing someone to interact with a digital interface. 
+Switch devices come in all varieties &mdash; including:
 
-Similar examples of assistive technology for people with limited or no upper body movement include: head wands, eye tracking software, and voice recognition software to name a few of examples. We will look closer at voice input below. 
+- physical buttons that can be pressed, 
+- aparatus that can be squeezed or 
+- straw-like devices which allow for sipping and puffing input. 
+
+All of which then send a signal which allows interaction with a digital interface. 
+
+Similar examples of assistive technology for people with limited or no upper body movement include: head wands, eye tracking software, and voice recognition software to name a few examples. We will look closer at voice input, specifically, below. 
 
 ### Voice recognition software
-This technology allows soneone to navigate or otherwise control a digital interface using voice commands. For example, by saying: "Click buy now", "Click listbox", "Show choices", "Choose large". People may use this techology because they have limited or no upper body movement. They may, however, use the technology because they can't or don't want to interact using their hands for other reasons. This type of voice-based interaction could, for example, be useful for a new parent trying to complete a task while holding their baby.
+This technology allows soneone to navigate or otherwise control a digital interface using voice commands. For example, by saying: "Click buy now", "Click listbox", "Show choices", "Choose large". 
+
+People may use this techology because they have limited or no upper body movement. They may, however, use the technology because they can't or don't want to interact using their hands for other reasons. This type of voice-based interaction could, for example, be useful for a new parent trying to complete a task while holding their baby.
 
 ### Screen reading technology
-This technology translates website content (and metadata) into audible announcements. This primarily helps people with low or no vision but may be used by others - for example people might use a screen reader as they benefit from or prefer to listen to information rather than reading it from a screen. 
+This technology translates website content (and metadata) into audible announcements. This primarily helps people with low or no vision but may be used by others &mdash; for example people might use a screen reader because they benefit from or prefer to listen to information rather than reading it on a screen. 
 
 ### Screen magnification software
-This technology magnifies website content to make it easier for people with low vision to see what they are doing. The technology may also include features that allow someone to customise the colours of their interface and may also include screen reading functions. 
+This technology magnifies website content. If a person has low vision then access to software which magnifies the interface will remove barriers to reading information, interacting with content, and completing goals. This technology may also include features which enable customisation of colours within the interface &mdash; which also helps legibility and readability. Some screen magnification software will also include screen reading functionality. 
 
 ## Further reading
 - [Switches](https://axesslab.com/switches/)
