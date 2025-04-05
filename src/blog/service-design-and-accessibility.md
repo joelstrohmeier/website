@@ -116,7 +116,7 @@ Service design is characterised by a broader outlook than that often gifted to, 
 
 The process of cancelling a subscription is infamous from a customer experience perspective. It is often easy to start a service (online) but in an attempt to cancel, one is required to use expensive call centre phone numbers and wait for unacceptable amounts of time to speak to someone. For most people this is beyond stressful. This process not only penalises people from a monetary point-of-view (call centre phone call costs) but also requires people to pay a tax from an attention and patience point-of-view. The barrier this creates is multiplied for people who experience cognitive disability or impairment of any kind. 
 
-A common theme of bad services is the <a href="https://www.deceptive.design/">'deceptive pattern'</a>. This is a a certain type of content or feature designed to fool users into a certain course of action. While something can be technically 'accessible', it can still be highly detrimental. One example of this is when certain airlines have been known to add travel insurance to the user basket in such a subtle way that it is only possible to detect once it is too late. 
+A common theme of bad services is the <a href="https://www.deceptive.design/">'deceptive pattern'</a>. This is a certain type of content or feature designed to fool users into a certain course of action. While something can be technically 'accessible', it can still be highly detrimental. One example of this is when certain airlines have been known to add travel insurance to the user basket in such a subtle way that it is only possible to detect once it is too late. 
 
 ## Closing steps for inclusive services
 

@@ -21,6 +21,9 @@ I've led work with NHS Test and Trace, Zurich, British Airways, Booking.com and 
 
 <ul>
 
+<li><a href="https://www.youtube.com/watch?v=CUJb_9vZ6bc">The importance of accessibility and its future: Studio Noel interview - Youtube</a>
+</li>  
+
 <li>Webinar Roundtable: <a href="https://bima.co.uk/events/navigating-digital-accessibility-merging-design-tech-and-content/">Navigating Digital Accessibility: Merging Design Tech and Content</a></li>
 
 <li>Empathy lab workshop (offline 2-day event), <a href="https://interactconf.com/empathy-lab/">Interact 2023 conference</a></li>
