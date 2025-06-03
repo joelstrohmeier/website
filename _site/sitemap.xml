@@ -44,12 +44,6 @@
         </url>
     
         <url>
-            <loc>https://www.joelstrohmeier.co.uk/about/</loc>
-            <lastmod>2025-01-21T22:40:46.000Z</lastmod>
-            <changefreq>monthly</changefreq>
-        </url>
-    
-        <url>
             <loc>https://www.joelstrohmeier.co.uk/blog/</loc>
             <lastmod>2025-01-21T22:40:46.000Z</lastmod>
             <changefreq>monthly</changefreq>
@@ -76,6 +70,12 @@
         <url>
             <loc>https://www.joelstrohmeier.co.uk/blog/start-learning-about-accessibility-part-2/</loc>
             <lastmod>2025-03-04T00:00:00.000Z</lastmod>
+            <changefreq>monthly</changefreq>
+        </url>
+    
+        <url>
+            <loc>https://www.joelstrohmeier.co.uk/about/</loc>
+            <lastmod>2025-05-22T22:46:49.962Z</lastmod>
             <changefreq>monthly</changefreq>
         </url>
     

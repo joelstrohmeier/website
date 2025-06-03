@@ -10,6 +10,8 @@ tags: post
 
 # Top misconceptions and myths about accessibility
 
+<p class="post-date">Published on {{ date | date: "%B %-d, %Y" }}</p>
+
 Top myths and misconceptions in the world of accessibility. Followed by prompts for you to either research or start to use in response to challenges you might face while discussing accessibility in your organisation. 
 
 ## We don't have any / many disabled people who use our product or service

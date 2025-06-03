@@ -8,6 +8,8 @@ tags: post
 
 # Start learning about accessibility: part 1  
 
+<p class="post-date">Published on {{ date | date: "%B %-d, %Y" }}</p>
+
 How do you start learning about accessibility? The topic is broader than it might first seem and is often misunderstood. At its core, it's simple. It's about people &mdash; in particular, people with disabilities &mdash; and making sure the things we design and build don't prevent people with a disability from getting on with their lives. 
 
 In this blog &mdash; part 1 &mdash; we're looking at the definition of accessibility, who accessibility benefits, and some tools and techniques people with disabilities might use when interacting with your product or service.

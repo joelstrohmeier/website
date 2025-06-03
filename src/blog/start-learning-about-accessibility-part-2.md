@@ -9,6 +9,8 @@ tags: post
 
 # Start learning about accessibility: part 2
 
+<p class="post-date">Published on {{ date | date: "%B %-d, %Y" }}</p>
+
 This is the second in a short series of blog posts introducing the topic of accessibility. <a href="https://www.joelstrohmeier.co.uk/blog/start-learning-about-accessibility-part-1/">If you missed it, I recommend reading part 1</a>. 
 
 In this blog we look at why you should prioritise accessibility &mdash; including the following arguments:

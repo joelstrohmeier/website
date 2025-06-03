@@ -10,6 +10,8 @@ tags: post
 
 # A more accessible web design workflow &mdash; some key tips
 
+<p class="post-date">Published on {{ date | date: "%B %-d, %Y" }}</p>
+
 Here are some tips to help you to create more accessible visual designs. This is not a complete list. The blog focusses on a few key issues i've seen repeated in designs over the past few years. 
 
 I have assumed that you are aware of some of the more fundamental accessibility principles for designers &mdash; such as the importance of colour contrast and designing with responsive web design in mind. 
