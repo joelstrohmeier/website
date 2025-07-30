@@ -9,8 +9,6 @@ tags: post
 
 # How to write <abbr title="alternative">alt</abbr> text for linked images
 
-<p class="post-date">Published on {{ date | date: "%B %-d, %Y" }}</p>
-
 When starting to learn accessibility, we're often told: provide alternative text description for all images. 
 
 At some point, we might gather a bit more detail on writing these descriptions. Something like: 

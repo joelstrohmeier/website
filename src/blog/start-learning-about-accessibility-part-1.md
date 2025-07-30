@@ -6,9 +6,7 @@ description: Start learning about accessibility - part 1. Definitions for access
 tags: post
 ---
 
-# Start learning about accessibility: part 1  
-
-<p class="post-date">Published on {{ date | date: "%B %-d, %Y" }}</p>
+# Start learning about accessibility: part 1
 
 How do you start learning about accessibility? The topic is broader than it might first seem and is often misunderstood. At its core, it's simple. It's about people &mdash; in particular, people with disabilities &mdash; and making sure the things we design and build don't prevent people with a disability from getting on with their lives. 
 
@@ -59,7 +57,7 @@ Understanding which specific details make accessibility its own subject area wil
 
 ## Assistive technology 
 
-Assistive technology is something that helps a person to complete a task or goal. Many innovations we now take for granted started out as solutions designed specifically for people with disabilities. Examples include: Siri (Apple voice recognition solution), electric toothbrushes and audiobooks. 
+Assistive technology is technology that helps a person to complete a task or goal. Many innovations we now take for granted started out as solutions designed specifically for people with disabilities. Examples include: Siri (Apple voice recognition solution), electric toothbrushes and audiobooks. 
 
 In digital accessibility, specifically, the following are common examples of assistive technology:
 

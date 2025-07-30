@@ -10,9 +10,6 @@ tags: post
 
 # Forms: common accessibility issues and ways to avoid them
 
-<p class="post-date">Published on {{ date | date: "%B %-d, %Y" }}</p>
-
-
 Forms are fundamental to modern internet-enabled services. They're how we provide or upload information, buy stuff and otherwise make value exchanges with brands and organisations in our daily lives. If they're designed and built to work for _all_ your website visitors, they offer a commercial advantage.  
 
 Here are some of the top accessibility issues i've collected in recent years and how you can avoid them. This is not an exhaustive list but I hope it is useful. 

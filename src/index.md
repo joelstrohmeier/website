@@ -15,7 +15,7 @@ I always look to learn from the disciplines around me. I'm particularly interest
 
 ## Work
 
-I've led work with NHS Test and Trace, Zurich, British Airways, Booking.com and Transport for Greater Manchester. While at NHS Test and Trace, I helped establish the processes and standards for digital accessibility across the programme. 
+I've led work with NHS Test and Trace, Zurich, British Airways, Booking.com and Transport for Greater Manchester, to name a few organisations. While at NHS Test and Trace, I helped establish the processes and standards for digital accessibility across the programme. 
 
 ## Speaking
 

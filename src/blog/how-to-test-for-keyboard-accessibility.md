@@ -10,8 +10,6 @@ tags: post
 
 # How to test for keyboard accessibility
 
-<p class="post-date">Published on {{ date | date: "%B %-d, %Y" }}</p>
-
 In this blog we'll look at some of the ways you can check the keyboard accessibility of website content.
 
 ## Why keyboard accessibility is important
