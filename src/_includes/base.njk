@@ -38,10 +38,11 @@
   
 
   <main class="wrapper" id="main" tabindex="-1">
-  {% if tags and "post" in tags %}
+  
+  {% if tags and "post" in tags and date %}
   {% include "partials/datestamp.njk" %}
   {% endif %}
-  
+
   {{ content | safe }}
 
   </main>

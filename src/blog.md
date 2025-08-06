@@ -12,7 +12,7 @@ layout: "base.njk"
     
   <li>
     <h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
-    <p>{{post.data.description}} <span class="post-date">Published: {{post.data.date | postDate}}</span></p> 
+    <p>{{post.data.description}} <time class="post-date">Published: {{post.data.date | postDate}} </time></p> 
   </li>
 
 {%- endfor -%} 

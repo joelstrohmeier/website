@@ -8,16 +8,10 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     line-height: 1.5;
-    background-color: #FFFCFF;
+    background-color: #F9F9F9;
     color: #000039;
     margin:0;
     font-size: 1.2rem;
-}
-
-.noise {
-    background:
-    linear-gradient(to right, blue, transparent),
-    url(https://grainy-gradients.vercel.app/noise.svg);
 }
 
 h1, h2, h3, h4, h5 {
@@ -71,6 +65,7 @@ ul li {
 footer {
     background:#E5E5FF;
     margin-top: 3rem;
+    padding-bottom: 4.7rem;
 }
 
 .wrapper {
@@ -326,6 +321,11 @@ nav > ul
 
     footer h2 {
         margin-top: 3.2rem;
+    }
+
+    .headshot {
+        max-width: 46%;
+        border-radius: 50%;
     }
 
     figcaption {

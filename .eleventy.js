@@ -8,7 +8,12 @@ module.exports = function (eleventyConfig){
     
     eleventyConfig.addFilter("postDate", (dateObj) => {
         return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
-    })
+    });
+
+    // ISO date for datetime attributes
+    eleventyConfig.addFilter("isoDate", (dateObj) => {
+        return DateTime.fromJSDate(dateObj).toISODate();
+    });
 
     return{
         dir: {

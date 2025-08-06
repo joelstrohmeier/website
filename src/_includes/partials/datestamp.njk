@@ -1,1 +1,5 @@
-<time class="post-date">Published on {{ date | postDate }}</time>
+<article itemscope itemtype="https://schema.org/Article">
+  <time class="post-date" itemprop="datePublished" datetime="{{ date | isoDate }}">
+    Published on {{ date | postDate }}
+  </time>
+</article>
