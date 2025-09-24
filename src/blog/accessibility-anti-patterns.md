@@ -22,13 +22,13 @@ Common examples include reacting to:
 - having received a complaint 
 - a looming regulatory or compliance deadline. 
 
-This anti-pattern is top because it is so pervasive across organisations. Accessibility is still too often seen as a problem to be fixed not an opportunity (it's both, essentially).
+This anti-pattern is top because it is so pervasive across organisations. Accessibility is still too often seen as only a problem to be fixed not an opportunity (it's a bit of both).
 
 This reactive or last minute approach simply doesn't produce results as graceful and effective as when accessibility has been considered and acted on from the beginning &mdash; or at least the early phases. 
 
 ### Why the anti-pattern is bad 
 
-Many organisations launch a new design system and then shortly after check its accessibility. The issue is lots of important design decisions will have already been made at this point and any changes needed can seldom be made easily. 
+Many organisations launch a new design system and then shortly after check its accessibility. The issue is lots of important design decisions will have already been made at this point and any changes needed can't be made easily. 
 
 Another important consideration is certain changes can't be made in isolation without affecting the whole. 
 
@@ -79,7 +79,9 @@ Do you have a design system?
 
 Has accessibility been robustly integrated?
 
-Yes? Your next goal is to get everyone using it. Make sure you have an effective way to track and measure usage of the system. 
+Yes? 
+
+Your next goal is to get everyone using it. Make sure you have an effective way to track and measure usage of the system. 
 
 A surprising number of organisations have done lots of the hard work proving their design system is usable and accessible only to find people aren't using it. 
 
@@ -119,7 +121,9 @@ Automated tools only find about 20-35% of the total testable issues (at the time
 
 The free mass market versions of automated tools often work with your live web pages only. So the issues you find are probably already presenting barriers to your users. To avoid this, you also need to test before content is live. 
 
-Increasingly, tools not only find issues but claim to fix them, too. Advertising and marketing related to these tools will . These tools are often called 'overlays'. <a href="https://overlayfactsheet.com/en/">The evidence that these claims are false or highly misleading is overwhelming</a>. 
+Increasingly, tools not only find issues but claim to fix them, too. These tools are often called 'overlays' and many use misleading marketing messages. 
+
+<a href="https://overlayfactsheet.com/en/">The evidence that these claims are false or highly misleading is overwhelming</a>. 
 ### What to do instead 
 
 How do you avoid this anti-pattern of relying on automated tools?
@@ -147,10 +151,12 @@ As mentioned before, it's particularly important to fact check claims vendors of
 
 ### What to do instead 
 
-Complete an analysis of any claims potential partners make relating to accessibility. Part of this work should be to ask for evidence against any claims. This helps puts you in the best position to work our what activity to keep in house.
+Complete an analysis of any claims potential partners make relating to accessibility. Your analysis should include evidence 3rd-parties provide for any claims.
 
-The analysis should also include a section that shows you have understood the trade-offs and risks associated with outsourcing work. Is outsourcing the best option? 
+The analysis should also include a section that shows you have understood the trade-offs and risks associated with outsourcing work. Is outsourcing the best option or should you do it in-house? 
 
-Do you have an accessibility policy? Does it clearly defined what accessibility standards suppliers need to meet. Make sure this accessibility policy information is used in any contractural discussions with partners. 
+Do you have an accessibility policy? 
+
+Does the policy clearly define what accessibility standards suppliers need to meet? Make sure this accessibility policy information is used in any contractural discussions with partners. 
 
 The Business Disability Forum has some great tips on <a href="https://businessdisabilityforum.org.uk/resource/technology-toolkit/inclusive-technology-procurement-where-to-start/">accessible technology procurement</a>. 

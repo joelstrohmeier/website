@@ -24,7 +24,7 @@ In the years that followed, I worked in various roles &mdash; including digital 
 
 I was lucky enough to have been around for the sea change that was the move to responsive web design and worked on several significant website re-designs including the complete rebuild of two separate websites for the insurance company AXA. 
 
-In recent years I was Digital Transformation Manager for the municipally-owned Bristol Energy and before this Website Product Manager at AXA SunLife.
+After AXA, I was Digital Transformation Manager for the municipally-owned Bristol Energy.
 
 While each role has its unique challenges, a constant throughout my career has been a fascination with communication through words and images, digital systems and interfaces and how we can use design for 'good'. 
 
