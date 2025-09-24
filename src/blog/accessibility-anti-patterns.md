@@ -95,7 +95,7 @@ This new (un-tested) toolkit is used to build new website and digital assets. Th
 
 The result? Users experience accessibility barriers &mdash; in some cases are completely blocked &mdash; and the campaign under-delivers. 
 
-In my talk: <a href="https://www.youtube.com/watch?v=HyC1gGSXPcA">Building Inclusive Health Services (YouTube)</a> there are similar (real) stories about the NHS and GOV.UK design systems.  
+In my talk: <a href="https://www.youtube.com/watch?v=HyC1gGSXPcA">Building Inclusive Health Services (YouTube)</a> there are similar (real) stories about non use and imitation of NHS and GOV.UK design systems.  
 
 ### What to do instead
 
@@ -138,11 +138,11 @@ There is no equivalent *or alternative* to this activity.
 
 ## Not validating 3rd-party accessibility claims
 
-You will at some point need to use 3rd-parties &mdash; such as agencies, vendors and software solutions. Many make quite bold claims about their make about their accessibility capability.
+You will at some point need to use 3rd-parties &mdash; such as agencies, vendors and software solutions. Many make quite bold claims about their accessibility capability.
 
 ### Why the anti-pattern is bad
 
- While there are great partners and vendors out there, it's up to you to make sure you are taking the right steps to validate their claims. If you don't, you could find you have a significant risk introduced to your organisation. 
+ While there are great partners and vendors out there, it's up to you to make sure you are taking the right steps to validate their claims. If you don't, you'll likely find significant risk has been introduced to your organisation. 
 
 As mentioned before, it's particularly important to fact check claims vendors of overlay tools make about their ability to identify and fix accessibility issues. 
 
