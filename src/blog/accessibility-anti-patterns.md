@@ -35,8 +35,6 @@ Another important consideration is certain changes can't be made in isolation wi
 Imagine the colour scheme in a new design system includes a key style: white text on a pale orange background. This won't be easy to read for most people and accessibility tests would confirm this. 
 
 In this example, this colour issue has only been tested and proven to be an issue *after* the design system launch. This means there's insufficient time for a designer to create wholesale changes to the design system. Instead they need to crowbar in crude solutions &mdash; for example, using drop shadows behind text or creating new tints of colours that have not been formally signed off.
-
- The design system example described is 'bolt-on' accessibility. 
  
  It's a particularly nasty anti-pattern because the more of these slightly crude design tricks used, the less likely it is that designers &mdash; or anyone with visual sensitivity &mdash; will seek accessibility input next time around. 
  
@@ -54,9 +52,9 @@ Often passionate individuals take on an informal role for accessibility.
 
 The corporate world generally hasn't understood accessibility and so hasn't created the space and budget for formal roles. 
 
-But, accessibility is not a discrete 'thing' a single person can 'do'. 
+But, accessibility is not a discrete *thing* a single person can *do*. 
 
-To succeed, accessibility must woven throughout various disciplines, organisational areas and activities. IT security is not a wholly unreasonable comparison, here. In that in security everyone has a role to play in its success and it should be thought about and integrated at various levels. 
+To succeed, accessibility must woven throughout various disciplines, organisational areas and activities. IT security is not a wholly unreasonable comparison, here. In security, everyone has a role to play in its success and it should be thought about and integrated at various levels. 
 
 The outcomes for accessibility and IT security are quite different, that said!
 
@@ -127,8 +125,9 @@ Increasingly, tools not only find issues but claim to fix them, too. Advertising
 How do you avoid this anti-pattern of relying on automated tools?
 
 - also complete manual tests &mdash; testing little and often throughout a project, start-end
-- look at the Web Content Accessibility Guidelines 2.2 (WCAG) and start to understand how to test against these guidelines
-	- there are various <a href="https://www.getstark.co/wcag-explained/perceivable/">'plain language' versions of WCAG 2.2</a> and <a href="https://youtu.be/HtTyRajRuyY?si=wyQqLessqpk02AoL">helpful videos about manual accessibility testing</a> online, if you're finding things confusing
+- look at the Web Content Accessibility Guidelines 2.2 (WCAG) and start to understand how to test against these guidelines:
+
+	- there are various <a href="https://www.getstark.co/wcag-explained/perceivable/">'plain language' versions of WCAG 2.2</a> and <a href="https://youtu.be/HtTyRajRuyY?si=wyQqLessqpk02AoL">helpful videos about manual accessibility testing</a> online, if you're finding things confusing. 
 
 #### User research 
 
@@ -154,4 +153,4 @@ The analysis should also include a section that shows you have understood the tr
 
 Do you have an accessibility policy? Does it clearly defined what accessibility standards suppliers need to meet. Make sure this accessibility policy information is used in any contractural discussions with partners. 
 
-There some great tips on <a href="https://businessdisabilityforum.org.uk/resource/technology-toolkit/inclusive-technology-procurement-where-to-start/">accessible technology procurement via Business Disability Forum</a>. 
+The Business Disability Forum has some great tips on <a href="https://businessdisabilityforum.org.uk/resource/technology-toolkit/inclusive-technology-procurement-where-to-start/">accessible technology procurement</a>. 
