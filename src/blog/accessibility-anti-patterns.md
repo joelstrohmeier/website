@@ -14,13 +14,14 @@ Where any processes or tasks lead to negative outcomes, this phenomenon may be r
 I have focussed on anti-patterns seen in the corporate accessiblity world, specifically, and what I write is just based on my experience. 
 
 Hopefully this helps you to spot anti-patterns emerging wherever you are and prevent or reduce the impact from them. 
-## Last minute accessibility 
+## Reactive accessibility 
 
-Only working on accessibility in the last stages of a project. 
+Only working on accessibility in the last stages of a project or as a reaction to a consequence. 
 
 Common examples include reacting to: 
-- having received a complaint 
-- a looming regulatory or compliance deadline. 
+
+- a looming regulatory or compliance deadline
+- having received a complaint. 
 
 This anti-pattern is top because it is so pervasive across organisations. Accessibility is still too often seen as only a problem to be fixed not an opportunity (it's a bit of both).
 
@@ -36,7 +37,7 @@ Another important consideration is certain changes can't be made in isolation wi
 
 Imagine the colour scheme in a new design system includes a key style: white text on a pale orange background. This won't be easy to read for most people and accessibility tests would confirm this. 
 
-In this example, this colour issue has only been tested and proven to be an issue *after* the design system launch. This means there's insufficient time for a designer to create wholesale changes to the design system. Instead they need to crowbar in crude solutions &mdash; for example, using drop shadows behind text or creating new tints of colours that have not been formally signed off.
+In this example, this colour issue has only been tested and proven to be an issue *after* the design system launch. This means there's insufficient time for a designer to create wholesale changes to the design system. Instead they need to force crude solutions &mdash; for example, using drop shadows behind text or creating new tints of colours that have not been formally signed off.
  
  It's a particularly nasty anti-pattern because the more of these slightly crude design tricks used, the less likely it is that designers &mdash; or anyone with visual sensitivity &mdash; will seek accessibility input next time around. 
  
@@ -76,7 +77,7 @@ Start to engage various teams and individuals across your organisation in access
 
 Starting an <a href="https://businessdisabilityforum.org.uk/resource/technology-toolkit/role-of-the-a11y-champion-sponsor/">Accessibility Champions Network</a> can be effective initiative to help share workload and create momentum. 
 
-You will probably want to bring in *proven* accessibility expertise to support earlier efforts, too &mdash; be this through contractors or specialist accessibility agencies. 
+You will probably want to bring in *proven* accessibility expertise to support earlier efforts, too &mdash; be this through contractors or specialist accessibility agencies, for example. 
 ## Having an accessible design system but not using it
 
 Do you have a design system?
@@ -87,7 +88,7 @@ Yes?
 
 Your next goal is to get everyone using it. Make sure you have an effective way to track and measure usage of the system. 
 
-A surprising number of organisations have done lots of the hard work proving their design system is usable and accessible only to find people aren't using it. 
+A surprising number of organisations have done lots of the hard work proving their design system is usable and accessible only to find people aren't actually using it. 
 
 ### Why the anti-pattern is bad
 
@@ -99,7 +100,7 @@ These new (un-tested) components replace the existing (accessible) design system
 
 The result? Accessibility barriers for users. In some cases those users are completely blocked from interacting with campaign content. As a result, the campaign under-delivers. 
 
-In my talk: <a href="https://www.youtube.com/watch?v=HyC1gGSXPcA">Building Inclusive Health Services (YouTube)</a> there are similar (real) stories about non use and imitation of NHS and GOV.UK design systems.  
+In my talk: <a href="https://www.youtube.com/watch?v=HyC1gGSXPcA">Building Inclusive Health Services (YouTube)</a> there are similar (real) stories about the under use or imitation of both the NHS and GOV.UK design systems.  
 
 ### What to do instead
 
@@ -119,7 +120,7 @@ Consider how it could be used by partners, suppliers and other 3rd-parties as se
 
 For example, does your documentation make it easier for 'whitelabel' solutions to meet the accessibility standard demonstrated in your design system? 
 
-Could you also help support people who procure technology by providing them with information on the advantages of solutions whose interface is 'headless' (front-end interface is de-coupled from the back-end data and logic) or whose interface is at least un-opinionated (it is highly customisable?) 
+Could you also help support people who procure technology by providing them with information on the advantages of solutions whose interface is 'headless' (front-end interface is de-coupled from the back-end data and logic) or whose interface is at least un-opinionated &mdash; in that it is highly customisable? 
 
 
 ## Running an automated tool and only fixing those issues
