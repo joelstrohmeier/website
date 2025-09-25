@@ -46,13 +46,13 @@ In this example, this colour issue has only been tested and proven to be an issu
 
 Consider accessibility as early as possible. Encourage the senior leadership in your organisation to understand commercial, as well as ethical, arguments for accessibility. 
 
-For accessibility to be prioritised (and worked on earlier) it often needs to be seen as more than just a 'the right thing to do' (sadly) &mdash; particularly at C-Suite level. 
+For accessibility to be prioritised (and worked on earlier) it often needs to be seen as more than just 'the right thing to do' (sadly) &mdash; particularly at C-Suite level. 
 
 Do not wait until risk reduction alone is the only motivation for doing accessibility work. 
 
 ## Leaving accessibility to one person
 
-Often passionate individuals take on an informal role for accessibility. 
+In lower maturity organisations, passionate individuals often take on an informal role for accessibility. 
 
 The corporate world generally hasn't understood accessibility and so hasn't created the space and budget for formal roles. 
 
