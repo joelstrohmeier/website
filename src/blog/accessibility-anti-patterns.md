@@ -28,7 +28,9 @@ This reactive or last minute approach simply doesn't produce results as graceful
 
 ### Why the anti-pattern is bad 
 
-Many organisations launch a new design system and then shortly after check its accessibility. The issue is lots of important design decisions will have already been made at this point and any changes needed can't be made easily. 
+Let's consider this example: 
+
+An organisation launches a new design system and then shortly after checks its accessibility. The issue is lots of important design decisions will have already been made at this point and any changes needed can't be made easily. 
 
 Another important consideration is certain changes can't be made in isolation without affecting the whole. 
 
@@ -42,9 +44,11 @@ In this example, this colour issue has only been tested and proven to be an issu
  
 ### What to do instead
 
-Consider accessibility as early as possible. Bring expertise in and see it as a means to improve quality and opportunities for innovation. 
+Consider accessibility as early as possible. Encourage the senior leadership in your organisation to understand commercial, as well as ethical, arguments for accessibility. 
 
-Do not wait until risk reduction alone is the motivation. 
+For accessibility to be prioritised (and worked on earlier) it often needs to be seen as more than just a 'the right thing to do' (sadly) &mdash; particularly at C-Suite level. 
+
+Do not wait until risk reduction alone is the only motivation for doing accessibility work. 
 
 ## Leaving accessibility to one person
 
@@ -70,7 +74,7 @@ The person is a high risk of leaving the organisation through burnout &mdash; if
 
 Start to engage various teams and individuals across your organisation in accessibility activity. 
 
-Starting a Champions Network can be effective initiative to help share workload and create momentum. 
+Starting an <a href="https://businessdisabilityforum.org.uk/resource/technology-toolkit/role-of-the-a11y-champion-sponsor/">Accessibility Champions Network</a> can be effective initiative to help share workload and create momentum. 
 
 You will probably want to bring in *proven* accessibility expertise to support earlier efforts, too &mdash; be this through contractors or specialist accessibility agencies. 
 ## Having an accessible design system but not using it
@@ -89,11 +93,11 @@ A surprising number of organisations have done lots of the hard work proving the
 
 Here's an example I've seen a few times:
 
-A new senior leader in marketing joins the organisation. They want to make an impact so create a high profile marketing campaign. The senior leader also brings in a new external partner &mdash; a creative agency who creates a new visual toolkit. 
+A new senior leader in marketing joins the organisation. They want to make an impact and so ask a new creative agency to create a new look and feel for a high-profile marketing campaign. This new look and feel needs to be reflected in the website so new front-end components are also hastily worked on. 
 
-This new (un-tested) toolkit is used to build new website and digital assets. The existing accessible design system is not used. 
+These new (un-tested) components replace the existing (accessible) design system &mdash; across various pages of the website. 
 
-The result? Users experience accessibility barriers &mdash; in some cases are completely blocked &mdash; and the campaign under-delivers. 
+The result? Accessibility barriers for users. In some cases those users are completely blocked from interacting with campaign content. As a result, the campaign under-delivers. 
 
 In my talk: <a href="https://www.youtube.com/watch?v=HyC1gGSXPcA">Building Inclusive Health Services (YouTube)</a> there are similar (real) stories about non use and imitation of NHS and GOV.UK design systems.  
 
@@ -107,9 +111,16 @@ Now use it as much as possible &mdash; across your organisation products and ser
 
 Have a plan to make sure updates and contributions to the system are accessible. 
 
-Keep the system accessible.  
+Keep the design system accessible.  
 
-Create a communications and integration plan for your system &mdash; consider how it could be used by partners, suppliers, 3rd-parties who are not inside the organisation. 
+Create a communications and integration plan for your design system. 
+
+Consider how it could be used by partners, suppliers and other 3rd-parties as seamlessly as possible. 
+
+For example, does your documentation make it easier for 'whitelabel' solutions to meet the accessibility standard demonstrated in your design system? 
+
+Could you also help support people who procure technology by providing them with information on the advantagesd of solutions whose interface is 'headless' (front-end is de-coupled from the back-end) or whose interface is at least un-opinionated &mdash; in that it is highly customisable? 
+
 
 ## Running an automated tool and only fixing those issues
 
@@ -121,17 +132,19 @@ Automated tools only find about 20-35% of the total testable issues (at the time
 
 The free mass market versions of automated tools often work with your live web pages only. So the issues you find are probably already presenting barriers to your users. To avoid this, you also need to test before content is live. 
 
-Increasingly, tools not only find issues but claim to fix them, too. These tools are often called 'overlays' and many use misleading marketing messages. 
+Increasingly, tools not only find issues but claim to fix them, too. These tools are often called 'overlays' and many of the vendors of such tools use misleading marketing messages. 
 
-<a href="https://overlayfactsheet.com/en/">The evidence that these claims are false or highly misleading is overwhelming</a>. 
+<a href="https://overlayfactsheet.com/en/">The evidence for overlay vendor claims being misleading is overwhelming</a>. 
+
 ### What to do instead 
 
 How do you avoid this anti-pattern of relying on automated tools?
 
 - also complete manual tests &mdash; testing little and often throughout a project, start-end
-- look at the Web Content Accessibility Guidelines 2.2 (WCAG) and start to understand how to test against these guidelines:
+- look at the Web Content Accessibility Guidelines (WCAG) 2.2 and start to understand how to test against these guidelines:
 
-	- there are various <a href="https://www.getstark.co/wcag-explained/perceivable/">'plain language' versions of WCAG 2.2</a> and <a href="https://youtu.be/HtTyRajRuyY?si=wyQqLessqpk02AoL">helpful videos about manual accessibility testing</a> online, if you're finding things confusing. 
+	- there are various <a href="https://www.getstark.co/wcag-explained/perceivable/">'plain language' versions of WCAG 2.2</a> and <a href="https://youtu.be/HtTyRajRuyY?si=wyQqLessqpk02AoL">helpful videos about manual accessibility testing</a> online, if you're finding things confusing
+	- Consider how you can divide this testing up so it doesn't all rest on one team or discipline. 
 
 #### User research 
 
