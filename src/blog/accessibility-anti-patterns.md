@@ -119,7 +119,7 @@ Consider how it could be used by partners, suppliers and other 3rd-parties as se
 
 For example, does your documentation make it easier for 'whitelabel' solutions to meet the accessibility standard demonstrated in your design system? 
 
-Could you also help support people who procure technology by providing them with information on the advantagesd of solutions whose interface is 'headless' (front-end is de-coupled from the back-end) or whose interface is at least un-opinionated &mdash; in that it is highly customisable? 
+Could you also help support people who procure technology by providing them with information on the advantages of solutions whose interface is 'headless' (front-end interface is de-coupled from the back-end data and logic) or whose interface is at least un-opinionated (it is highly customisable?) 
 
 
 ## Running an automated tool and only fixing those issues
