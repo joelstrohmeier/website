@@ -30,4 +30,4 @@ While each role has its unique challenges, a constant throughout my career has b
 
 I am currently working for the BBC as an accessibility specialist. Before this, I worked in accessibility and inclusion as Principal Accessibility Consultant at Nomensa &mdash; a strategic experience design agency.
 
-Work i've led on accessible card components has featured in: Secret Intelligence Service Design System, Smashing Magazine, the Scrimba front-end development e-learning course and the Stark Library. 
+Work I've led on accessible interface components has featured in: Secret Intelligence Service Design System, Smashing Magazine, the Scrimba front-end development e-learning course and the Stark Library.

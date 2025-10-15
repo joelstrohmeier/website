@@ -11,21 +11,22 @@ tags: post
 
 Where any processes or tasks lead to negative outcomes, this phenomenon may be referred to as an 'anti-pattern'. 
 
-I have focussed on anti-patterns seen in the corporate accessiblity world, specifically, and what I write is just based on my experience. 
+In this blog, I've focussed on anti-patterns seen in the corporate accessiblity world, specifically, and what I write is just based on my experience. 
 
 Hopefully this helps you to spot anti-patterns emerging wherever you are and prevent or reduce the impact from them. 
+
 ## Reactive accessibility 
 
-Only working on accessibility in the last stages of a project or as a reaction to a consequence. 
+Only working on accessibility in the last stages of a project or in a reactive fashion alone. 
 
 Common examples include reacting to: 
 
 - a looming regulatory or compliance deadline
 - having received a complaint. 
 
-This anti-pattern is top because it is so pervasive across organisations. Accessibility is still too often seen as only a problem to be fixed not an opportunity (it's a bit of both).
+This anti-pattern is top because it is so pervasive across organisations. Accessibility is still too often seen as a problem to be fixed not an opportunity (it's a bit of both).
 
-This reactive or last minute approach simply doesn't produce results as graceful and effective as when accessibility has been considered and acted on from the beginning &mdash; or at least the early phases. 
+This reactive or last-minute approach simply doesn't produce results as graceful and effective as when accessibility has been considered and acted on from the beginning &mdash; or at least the early phases. 
 
 ### Why the anti-pattern is bad 
 
@@ -37,7 +38,7 @@ Another important consideration is certain changes can't be made in isolation wi
 
 Imagine the colour scheme in a new design system includes a key style: white text on a pale orange background. This won't be easy to read for most people and accessibility tests would confirm this. 
 
-In this example, this colour issue has only been tested and proven to be an issue *after* the design system launch. This means there's insufficient time for a designer to create wholesale changes to the design system. Instead they need to force crude solutions &mdash; for example, using drop shadows behind text or creating new tints of colours that have not been formally signed off.
+In this example, this colour issue has only been tested and proven to be an issue *after* the design system launch. This means there's insufficient time for a designer to create wholesale changes to the design system. Instead designers need to force crude solutions &mdash; for example, using drop shadows behind text or creating new tints of colours that have not been formally signed off.
  
  It's a particularly nasty anti-pattern because the more of these slightly crude design tricks used, the less likely it is that designers &mdash; or anyone with visual sensitivity &mdash; will seek accessibility input next time around. 
  
@@ -59,13 +60,13 @@ The corporate world generally hasn't understood accessibility and so hasn't crea
 
 But, accessibility is not a discrete *thing* a single person can *do*. 
 
-To succeed, accessibility must woven throughout various disciplines, organisational areas and activities. IT security is not a wholly unreasonable comparison, here. In security, everyone has a role to play in its success and it should be thought about and integrated at various levels. 
+To succeed, accessibility must be woven throughout various disciplines, organisational areas and activities. IT security is not a wholly unreasonable comparison, here. In security, everyone has a role to play in its success and it should be thought about and integrated at various levels. 
 
 The outcomes for accessibility and IT security are quite different, that said!
 
 ### Why the anti-pattern is bad
 
-Leaving accessibility to one person creates a single point of dependency &mdash; and so often leads to failure.
+Leaving accessibility to one person creates a single point of dependency and so often leads to failure.
 
 It limits ability to enact real change or influence in an organisation.  
 
@@ -94,9 +95,9 @@ A surprising number of organisations have done lots of the hard work proving the
 
 Here's an example I've seen a few times:
 
-A new senior leader in marketing joins the organisation. They want to make an impact and so ask a new creative agency to create a new look and feel for a high-profile marketing campaign. This new look and feel needs to be reflected in the website so new front-end components are also hastily worked on. 
+A new senior leader in marketing joins the organisation. They want to make an impact and so ask a creative agency to create a new look and feel for a high-profile marketing campaign. This new look and feel needs to be reflected in the website so front-end components are also hastily worked on. 
 
-These new (un-tested) components replace the existing (accessible) design system &mdash; across various pages of the website. 
+These new components are un-tested and replace the existing (accessible) design system components across various pages of the website. 
 
 The result? Accessibility barriers for users. In some cases those users are completely blocked from interacting with campaign content. As a result, the campaign under-delivers. 
 
@@ -104,9 +105,11 @@ In my talk: <a href="https://www.youtube.com/watch?v=HyC1gGSXPcA">Building Inclu
 
 ### What to do instead
 
-First, make your design system accessible. Test it rigourously. 
+First, make your design system accessible. 
 
-Include people with disabilities in the initial design of the system and then again for the ongoing improvements and updates to the system. 
+Test it rigourously. 
+
+Include people with disabilities in the initial design of the system and then again for ongoing improvements and updates. 
 
 Now use it as much as possible &mdash; across your organisation products and services.
 
@@ -120,7 +123,7 @@ Consider how it could be used by partners, suppliers and other 3rd-parties as se
 
 For example, does your documentation make it easier for 'whitelabel' solutions to meet the accessibility standard demonstrated in your design system? 
 
-Could you also help support people who procure technology by providing them with information on the advantages of solutions whose interface is 'headless' (front-end interface is de-coupled from the back-end data and logic) or whose interface is at least un-opinionated &mdash; in that it is highly customisable? 
+Could you also help support people who procure technology by providing them with information on the advantages of 'headless' solutions &mdash; in which the front-end interface is de-coupled from the back-end data and logic? Or, educate on the advantages of less opinionated interfaces &mdash; for example interfaces that are highly customisable? 
 
 
 ## Running an automated tool and only fixing those issues
@@ -149,7 +152,7 @@ How do you avoid this anti-pattern of relying on automated tools?
 
 #### User research 
 
-Plus, make sure you're doing user research. Get real and representative users &mdash; in particular users with disabilities to use your product or service. The insights from this research will help you avoid introducing accessibility barriers into your product. 
+Plus, make sure you're doing user research. Get real and representative users &mdash; in particular users with disabilities &mdash; to use your product or service. The insights from this research will help you avoid introducing accessibility barriers into your product. 
 
 There is no equivalent *or alternative* to this activity. 
 
@@ -174,3 +177,7 @@ Do you have an accessibility policy?
 Does the policy clearly define what accessibility standards suppliers need to meet? Make sure this accessibility policy information is used in any contractural discussions with partners. 
 
 The Business Disability Forum has some great tips on <a href="https://businessdisabilityforum.org.uk/resource/technology-toolkit/inclusive-technology-procurement-where-to-start/">accessible technology procurement</a>. 
+
+## Further reading 
+
+<a href="https://www.joelstrohmeier.co.uk/blog/start-learning-about-accessibility-part-1/">Start learning about accessibility - Part 1</a>.
