@@ -28,6 +28,6 @@ After AXA, I was Digital Transformation Manager for the municipally-owned Bristo
 
 While each role has its unique challenges, a constant throughout my career has been a fascination with communication through words and images, digital systems and interfaces and how we can use design for 'good'. 
 
-I am currently working for the BBC as an accessibility specialist. Before this, I worked in accessibility and inclusion as Principal Accessibility Consultant at Nomensa &mdash; a strategic experience design agency.
+My current role is Head of Accessibility at GAIN. Prior to this, I was Accessibility Specialist at the BBC. Before this, I was Principal Accessibility Consultant at Nomensa &mdash; a strategic experience design agency.
 
 Work I've led on accessible interface components has featured in: Secret Intelligence Service Design System, Smashing Magazine, the Scrimba front-end development e-learning course and the Stark Library.

@@ -7,7 +7,7 @@ layout: "base.njk"
 
 <img class="headshot" src="/images/picture-of-me.jpeg" alt="Mid-length shot of me presenting - showing head, upper body and the very top of my arms. The camera has captured me slightly from the side - such that I look downwards and to the right, rather than toward the viewer. I am wearing a blue and black polo shirt and glasses which have both clear and tortoiseshell detail. In the background, a purple event banner can be seen but is not in focus.">
 
-Hello. I'm an accessibility specialist with a background in: digital, design and experience which spans over 14 years. 
+Hello. I'm an accessibility specialist with a background in: digital, design and experience which spans over 15 years. 
 
 I like switching between big, abstract, holistic problems as much as getting into the details and fixing things. 
 

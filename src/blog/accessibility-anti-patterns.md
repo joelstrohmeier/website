@@ -24,7 +24,7 @@ Common examples include reacting to:
 - a looming regulatory or compliance deadline
 - having received a complaint. 
 
-This anti-pattern is top because it is so pervasive across organisations. Accessibility is still too often seen as a problem to be fixed not an opportunity (it's a bit of both).
+This anti-pattern is top because it is so pervasive across organisations. Accessibility is still too often seen as a problem to be fixed not an opportunity (It's a bit of both).
 
 This reactive or last-minute approach simply doesn't produce results as graceful and effective as when accessibility has been considered and acted on from the beginning &mdash; or at least the early phases. 
 
@@ -148,7 +148,7 @@ How do you avoid this anti-pattern of relying on automated tools?
 - look at the Web Content Accessibility Guidelines (WCAG) 2.2 and start to understand how to test against these guidelines:
 
 	- there are various <a href="https://www.getstark.co/wcag-explained/perceivable/">'plain language' versions of WCAG 2.2</a> and <a href="https://youtu.be/HtTyRajRuyY?si=wyQqLessqpk02AoL">helpful videos about manual accessibility testing</a> online, if you're finding things confusing
-	- Consider how you can divide this testing up so it doesn't all rest on one team or discipline. 
+	- consider how you can divide this testing up so it doesn't all rest on one team or discipline. 
 
 #### User research 
 
@@ -162,9 +162,9 @@ You will at some point need to use 3rd-parties &mdash; such as agencies, vendors
 
 ### Why the anti-pattern is bad
 
- While there are great partners and vendors out there, it's up to you to make sure you are taking the right steps to validate their claims. If you don't, you'll likely find significant risk has been introduced to your organisation. 
+ While there are great partners and vendors out there, It's up to you to make sure you are taking the right steps to validate their claims. If you don't, you'll likely find significant risk has been introduced to your organisation. 
 
-As mentioned before, it's particularly important to fact check claims vendors of overlay tools make about their ability to identify and fix accessibility issues. 
+As mentioned before, It's particularly important to fact check claims vendors of overlay tools make about their ability to identify and fix accessibility issues. 
 
 ### What to do instead 
 
