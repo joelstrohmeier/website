@@ -77,7 +77,7 @@ All of which then send a signal which allows interaction with a digital interfac
 Similar examples of assistive technology for people with limited or no upper body movement include: head wands, eye tracking software, and voice recognition software to name a few examples. We will look closer at voice input, specifically, below. 
 
 ### Voice recognition software
-This technology allows soneone to navigate or otherwise control a digital interface using voice commands. For example, by saying: "Click buy now", "Click listbox", "Show choices", "Choose large". 
+This technology allows someone to navigate or otherwise control a digital interface using voice commands. For example, by saying: "Click buy now", "Click listbox", "Show choices", "Choose large". 
 
 People may use this techology because they have limited or no upper body movement. They may, however, use the technology because they can't or don't want to interact using their hands for other reasons. This type of voice-based interaction could, for example, be useful for a new parent trying to complete a task while holding their baby.
 
