@@ -45,7 +45,7 @@ Accessibility is about considering how products and services can be used by peop
 - limited / no speech
 - limited / different cognition
 
-It is particularly important that we do not forget less visible or less apparent disabilities and impairments. For example, Autistic people, people with attention deficit disorder (ADHD), dyslexia or aphasia &mdash; to provide just a small number of examples. 
+It is particularly important that we do not forget less visible or less apparent disabilities and impairments. For example, Autistic people, people with attention deficit hyperactivity disorder (ADHD), dyslexia or aphasia &mdash; to provide just a small number of examples. 
 
 Another important thing to keep in mind is people with disabilities generally want to complete the same goals as anyone else. They might, however, approach these goals differently. For example, people with disabilities might complete their goal using additional tools and technologies. 
 
