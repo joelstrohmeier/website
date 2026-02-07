@@ -29,14 +29,16 @@ A simple and effective test to identify potential accessibility barriers is to c
 
 With the preceding keys, check whether all interactive elements &mdash; such as links, form inputs and buttons can be interacted with using a keyboard. Then, make a note of whether you can navigate and complete tasks as you would using a mouse. 
 
-An important thing to note is that, as a mouse user, you can almost always follow where you are on the page via a cursor - an arrow or hand icon indicating your position on the page. If you try to complete a task using your keyboard alone - whether as part of a test scenario or not - you might not be able to identify where you are on the page. 
+An important thing to note is that, as a mouse user, you can almost always follow where you are on the page via a cursor - an arrow or hand icon indicating your position on the page. 
+
+But, if you navigate using your keyboard alone, it is often harder to track where you are. This is because there is no clear focus indicator (or focus style).  
 
 
 ## Keyboard focus styles
 
-Good designs include clear focus styles. We need to make sure a broad group of people can see which element on a web page can be interacted with (has focus). 
+Good designs include clear focus styles. Focus styles help someone who is navigating with a keyboard (or similar input) to track where they are on a page. 
 
-A quick way to designing an accessible focus style is to use a 2 pixel (px) thickness or above solid border around an element and make sure the border has at least a 3:1 contrast ratio against its adjacent colour. Use the <a href="https://www.tpgi.com/color-contrast-checker/">Colour Contrast Analyser</a> to test designs. This Contrast Analyser tool includes an eye dropper which allows you to select the foreground and background colours to generate a numerical ratio which is a pass or fail of the minimum contrast according to the Web Content Accessibility Guidelines (WCAG). 
+A quick way of designing an accessible focus style is to use a 2 pixel (px) thickness or above solid border around an element and make sure the border has at least a 3:1 contrast ratio against its adjacent colour. Use the <a href="https://www.tpgi.com/color-contrast-checker/">Colour Contrast Analyser</a> to test designs. This Contrast Analyser tool includes an eye dropper which allows you to select the foreground and background colours to generate a numerical ratio which is a pass or fail of the minimum contrast according to the Web Content Accessibility Guidelines (WCAG). 
 
 There are more details to consider around colour contrast and designing effective focus styles but I don't aim to cover them in this post (for the sake of brevity). If you'd like to know more, I recommend this comprehensive <a href="https://www.sarasoueidan.com/blog/focus-indicators/">guide to focus indicators by Sara Soueidan</a>. 
 
