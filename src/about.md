@@ -30,4 +30,6 @@ While each role has its unique challenges, a constant throughout my career has b
 
 My current role is as Head of Accessibility at GAIN. Prior to this, I was Accessibility Specialist at the BBC. Before this, I was Principal Accessibility Consultant at Nomensa.
 
-Work I've led on accessible interface components has featured in: Secret Intelligence Service Design System, Smashing Magazine, the Scrimba front-end development e-learning course and the Stark Library.
+Work I've led on accessible interface components has featured in: Secret Intelligence Service (SIS) Design System, Smashing Magazine, the Scrimba front-end development e-learning course and the Stark Library. 
+
+In 2026, I was shortlisted for the iList award which is an Institute of Practitioners of Advertising (IPA) award recognising notable contributions to diversity and inclusion in the advertising and media sector. I've also been a guest speaker for students of Digital Product Design at New York University (NYU).  
