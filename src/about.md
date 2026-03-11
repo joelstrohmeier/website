@@ -32,4 +32,4 @@ My current role is as Head of Accessibility at GAIN. Prior to this, I was Access
 
 Work I've led on accessible interface components has featured in: Secret Intelligence Service (SIS) Design System, Smashing Magazine, the Scrimba front-end development e-learning course and the Stark Library. 
 
-In 2026, I was shortlisted for the iList award which is an Institute of Practitioners of Advertising (IPA) award recognising notable contributions to diversity and inclusion in the advertising and media sector. I've also been a guest speaker for students of Digital Product Design at New York University (NYU).
+In 2026, I was shortlisted for the iList award which is an Institute of Practitioners of Advertising (IPA) award recognising notable contributions to diversity and inclusion in the advertising and media sector. I've also been a guest speaker for students of Digital Product Design at New York University.
