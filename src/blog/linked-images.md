@@ -21,7 +21,7 @@ But, when an image is wrapped in a link, we must take a different appproach. We'
 
 ## Linked or 'functional' images
 
-Images are regularly wrapped with links. For example, this approach is commonly found across the web in the build of <a href="https://www.nomensa.com/blog/how-build-accessible-cards-block-links/">'card' components</a>. 
+Images are regularly wrapped with links. For example, this approach is commonly found across the web in the build of <a href="https://codepen.io/joelstrohmeier/pen/bGEMpmz">'card' components</a>. 
 
 What's important to note is, once the image sits inside a link element it's what's known as a 'functional' image &ndash; it can now be interacted with and its primary role has changed from communicating information to transporting people to a new destination. 
 
