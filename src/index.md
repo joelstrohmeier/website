@@ -29,7 +29,7 @@ I've led work with NHS Test and Trace, Zurich, British Airways, Booking.com and 
 <li>Empathy lab workshop (offline 2-day event), <a href="https://interactconf.com/empathy-lab/">Interact 2023 conference</a></li>
 
 <li>
-<a href="https://www.adaptworldwide.com/insights/2022/withindigital-episode-13-website-accessibility-101">Within Digital Podcast - Accessibility 101</a>
+<a href="https://podcasts.apple.com/gb/podcast/episode-13-website-accessibility-101/id1342183417?i=1000581370347">Within Digital Podcast - Accessibility 101</a>
 </li>
 
 <li>

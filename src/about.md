@@ -7,10 +7,43 @@ layout: "base.njk"
 # About
 
 <figure class="about-figure">
+
 <picture>
-<source srcset="/images/presenting-connect-marketing-event.webp" type="image/webp">
-<source srcset="/images/presenting-connect-marketing-event.jpeg" type="image/jpeg">
-<img src="/images/presenting-connect-marketing-event.jpeg" alt="Shot in which I'm wearing a polo shirt, clear round rimmed glasses with a mid-length beard. My hands are clasped and mouth slightly open suggesting i'm mid way through a key point in my presentation. In the background there is a blurred pink and purple banner for the event.">
+  <!-- Large screens - WebP -->
+  <source
+    srcset="/images/presenting-connect-marketing-event.webp"
+    media="(min-width: 1024px)"
+    type="image/webp"
+  >
+
+  <!-- Large screens - JPEG fallback -->
+  <source
+    srcset="/images/presenting-connect-marketing-event.jpeg"
+    media="(min-width: 1024px)"
+    type="image/jpeg"
+  >
+
+  <!-- Small screens - WebP -->
+  <source
+    srcset="/images/presenting-connect-marketing-event-small.webp"
+    media="(max-width: 1023px)"
+    type="image/webp"
+  >
+
+  <!-- Small screens - JPEG fallback -->
+  <source
+    srcset="/images/presenting-connect-marketing-event-small.jpeg"
+    media="(max-width: 1023px)"
+    type="image/jpeg"
+  >
+
+  <!-- Default fallback -->
+  <img src="/images/presenting-connect-marketing-event.jpeg" alt="Shot in which I'm wearing a polo shirt, clear round rimmed glasses with a mid-length beard. My hands are clasped and mouth slightly open suggesting i'm mid way through a key point in my presentation. In the background there is a blurred pink and purple banner for the event.">
+</picture>
+
+<picture>
+
+<img >
 </picture>
 
 <figcaption>

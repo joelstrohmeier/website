@@ -16,7 +16,9 @@ Here are some of the top accessibility issues i've collected in recent years and
 
 ## Broken labels 
 
-Labels tell someone what information to provide for a form input. Generally, visible labels are included in web designs. This means people who can see the screen benefit. For people who rely on screen reading techology &mdash; technology which translates on sceen information into audible announcements &mdash; we take extra steps. There is a continuing trend where labels are not associated with their relevant input in the HTML code. Without this code association people using screen readers, for example, may be unsure what information to provide. 
+Labels tell someone what information to provide for a form input. In web designs, labels are generally included next to inputs in the visual layout. This means, when this design is built, people who can see their screen benefit from this text prompt. For people who rely on screen reading technology &mdash; technology which translates on sceen information into audible announcements &mdash; we must take extra steps with our labels. 
+
+There is a continuing trend where labels are not associated with their relevant input in website HTML code. Without this code association people using screen readers, for example, may be unsure what information to provide in their form input because the label isn't announced. 
 
 The fix for this is simple. We use the <code>for</code> attribute on the label. The value for the <code>for</code> attribute should be the value of an <code>id</code> which we add to the relevant input. This creates what is sometimes referred to as a 'programmatic association'. For example:
 

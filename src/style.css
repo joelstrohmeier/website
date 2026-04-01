@@ -76,7 +76,7 @@ footer {
 
  img {
      display: block;
-     max-width: 85%;
+     max-width: 100%;
  }
 
 
@@ -335,10 +335,6 @@ nav > ul
 
     pre, kbd, code {
         font-size: 90%;
-    }
-
-    .about-figure {
-        min-height: 1100px;
     }
 
 }

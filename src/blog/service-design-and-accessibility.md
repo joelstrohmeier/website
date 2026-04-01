@@ -1,9 +1,9 @@
 ---
 
 layout: base.njk
-title: Accessible service design
+title: Accessibility guidelines and service design principles
 date: 2023-12-14
-description: Accessible service design - collected thoughts
+description: Accessibility guidelines and how they relate to service design - collected thoughts
 tags: post
 ---
 

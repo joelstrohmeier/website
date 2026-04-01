@@ -1,7 +1,7 @@
 ---
 
 layout: base.njk
-title: Accessible alternative text for linked images
+title: How to write alt text for linked images
 date: 2023-10-03
 description: A short guide to accessible alternative text for linked images 
 tags: post

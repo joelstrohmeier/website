@@ -1,7 +1,7 @@
 ---
 
 layout: base.njk
-title: Accessibility misconceptions
+title: Top accessibility myths
 date: 2023-11-08
 description: Top myths and misconceptions about accessibility
 tags: post
