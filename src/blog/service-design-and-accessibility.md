@@ -7,7 +7,7 @@ description: Accessibility guidelines and how they relate to service design - co
 tags: post
 ---
 
-# Accessible service design &mdash; some thoughts
+# Accessibility guidelines and service design principles 
 
 Accessibility continues to be addressed as an afterthought for many organisations. So, i'd like to take a look at its role in service design and how it affects the design and build of 'good services'.
 
