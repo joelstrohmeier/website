@@ -62,7 +62,7 @@ With several radio button options, for example:
 - Once a week
 - Daily
 
-## 2. Multiple questions about the same topic
+### 2. Multiple questions about the same topic
 
 We might include a section in a form which asks for various bits of information on the same topic. For example, we might ask 'Address details':
 
