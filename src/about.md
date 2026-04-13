@@ -65,4 +65,6 @@ My current role is as Head of Accessibility at GAIN. Prior to this, I was Access
 
 Work I've led on accessible interface components has featured in: Secret Intelligence Service (SIS) Design System, Smashing Magazine, the Scrimba front-end development e-learning course and the Stark Library. 
 
+I've served on the advisory board for the charity <a href="https://www.oneplusone.org.uk/">OnePlusOne</a> &mdash; providing digital experience, accessibility and inclusion guidance to support the launch of their mobile application. While at Nomensa, I also devised and led the agency <a href="https://www.hl.co.uk/strive-internship">Strive internship</a> initiative in 2024. 
+
 In 2026, I was <a href="https://ipa.co.uk/news/ilist-shortlist-2026">shortlisted for the iList award</a> &mdash; an Institute of Practitioners of Advertising (IPA) award recognising notable contributions to diversity and inclusion in the advertising and media sector. I've also been a guest speaker for students of Digital Product Design at New York University.

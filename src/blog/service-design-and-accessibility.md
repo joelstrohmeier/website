@@ -73,16 +73,16 @@ While the WCAG focusses on 'help' across web pages, the kernel of the guidance i
 
 Imagine a situation where a totally new customer, based in certain geographical location, can benefit from 24/7 online chat-based support but customers based elsewhere with older products are forced to phone in for support. This would be an example of inconsistent provision of help. But, rather than help being inconsistently positioned across web pages, it is inconsistent at a service level; across channels. As a service designer, we can identify this as a barrier inspired by the spirit of the WCAG 'Consistent Help (3.2.6)' success criterion!   
 
-With this mindset, the WCAG can be considered by service designers as a guide which can be slightly tweaked in scope and specificity and deployed to remove barriers for a broader more holistic purpose. 
+This is one example of how the WCAG can be re-interpreted in scope and specificity and used by service designers to help identify ways to remove barriers across multiple interfaces, channels and contexts. 
 
 ## Prompts for service designers
 
-Here are some more general prompts for considering accessibility in your service: 
+Here are further prompts to help you consider accessibility in your service: 
 
-- If someone can't interact with us through one channel (for example app) do we offer accessible alternatives
-- How might our payment structure create barriers to inclusion - for example, do we penalise someone for smaller regular payments vs yearly. Is our call centre phone number free phone or £X per minute
-- How flexible is our eligibility criteria? Do we require fixed address, do we require someone to complete 2 Factor authentication and how might this create technology barriers?
-- Do the features of our service prevent people from engaging with our service if we consider: gender, religion, ethnicity, socio-economic background or disability? For example, do you force people to identify their gender in certain ways at any point?
+- If someone can't interact with us through one channel (for example mobile app) do we offer accessible alternatives?
+- How might our payment structure create barriers to inclusion - for example, do we penalise someone for smaller regular payments vs yearly. Is our call centre phone number free phone or £X per minute?
+- How flexible is our eligibility criteria? Do we require fixed address, do we require someone to complete 2-Factor authentication and how might this create technology barriers?
+- Do the features of our service prevent people from engaging with us if we consider: gender, religion, ethnicity, socio-economic background or disability? For example, do you force people to identify their gender in certain ways at any point?
 
 
 ## Inaccessible service design: documents
