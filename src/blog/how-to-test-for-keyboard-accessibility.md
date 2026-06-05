@@ -83,7 +83,7 @@ While completing the previously outlined checks, you should also check whether t
 
 When we test for keyboard accessibility we often end up finding improvements for a wider variety of input approaches &mdash; including voice input. For example, if a carousel component does not have 'Previous' and 'Next' button controls, it makes it harder for people using voice recognition software. Without a control on screen whose name is visible, or at least can be guessed, it is hard for someone using voice recognition to know what verbal command to use to interact. However, if there's a control which looks like a button and contains the word 'Next' I can speak "Click next" (or similar) and reveal more content from the carousel. 
 
-Of course, in this example the website visitor actually wants to interact with a carousel which might require some suspention of disbelief unless the website happens to the BBC or Netflix. 
+Of course, in this example the website visitor actually wants to interact with a carousel which might require some suspention of disbelief unless the website happens to be the BBC or Netflix. 
 
 ## Developer tools - active expression 
 

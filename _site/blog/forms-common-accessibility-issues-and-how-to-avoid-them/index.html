@@ -71,8 +71,8 @@
 <p>When errors are shown on screen we must make sure these are also announced for people using screen reading technology. As with labels, we can make this connection in the code using an attribute whose value is an <code>id</code> we add to the relevant form input. In this case, the attribute is <code>aria-describedby</code>. Here is a code example:</p>
 <pre>
 <code>
-&lt;p class="error" id="error-first-name"&gt;Error: please provide your first name&lt;/p&gt; </br>
-&lt;input type="text" aria-describedby="error-first-name"&gt;
+&lt;p class="error" <strong>id="error-first-name"&gt;</strong>Error: please provide your first name&lt;/p&gt; </br>
+&lt;input type="text" <strong>aria-describedby="error-first-name"&gt;</strong>
 </code>
 </pre>
 <h2>Related form inputs not labelled and grouped</h2>

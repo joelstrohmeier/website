@@ -41,8 +41,8 @@ When errors are shown on screen we must make sure these are also announced for p
 
 <pre>
 <code>
-&lt;p class="error" id="error-first-name"&gt;Error: please provide your first name&lt;/p&gt; </br>
-&lt;input type="text" aria-describedby="error-first-name"&gt;
+&lt;p class="error" <strong>id="error-first-name"&gt;</strong>Error: please provide your first name&lt;/p&gt; </br>
+&lt;input type="text" <strong>aria-describedby="error-first-name"&gt;</strong>
 </code>
 </pre>
 

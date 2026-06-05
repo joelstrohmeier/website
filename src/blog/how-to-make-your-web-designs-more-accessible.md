@@ -10,7 +10,7 @@ tags: post
 
 # More accessible web designs &mdash; some key tips
 
-Here are some tips to help you to create more accessible visual designs. This is not a complete list. The blog focusses on a few key issues i've seen repeated in designs over the past few years. 
+Here are some tips to help you to create more accessible visual designs. This is not a complete list. The blog focusses on a few key issues I've seen repeated in designs over the past few years. 
 
 I have assumed that you are aware of some of the more fundamental accessibility principles for designers &mdash; such as the importance of colour contrast and designing with responsive web design in mind. 
 

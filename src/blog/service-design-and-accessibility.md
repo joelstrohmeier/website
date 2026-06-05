@@ -27,7 +27,7 @@ Returning to Lou Downe, in their role as Head of Services and later Director of 
 
 What we find is all of the 'good services' principles contribute to removing barriers to accessibility in some way. 
 
-Organisations often invest money and effort into improving their public-facing touchpoints &mdash; such as their website, emails and mobile applications. But, they often only address the symptoms of user experience issues. A key factor that separates 'service design' from other disciples is that it considers the internal machinations of an organisation and how this impacts the public-facing user experience. 
+Organisations often invest money and effort into improving their public-facing touchpoints &mdash; such as their website, emails and mobile applications. But, they often only address the symptoms of user experience issues. A key factor that separates 'service design' from other disciplines is that it considers the internal machinations of an organisation and how this impacts the public-facing user experience. 
 
 To provide an example, if call centre staff are 'outsourced' in another country and cannot access the same customer complaints database as, say, an operations team how does this impact the organisation in its ability to provide a connected and positive end-to-end experience for effective responses to customer complaints? 
 
@@ -81,8 +81,8 @@ Here are further prompts to help you consider accessibility in your service:
 
 - If someone can't interact with us through one channel (for example mobile app) do we offer accessible alternatives?
 - How might our payment structure create barriers to inclusion - for example, do we penalise someone for smaller regular payments vs yearly. Is our call centre phone number free phone or £X per minute?
-- How flexible is our eligibility criteria? Do we require fixed address, do we require someone to complete 2-Factor authentication and how might this create technology barriers?
-- Do the features of our service prevent people from engaging with us if we consider: gender, religion, ethnicity, socio-economic background or disability? For example, do you force people to identify their gender in certain ways at any point?
+- How flexible is our eligibility criteria? Do we require fixed address, do we require someone to complete 2-Factor authentication and how might this create barriers?
+- Do the features of our service prevent people from engaging with us if we consider: gender, religion, ethnicity, socio-economic background or disability? For example, do you force people to identify their gender in certain ways at any point in your service?
 
 
 ## Inaccessible service design: documents
@@ -103,12 +103,12 @@ Service design is characterised by a broader outlook than that often gifted to, 
 
 - Accessibility projects often occur after digital strategy goals and outcomes have already been defined
 
-- A more 'traditional' accessibility outlook is more task oriented - for example, "can someone submit X form" service design would consider holistic cross-channel outcomes
+- A more 'traditional' accessibility outlook is more task oriented - for example, "can someone submit X form"...service design would consider holistic cross-channel outcomes
 
-- Accessibility outputs tend to appear more in process or procedural documents than policy and strategy
+- Accessibility as topic tends to appear more in process or procedural documents than policy and strategy
 
 <p class="highlight">
-<span class="visually-hidden">Important:</span>If the above is true then inclusive service design would: take a cross channel view, look to feed into business outcomes and, ideally, influence at a policy and strategy level. 
+<span class="visually-hidden">Important:</span>If the above is true then accessible service design would: take a cross channel view, look to feed into business outcomes and, ideally, influence at a policy and strategy level. 
 <span class="tag" aria-hidden="true">Highlight</span>
 </p>
 
@@ -120,7 +120,7 @@ A common theme of bad services is the <a href="https://www.deceptive.design/">'d
 
 ## Closing steps for inclusive services
 
-Here are some final prompts to help you avoid inclusion barriers and build better services:  
+Here are some final prompts to help you avoid accessibility (and inclusion) barriers and build better services:  
 
 - Consider if you have problematic internal systems and processes &mdash; how might these also negatively impact the customer experience
 
