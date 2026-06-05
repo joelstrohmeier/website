@@ -2,7 +2,7 @@
 
 layout: base.njk
 title: Short guide to accessibility audits
-date: 2026-05-02
+date: 2026-06-05
 description: What an accessibility audit is and key things to consider before doing one
 tags: post
 
@@ -116,14 +116,7 @@ If you aren't able to fix the issues identified from your audit then it has not 
 
 ## Further reading:
 
-
-<ul>
-
-<li>
-<a href="https://www.boia.org/blog/what-is-wcag-em-an-introduction-to-accessibility-evaluation-methodology">What is WCAG-EM an introduction</a>. 
-</li>
-
-<li><a href="https://ixdf.org/literature/topics/accessibility-audits">IxDF what are accessibility audits</a>.</li>
+<a href="https://www.boia.org/blog/what-is-wcag-em-an-introduction-to-accessibility-evaluation-methodology">What is WCAG-EM an introduction</a>.
 
 
 
