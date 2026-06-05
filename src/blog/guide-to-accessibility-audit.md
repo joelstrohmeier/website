@@ -19,10 +19,10 @@ An audit is a structured formal assessment of the accessibility of a digital pro
 ## What are your objectives?
 
 Why are you doing the audit? Common reasons include:
-- Reaching a compliance target (legal, regulatory)
-- Responding to a complaint
-- Improving the user experience 
-- Preparing for website launch or redesign
+- reaching a compliance target (legal, regulatory)
+- responding to a complaint
+- improving the user experience 
+- preparing for a website launch or redesign
 
 An audit helps provides a snapshot of your accessibility quality against a set scope.
 
@@ -78,13 +78,13 @@ The most important thing for your auditor is that they can access your digital c
 
 You also need to consider whether it is better for them to access your pre-live (test?) environment or live. 
 
-Youn should also work with your auditor to ensure they have all necessary log-in or user credentials to access the content and components that are in scope and that they can complete all necessary tasks or goals. 
+You should also work with your auditor to ensure they have all necessary log-in or user credentials to access the content and components that are in scope and that they can complete all necessary tasks or goals. 
 
 If there are any transactional aspects to your website, have or can you, provide dummy payment details? 
 
 ## Reporting outputs
 
-A strong report often contains:
+A strong audit report often contains:
 
 - executive summary for stakeholders
 - detailed issue log for delivery teams
