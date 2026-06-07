@@ -17,7 +17,7 @@ My aim for this website is to provide uncomplicated and helpful information / id
 
 I hand coded everything in this current website (one of the reasons for its humble appearance). 
 
-I website is built atop the (excellent) <a href="https://www.11ty.dev/">Eleventy static site generator</a>. 
+The website is built using the (excellent) <a href="https://www.11ty.dev/">Eleventy static site generator</a>. 
 
 Credit to Erik Kroes for his accessible focus indicator style (Oreo) which I have used in the stylesheet for this website. 
 
