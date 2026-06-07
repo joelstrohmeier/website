@@ -41,12 +41,14 @@ I want to credit the following people for having a significant impact on my care
 - James Robathan (Digital leader)
 - Ben Coulson (Digital and UX specialist) 
 
+There are, of course, so many more who have helped me and to them I truly thank you. 
+
 
 ## Cultural influences
 
 ### Music
 
-It's likely that I was listening to the following musicians while writing my articles:
+At various points I will have been listening to following musicians while writing the articles on this blog:
 
 - Steely Dan
 - Cinematic Orchestra
