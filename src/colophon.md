@@ -11,13 +11,13 @@ Despite the liberal use of mdashes in my content, I don't publish any text that 
 
 ## Purpose and aim of the website
 
-My aim for this website is to provide uncomplicated and helpful information / ideas on the topics of accessibility and inclusion. I purposefully avoid overly technical or polemical content. One of the key reasons for this is I remember what it was like when I first attempted to learn about: accessibility, inclusion and, in particular, front-end development. While some stood out as leading in simplifying such topics (<a href="https://css-tricks.com/">CSS Tricks</a>, for example), many, despite what I suspect were their best efforts, still assumed far too much prior knowledge. 
+My aim for this website is to provide uncomplicated and helpful information / ideas on the topics of accessibility and inclusion. I purposefully (try to) avoid overly technical or polemical content. One of the key reasons for this is I remember what it was like when I first attempted to learn about: accessibility, inclusion and, in particular, front-end development. While some writers stood out as leading in simplifying such topics (<a href="https://css-tricks.com/">CSS Tricks</a>, for example), many, despite what I suspect were their best efforts, still assumed far too much prior knowledge. 
 
 ## How I built this website
 
-I have hand coded everything in this current website (hence its humble appearance). 
+I hand coded everything in this current website (one of the reasons for its humble appearance). 
 
-I use the (excellent) <a href="https://www.11ty.dev/">Eleventy static site generator</a> to house everything. 
+I website is built atop the (excellent) <a href="https://www.11ty.dev/">Eleventy static site generator</a>. 
 
 Credit to Erik Kroes for his accessible focus indicator style (Oreo) which I have used in the stylesheet for this website. 
 
@@ -40,6 +40,26 @@ I want to credit the following people for having a significant impact on my care
 - Jack Rose (Front-end development / digital engineering specialist)
 - James Robathan (Digital leader)
 - Ben Coulson (Digital and UX specialist) 
+
+
+## Cultural influences
+
+### Music
+
+It's likely that I was listening to the following musicians while writing my articles:
+
+- Steely Dan
+- Cinematic Orchestra
+- Zero 7
+- Amber Mark
+- Robert Glasper
+- Tame Impala
+- Session Victim
+- Harvey Sutherland
+- A Tribe Called Quest
+- Air
+- DJ Shadow
+
 
 
 
