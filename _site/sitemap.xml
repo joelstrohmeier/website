@@ -99,7 +99,13 @@
     
         <url>
             <loc>https://www.joelstrohmeier.co.uk/blog/guide-to-accessibility-audit/</loc>
-            <lastmod>2026-05-02T00:00:00.000Z</lastmod>
+            <lastmod>2026-06-05T00:00:00.000Z</lastmod>
+            <changefreq>monthly</changefreq>
+        </url>
+    
+        <url>
+            <loc>https://www.joelstrohmeier.co.uk/colophon/</loc>
+            <lastmod>2026-06-07T01:14:25.451Z</lastmod>
             <changefreq>monthly</changefreq>
         </url>
     
