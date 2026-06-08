@@ -144,22 +144,15 @@ blockquote {
 
 a:focus-visible {
     outline: 9px double black;
-    -webkit-box-shadow: 0 0 0 6px white;
-            box-shadow: 0 0 0 6px white;
-    text-decoration: none;     
-}
-
-:focus-visible {
-    border:0;
-    outline:0;
+    box-shadow: 0 0 0 6px white;
+    text-decoration: none;
 }
 
 button:focus-visible {
     outline: 3px solid black;
-    -webkit-box-shadow: 0 0 0 6px white;
-            box-shadow: 0 0 0 6px white;
-      
+    box-shadow: 0 0 0 6px white;
 }
+
 
 dl dt {
     font-weight: bold;
@@ -339,5 +332,15 @@ nav > ul
 
 }
 
+/* DARK MODE */
+@media (prefers-color-scheme: dark) {
+    a:focus-visible {
+        outline: 9px double white;
+        box-shadow: 0 0 0 6px black;
+    }
 
-
+    button:focus-visible {
+        outline: 3px solid white;
+        box-shadow: 0 0 0 6px black;
+    }
+}

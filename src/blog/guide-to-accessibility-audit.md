@@ -8,7 +8,7 @@ tags: post
 
 ---
 
-# Short guide to a accessibility audits
+# Short guide to accessibility audits
 
 This is my short guide to what accessibility audits are and what you should expect from them. It's based on the 100s of audits I've now done for organisation of all sizes in all different industries.
 
