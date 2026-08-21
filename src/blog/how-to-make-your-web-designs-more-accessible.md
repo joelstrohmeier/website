@@ -1,9 +1,9 @@
 ---
 
 layout: base.njk
-title: Tips for an accessibile web design workflow
+title: Tips for an accessible web design workflow
 date: 2024-07-17
-description: Key steps toward a more accessible design worflow
+description: Key steps toward a more accessible design workflow
 tags: post
 
 ---
